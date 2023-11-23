@@ -1,0 +1,139 @@
+/* src/components/routes/Header.css */
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.header-container {
+    margin-left:5%;
+    /* margin-right:8%; */
+    margin-top:5%;
+    width:90%;
+    display: flex;
+    background-color: white;
+    flex-direction: row; /* Change to column for smaller screens */
+    align-items: center; /* Center content horizontally */
+    box-shadow:
+      0 0 10px 5px red, 
+      0 0 0 1px red inset; 
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.logo img {
+    margin-top:10px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 75px;
+  }
+  
+.logo img:hover {
+    background-color: black;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row; /* Change to column for smaller screens */
+    align-items: center; /* Center content horizontally */
+    gap: 20px;
+    margin-top: 8px; /* Adjust margin for spacing */
+    margin-bottom:10px;
+    margin-left:120px;
+  }
+
+.button {
+    background-color: transparent;
+    color:black;
+    cursor: pointer;
+    margin: 0;
+    border:0;
+    outline: 0;
+    padding: auto;
+    text-align: center; 
+    width: 70%;
+    border-radius: 10px;
+}
+  
+.button:hover{
+    color: red;
+}
+
+.contact{
+    background-color: red;
+    color: white;
+    margin-left: 40px;
+}
+  
+.contact:hover {
+    color: black;
+}
+
+.hamburger-menu {
+  display: none; /* Hide by default on larger screens */
+}
+
+.buttons {
+    background-color: white;
+}
+
+
+
+/* Add a media query for mobile screens */
+@media only screen and (max-width: 600px) {
+    .header-container {
+        background-color: transparent;
+        align-items: stretch; 
+    }
+  .buttons {
+    display: none; /* Hide buttons by default on smaller screens */
+    flex-direction: column; /* Change to column for smaller screens */
+    margin-top: 10px; /* Add a margin to separate from the logo */
+  }
+
+  .button {
+    width: 80%; /* Take full width on smaller screens */
+    margin: 5px 0; /* Add some vertical margin between buttons */
+  }
+
+  .hamburger-menu {
+    display: inline; /* Show on smaller screens */
+    cursor: pointer;
+    color:black;
+    margin-left: 80px;
+    background-color: #fff;
+    height:20px;
+    margin-top:5px;
+
+  }
+
+  /* Show buttons when the mobile menu is active */
+  .mobile-menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 120px; /* Adjust the top position as needed */
+    right: 12px; /* Adjust the right position as needed */
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(245, 12, 12, 0.1);
+    z-index: 1; /* Ensure the mobile menu is on top */
+  }
+
+  .mobile-menu .button {
+    margin: 5px 0;
+  }
+
+  .logo img {
+    margin-top:10px;
+    margin-left:50px;
+  }
+
+}
