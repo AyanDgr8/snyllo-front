@@ -1,0 +1,211 @@
+/* src/components/routes/First.css */
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.first-page-content {
+    display: flex;
+    align-items: center;
+    padding: 20px; /* Adjust as needed */
+}
+
+/* Left-side */
+.left-content-first {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    position:relative;
+}
+
+.epilazexleft {
+    animation: boomerangAnimation 2s ease-in-out infinite alternate;
+}
+
+.left-para {
+    margin-left: 50px; 
+    color: white; 
+    margin-left:auto;
+}
+  
+.firstline{
+    color: black;
+    font-family: "Roboto", Sans-serif;
+    font-size: 5.2em;
+    font-weight: 900;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+    -webkit-text-stroke-width: 2px;
+    stroke-width: 2px;
+    -webkit-text-stroke-color: #CE3B3C;
+    stroke: black;
+}
+  
+.secondline{
+    color: #CE3B3C;
+    font-family: "Roboto", Sans-serif;
+    font-size: 3.8em;
+    font-weight: 900;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+}
+
+.thirdline{
+    font-family: "Roboto", Sans-serif;
+    font-weight: 700;
+    font-size: 2.4em;
+    color:black;
+}
+
+.left-icons-wrapper {
+    margin-left: 10%;
+    margin-top: 20px; /* Adjust as needed */
+    background-color: lightgray; 
+    /* padding: 20px; Adjust padding as needed */
+    border-radius: 10px; 
+    box-shadow: 0 0 15px rgba(247, 11, 11, 0.1);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+  
+.left-icons-container {
+    display: flex;
+    flex-direction: row;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Initially positioned below */
+    animation: slideInFromBottom 2s ease forwards;
+}
+
+.icon1, .icon2, .icon3 {
+    margin-left: 20px; 
+} 
+
+.icon1img, .icon2img, .icon3img {
+    margin-left: 20%; 
+    width: 150px; 
+    height: 150px; 
+}
+
+.icon1caption, .icon2caption, .icon3caption{
+    font-family: "Roboto", Sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color:black;
+
+}
+
+
+
+/* Right side */
+
+.right-content-first {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+    
+}
+
+.twomachinesright{
+    height: 500px;
+    width: 450px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    position: relative;
+    right: -100%;
+}
+
+
+/* Add animation styles */
+.left-para div {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: fadeInRight 2s ease forwards;
+}
+
+.firstline, .secondline, .thirdline {
+    animation: fadeInLeft 2s ease forwards;
+}
+
+.twomachinesright{
+    animation: slideInFromRight 1s ease forwards;
+}
+
+.left-icons-wrapper{
+    animation: slideInFromRight 2s ease forwards;
+}
+
+/* Keyframes for slideInFromRight slideInFromBottom boomerangAnimation swirlAnimation fadeInRight and fadeInLeft animations */
+
+@keyframes slideInFromRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes swirlAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes boomerangAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px); /* Adjust the distance as needed */
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+    .left-para{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .left-icons-wrapper {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: stretch; /* Stretch items to full width */
+    }
+  
+    .icon1, .icon2, .icon3 {
+      margin-right: 0; /* Remove margin to allow full width for icons */
+      margin-bottom: 20px; /* Add margin between stacked icons */
+    }
+  }

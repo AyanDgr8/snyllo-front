@@ -1,15 +1,15 @@
 // src/components/Main.js
 
-import Header from './routes/Header';
-// import First from './routes/First';
-// import Second from './routes/Second'
+import First from './routes/First';
+import Second from './routes/Second';
+// import Popup from './routes/Popup';
 
 export default function Main(){
   return (
     <div>
-        <Header />
-        {/* <First />
-        <Second /> */}
+        {/* <Popup /> */}
+        <First />
+        <Second /> 
     </div>
   );
 }
