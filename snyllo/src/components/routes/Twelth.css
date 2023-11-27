@@ -1,0 +1,96 @@
+/* src/components/routes/Twelth.css */
+
+.twelth-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.big-heading-11 {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.big-heading-11 h2 {
+    font-size: 5.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: pink;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    left: -100%;
+    animation: slideInFromLeft 1s ease forwards;
+}
+
+.big-heading-11 h3 {
+    font-size: 2.5em;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    z-index: 2;
+    right: -100%;
+    animation: slideInFromRight 1s ease forwards;
+}
+
+.twelth-container{
+    display: flex;
+    justify-content: space-between; /* Align items with equal space between them */
+    flex-direction: row;
+    width: 80%;
+}
+
+.twelth-column-two,
+.twelth-column-three {
+    width: 25%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.iconn-grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 0;
+}
+
+.iconn-column {
+    flex: 1;
+}
+
+.iconn-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.iconn-caption {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px; 
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.iconn-caption img {
+    width: 80px; 
+    height: 80px; 
+    margin-bottom: 20px; 
+}

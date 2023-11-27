@@ -1,0 +1,72 @@
+/* src/components/routes/Fourth.css */
+
+.big-heading-3 {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    
+}
+
+.big-heading-3 h2 {
+    font-size: 7em;
+    margin-top: 0;
+    color: pink;
+    position: relative;
+    top: 0;
+    z-index: 1; /* Ensure h1 is in the background */
+    left: -100%;
+    animation: slideInFromLeft 1s ease forwards;
+}
+
+.big-heading-3 h3 {
+    font-size: 3.5em;
+    font-weight: 600;
+    position: absolute; /* Keep h2 in the normal flow */
+    margin-top: 50px;
+    top: 0;
+    left:0;
+    z-index: 2; /* Ensure h2 is on top */
+    right: -100%;
+    animation: slideInFromRight 1s ease forwards;
+}
+
+.two-images{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+}
+
+/* .left-container{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.big-left-img{
+    width: 700px;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+/* .right-container{
+    width:50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} */
+
+.big-right-machine{
+    width: 400px;
+    height: 500px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 230px;
+}
+
+.big-heading-3 {
+    margin-bottom: 0; 
+}

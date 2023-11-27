@@ -1,0 +1,102 @@
+/* src/components/routes/Fourteenth.css */
+
+
+.fourteenth-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.big-heading-13 {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.big-heading-13 h2 {
+    font-size: 5.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: pink;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    left: -100%;
+    animation: slideInFromLeft 1s ease forwards;
+}
+
+.big-heading-13 h3 {
+    font-size: 2.5em;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    z-index: 2;
+    right: -100%;
+    animation: slideInFromRight 1s ease forwards;
+}
+
+.fourteenth-container {
+    display: flex;
+    flex-direction: column; /* Adjusted to column for vertical alignment */
+    align-items: center;
+    margin-top: 30px; /* Adjust margin as needed */
+}
+
+.fourteenth-row1 {
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    text-align: center;
+    font-size: 22px;
+}
+
+.fourteenth-row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px; /* Adjust margin as needed */
+}
+
+.fourteenth-column-one,
+.fourteenth-column-two {
+    flex: 1;
+}
+
+.iconnn-grid {
+    display: flex;
+    flex-direction: row; /* Adjusted to column for vertical alignment */
+    align-items: center;
+}
+
+.iconnn-column {
+    display: flex;
+    flex-direction: row; /* Adjusted to column for vertical alignment */
+    align-items: center;
+    padding: 20px;
+    gap: 100px;
+}
+
+.iconnn-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconnn-caption {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fourteenth-icons {
+    max-width: 250px; /* Adjust the maximum width as needed */
+    max-height: 250px; /* Adjust the maximum height as needed */
+}
+
+.fourteenth-img {
+    width: 400px; /* Adjust as needed */
+    height: 350px; /* Maintain aspect ratio */
+    margin-left: 50px;
+}

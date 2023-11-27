@@ -4,19 +4,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
     position: relative;
 }
 
-.big-heading {
+.big-heading-1 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-top: 50px;
     position: relative;
 }
 
-.big-heading h1 {
-    font-size: 8em;
-    margin-left: 3%;
+.big-heading-1 h2 {
+    font-size: 6em;
     margin-top: 0;
     color: pink;
     position: relative;
@@ -26,10 +24,10 @@
     animation: slideInFromLeft 1s ease forwards
 }
 
-.big-heading h2 {
-    font-size: 4em;
+.big-heading-1 h3 {
+    font-size: 2.5em;
     margin-top: 0;
-    font-weight: 600;
+    font-weight: 700;
     position: absolute; /* Keep h2 in the normal flow */
     top: 50px;
     left:0;
@@ -37,6 +35,45 @@
     right: -100%;
     animation: slideInFromRight 1s ease forwards;
 }
+
+.girl-image-containers {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.girl-images {
+    width: 340px;
+    height: 340px; 
+    margin: 10px;  
+}
+
+.machine-image-containers {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.machine-images {
+    width: 240px;
+    height: 240px; 
+    margin: 8px;
+    margin-top: 0;
+    margin-left: 90px;
+   
+}
+
+.machine1{
+    margin-left: 0;
+}
+.machine2{
+    margin-left: 140px;
+}
+.machine3, .machine4{
+    margin-left: 100px;
+}
+
 
 @keyframes slideInFromLeft {
     to {
@@ -48,18 +85,4 @@
     to {
         right: 0;
     }
-}
-
-.image-containers {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-wrap: wrap;
-    margin-top: 20px; 
-}
-
-.girl-images {
-    width: 340px;
-    height: 340px; 
-    margin: 10px;
 }

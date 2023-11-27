@@ -1,1 +1,114 @@
-/* src/components/routes/Header.css */
+/* src/components/routes/Third.css */
+
+.third-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.big-heading-2 {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.big-heading-2 h2 {
+    font-size: 7em;
+    margin-bottom: 0;
+    color: pink;
+    position: relative;
+    top: 0;
+    z-index: 1; /* Ensure h1 is in the background */
+    left: -100%;
+    animation: slideInFromLeft 1s ease forwards
+}
+
+.big-heading-2 h3 {
+    font-size: 3em;
+    margin-top: 55px;
+    margin-bottom: 0;
+    font-weight: 600;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: 2; /* Ensure h2 is on top */
+    right: -100%;
+    animation: slideInFromRight 1s ease forwards;
+}
+
+.men-women {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-left: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.men-women-caption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.Icon-W,
+.Icon-M {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+}
+
+.buttonsss-container {
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 30px;
+}
+
+.buttonsss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+  
+.service-button {
+    border: 0;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px 25px;
+    outline: 0;
+    transition: all 0.3s ease 0s;
+    border-radius: 25px;
+}
+
+.service-button:hover {
+    background-color: #CE3B3C;
+    color: white;
+}
+
+
+
+.button-image{
+    height: 500px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.big-heading-2 {
+    margin-bottom: 0; 
+}

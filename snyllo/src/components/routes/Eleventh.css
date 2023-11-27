@@ -1,0 +1,74 @@
+/* src/components/routes/Eleventh.css */
+
+.eleventh-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.big-heading-10 {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.big-heading-10 h2 {
+    font-size: 5.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: pink;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    left: -100%;
+    animation: slideInFromLeft 1s ease forwards;
+}
+
+.big-heading-10 h3 {
+    font-size: 2.5em;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    z-index: 2;
+    right: -100%;
+    animation: slideInFromRight 1s ease forwards;
+}
+
+.eleventh-container{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row;
+}
+
+.eleventh-right-container{
+    margin-top: 30px;
+    height: 400px;
+    width: 500px;
+    display:flex ;
+    justify-content: space-between; /* Align items with equal space between them */
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.eleventh-right-container p{
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    border-radius: 25px;
+    border: 1px solid;
+    background-color: #CE3B3C;
+    color:white;
+    height: 100%; /* Cover the entire height of the container */
+    width: 100%; /* Cover the entire width of the container */
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box; 
+}
+
+.eleventh-img{
+    width: 650px;
+    height:575px;
+}

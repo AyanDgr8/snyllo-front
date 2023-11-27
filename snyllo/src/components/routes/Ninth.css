@@ -1,0 +1,85 @@
+/* src/components/routes/Ninth.css */
+
+
+.ninth-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.big-heading-8 {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.big-heading-8 h2 {
+    font-size: 6em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: pink;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    left: -100%;
+    animation: slideInFromLeft 1s ease forwards;
+}
+
+.big-heading-8 h3 {
+    font-size: 2.5em;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    z-index: 2;
+    right: -100%;
+    animation: slideInFromRight 1s ease forwards;
+}
+
+.ninth-container{
+    display: flex;
+    justify-content: space-between; /* Align items with equal space between them */
+    flex-direction: row;
+    width: 80%;
+}
+
+.ninth-column-one,
+.ninth-column-three {
+    width: 30%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.ninth-column-two {
+    width: 40%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ninth-column-one img{
+    width: 450px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.ninth-column-two img{
+    height: 600px;
+    width: 275px;
+}
+
+.ninth-column-three img{
+    width: 450px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+

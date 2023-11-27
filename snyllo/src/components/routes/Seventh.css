@@ -1,0 +1,128 @@
+/* src/components/routes/Seventh.css */
+
+.seventh-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.big-heading-6 {
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    margin-top: 0;
+}
+
+.big-heading-6 h2 {
+    font-size: 6em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: pink;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    left: -100%;
+    animation: slideInFromLeft 1s ease forwards;
+}
+
+.big-heading-6 h3 {
+    font-size: 2.5em;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 40px;
+    margin-top: 52px;
+    z-index: 2;
+    right: -100%;
+    animation: slideInFromRight 1s ease forwards;
+}
+
+.seventh-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+}
+
+.button-lhr-waxing{
+    font-family: "Roboto", Sans-serif;
+    display: flex;
+    flex-wrap: row;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    color: white;
+    background-color: #CE3B3C;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px 25px;
+    outline: 0;
+    transition: all 0.3s ease 0s;
+    border-radius: 15px;
+    
+}
+
+.seventh-box .button-lhr-waxing{
+    display: flex;
+    margin-left: 80px;
+    width: 250px;
+} 
+
+.middle-five-icons{
+    margin-top: 80px;
+    height: 380px;
+}
+
+.seventh-box-content-lhr{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", Sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.seventh-box-content-lhr span{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    border-bottom: 1px solid;
+    border-color: #CE3B3C;
+    opacity: 0; /* Initially, set the opacity to 0 */
+    animation: fadeInRight 2s ease forwards;
+}
+
+
+.seventh-box-content-wax{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", Sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seventh-box-content-wax span{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    border-bottom: 1px solid;
+    border-color: #CE3B3C;
+    opacity: 0; /* Initially, set the opacity to 0 */
+    animation: fadeInRight 2s ease forwards;
+}
+
+/* Keyframe Animation */
+@keyframes fadeInRight {
+    to {
+        opacity: 1; /* Set the opacity to 1 at the end of the animation */
+    }
+}

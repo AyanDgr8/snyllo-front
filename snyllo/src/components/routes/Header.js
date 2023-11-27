@@ -33,8 +33,7 @@ const Header = () => {
         <div className="header-container">
           <div className="logo">
             {/* Your logo code */}
-            <img 
-            src="/upload/logo.PNG" 
+            <img src="https://snylloestetica.com/wp-content/uploads/2023/11/SynlloEsteticaHorizontalLogoTransparent01.png" 
             alt="Snyllo Estetica">
             </img>
           </div>
