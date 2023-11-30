@@ -24,7 +24,7 @@ const ContactUs = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const apiUrl = 'https://snyllo-backend.onrender.com/user-details/';
+    const apiUrl = 'https://snylloestetica-backend.onrender.com/user-details/';
 
     try {
       const response = await fetch(apiUrl, {

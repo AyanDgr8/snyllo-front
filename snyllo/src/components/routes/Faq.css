@@ -60,20 +60,22 @@
     margin: 10px 0 ;
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 8px; /* Optional: add a rounded corners */
+    border-radius: 8px; 
 }
 
 .faq-button:hover {
-    background-color: white; /* White background color */
+    background-color: lightgray; 
     color: black; /* Black text color */
 }
 
 p {
-    max-width: 400px;
+    max-width: 600px;
+    width: 100%;
     font-size: 1.2em;
     line-height: 1.5;
     margin-top: 10px;
     text-align: left;
+    white-space: pre-line;
 }
 
 /* Animation */
@@ -97,9 +99,16 @@ p {
         margin-top: 35px;
     }
     .big-heading-faq h2{
-        font-size: 5.3em;
+        font-size: 4.5em;
+    }
+    .big-heading-faq h3{
+        font-size: 2.5em;
+        margin-top: 65px;
     }
     .faq-button {
-        width:500px;
+        width:400px;
+    }
+    p{
+        max-width: 400px;
     }
 }

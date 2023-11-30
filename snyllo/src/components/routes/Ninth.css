@@ -102,8 +102,8 @@
         flex-direction: column;
         margin-top: 50px;
     }
-    .ninth-container img{
-        margin-left: 350px;
+    .ninth-container {
+        margin-left: 275px;
     }
     .ninth-column-two{
         margin-right: 50px;

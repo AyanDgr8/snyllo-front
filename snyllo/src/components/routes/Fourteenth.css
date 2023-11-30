@@ -63,7 +63,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 4; /* Limit the number of lines */
+    -webkit-line-clamp: 8; /* Limit the number of lines */
     -webkit-box-orient: vertical;
     align-content: center;
     justify-content: center;
@@ -141,10 +141,13 @@
         flex-direction: column;
         margin-top: 40px;
     }
+    .fourteenth-row1{
+        width: 450px;
+        height: 250px;
+    }
+
     .fourteenth-row1 p{
         margin-left: 30px;
-        width: 450px;
-        height: 300px;
     }
     .fourteenth-row2{
         display: flex;
@@ -154,7 +157,7 @@
     .iconnn-column{
         display: flex;
         flex-direction: column;
-        margin: 0;
+        margin-right: 20px;
     }
     .fourteenth-img{
         display: none;

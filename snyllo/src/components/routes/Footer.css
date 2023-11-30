@@ -157,9 +157,12 @@
         width: 800px;
     }
     .footer-column-one{
-        margin-right: 250px;
+        margin-right: 325px;
     }
-    .footer-column-two,
+    .footer-column-two{
+        margin-left: 100px;
+    }
+    
     .footer-column-three,
     .footer-column-four,
     .footer-column-five{

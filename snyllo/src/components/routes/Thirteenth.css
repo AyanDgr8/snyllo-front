@@ -93,15 +93,19 @@
     }
     .thirteenth-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin-top: 0;
+
     }
     .thirteenth-img{
         margin-left: 30px;
         width: 450px;
-        margin-top: 50px;
+        margin-top: 60px;
     }
     .thirteenth-left-container{
-        margin-left: 30px;
+        margin-left: 40px;
+        height: 300px;
+        width: 400px;
+        margin-top: 0;
     }
 }

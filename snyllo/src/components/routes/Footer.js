@@ -48,7 +48,7 @@ const Footer = () =>{
                             </a>
                             <a href="https://www.linkedin.com/company/snyllo-%C3%A9stetica/mycompany/">
                                 <img 
-                                src="/upload/icon-youtube.png"
+                                src="/upload/icon-linkedin.png"
                                 class="icon-five footer-icons"
                                 alt="linkedin"
                                 />

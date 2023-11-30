@@ -14,13 +14,13 @@ const Sixteenth = () => {
                 <div className="sixteenth-container">
                     <div className="sixteenth-left-container">
                         <span className="sixteenth-line sixteenth-line-2">
-                            <h2>IN ADDITION, THE EFFECT LASTS UP TO 15-20 YEARS.</h2>
+                            <h2>In additon, the effect lasts up to 15-20 years.</h2>
                         </span>
                         <span className="sixteenth-line sixteenth-line-3">
-                            <h2>THE PROCEDURE DOES NOT CAUSE PAIN EVEN ON THE MOST SENSITIVE AREAS OF THE SKIN.</h2>
+                            <h2>The procedure does not cause pain even on the most sensitive areas of the skin.</h2>
                         </span>
                         <span className="sixteenth-line sixteenth-line-4">
-                            <h2>IN 60 MONTHS YOU SAVE UP TO 5,00,000/- WITH A SUBSCRIPTION, UNLIKE ONE-TIME VISITS.</h2>
+                            <h2>In 60 months you save up to 5,00,000/- with a subscription, unlike one-time visits.</h2>
                         </span>
                     </div>
                     <div className="sixteenth-right-container">
