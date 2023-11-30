@@ -90,7 +90,7 @@
 
 
 /* Media query for mobile screens */
-@media only screen and (max-width: 400px) {
+@media screen and ( max-width: 480px){
     .big-heading-15{
         margin-top: 35px;
     }

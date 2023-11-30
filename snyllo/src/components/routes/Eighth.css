@@ -89,7 +89,7 @@
 }
 
 /* Media query for mobile screens */
-@media screen and ( max-width: 576px){
+@media screen and ( max-width: 480px){
     .big-heading-7{
         margin-top: 30px;
     }

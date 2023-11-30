@@ -94,7 +94,7 @@
 
 
 /* Media query for mobile screens */
-@media screen and ( max-width: 576px){
+@media screen and ( max-width: 480px){
     .big-heading-1 h2{
         font-size: 34px;
     }

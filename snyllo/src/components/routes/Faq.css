@@ -94,7 +94,7 @@ p {
 
 
 /* Media query for mobile screens */
-@media screen and ( max-width: 576px){
+@media screen and ( max-width: 480px){
     .big-heading-faq{
         margin-top: 35px;
     }

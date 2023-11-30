@@ -207,7 +207,7 @@ body {
 }
 
 /* Media query for mobile screens */
-@media screen and ( max-width: 576px){
+@media screen and ( max-width: 480px){
     /* .epilazexleft,
     .left-para,
     .twomachinesright,

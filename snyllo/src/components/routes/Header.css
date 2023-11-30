@@ -124,7 +124,7 @@ body{
 
 
 /* Add a media query for mobile screens */
-@media screen and ( max-width: 576px){
+@media screen and ( max-width: 480px){
   .header-container {
       background-color: white;
       align-items: stretch; 
