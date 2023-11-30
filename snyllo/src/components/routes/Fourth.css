@@ -1,9 +1,5 @@
 /* src/components/routes/Fourth.css */
 
-/* .fourth-page-content{
-    background: linear-gradient(to bottom left, white 0%, pink 100%);
-
-} */
 
 .big-heading-3 {
     text-align: center;
@@ -63,7 +59,7 @@
 }
 
 /* Media query for mobile screens */
-@media only screen and (max-width: 660px) {
+@media screen and ( max-width: 576px){
     .big-heading-3 h2{
         font-size: 60px;
     }

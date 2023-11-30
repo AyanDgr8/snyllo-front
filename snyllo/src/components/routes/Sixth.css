@@ -60,7 +60,7 @@
 }
 
 /* Media query for mobile screens */
-@media only screen and (max-width: 660px) {
+@media screen and ( max-width: 576px){
     .big-heading-5 h2{
         font-size: 40px;
     }
