@@ -32,7 +32,7 @@ const Third = () => {
               class="Icon-M" 
               alt="Icon-M" 
               />
-              <p>MEN</p>
+              <p class='menn'>MEN</p>
             </div>
           </div>
 

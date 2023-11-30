@@ -93,15 +93,16 @@
 /* Media query for mobile screens */
 @media screen and ( max-width: 576px){
     .big-heading-4 h2{
-        font-size: 40px;
+        font-size: 34px;
     }
     .big-heading-4 h3{
-        font-size: 20px;
+        font-size: 18px;
     }
     .icon-grid{
         margin-top: 30px;
         display: flex;
         flex-direction: column;
+        font-size: 14px;
     }
     .fifth-machine{
         margin-left: 100px;

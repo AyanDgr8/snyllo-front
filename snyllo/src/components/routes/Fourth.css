@@ -61,25 +61,26 @@
 /* Media query for mobile screens */
 @media screen and ( max-width: 576px){
     .big-heading-3 h2{
-        font-size: 60px;
+        font-size: 34px;
     }
     .big-heading-3 h3{
-        font-size: 60px;
+        font-size: 22px;
     }
     .two-images{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .big-left-img{
         height: 600px;
         width: 500px;
-        margin-left: 20px;
+        margin: 0 0 0 0;
+        /* margin-right: 1px; */
 
     }
     .big-right-machine{
         height: 600px;
         width: 400px;        
-        margin-left: 85px;
+        margin-left: 0;
     }
     
     

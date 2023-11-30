@@ -62,10 +62,10 @@
 /* Media query for mobile screens */
 @media screen and ( max-width: 576px){
     .big-heading-5 h2{
-        font-size: 40px;
+        font-size: 34px;
     }
     .big-heading-5 h3{
-        font-size: 20px;
+        font-size: 22px;
     }
     .routine-logo{
         margin-top: 30px;
