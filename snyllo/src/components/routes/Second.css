@@ -96,10 +96,10 @@
 /* Media query for mobile screens */
 @media screen and ( max-width: 576px){
     .big-heading-1 h2{
-        font-size: 40px;
+        font-size: 34px;
     }
     .big-heading-1 h3{
-        font-size: 40px;
+        font-size: 22px;
     }
     .girl-image-containers {
         display: flex;
@@ -119,7 +119,6 @@
     }
     .machine3{
         margin-left: 90px;
-    
     }
     .machine4{
         margin-left: 90px;

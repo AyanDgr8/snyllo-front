@@ -118,15 +118,18 @@
 /* Media query for mobile screens */
 @media screen and ( max-width: 576px){
     .big-heading-2 h2{
-        font-size: 60px;
+        font-size: 34px;
     }
     .big-heading-2 h3{
-        font-size: 60px;
+        font-size: 22px;
     }
     .men-women-caption{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         margin-top: 40px;
+        font-size: 20px;
     }
     
 }
