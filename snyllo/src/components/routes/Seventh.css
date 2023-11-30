@@ -7,6 +7,7 @@
     position: relative;
     margin-top: 0;
     padding-top: 0;
+    /* background: linear-gradient(to top right, white 0%, pink 100%); */
 }
 
 .big-heading-6 {
@@ -17,10 +18,10 @@
 }
 
 .big-heading-6 h2 {
-    font-size: 6em;
+    font-size: 5.5em;
     margin-top: 0;
     margin-bottom: 0;
-    color: pink;
+    color: #D63D3E63;
     position: relative;
     top: 0;
     z-index: 1;
@@ -35,7 +36,7 @@
     top: 0;
     left: 0;
     margin-right: 40px;
-    margin-top: 52px;
+    margin-top: 45px;
     z-index: 2;
     right: -100%;
     animation: slideInFromRight 1s ease forwards;
@@ -46,10 +47,11 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 70px;
+    margin-top: 10px;
 }
 
 .button-lhr-waxing{
-    font-family: "Roboto", Sans-serif;
+    font-family: "Poppins", Sans-serif;
     display: flex;
     flex-wrap: row;
     justify-content: center;
@@ -79,8 +81,8 @@
 
 .seventh-box-content-lhr{
     font-size: 20px;
-    font-weight: bold;
-    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    font-family: "Poppins", Sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,15 +97,15 @@
     padding: 10px;
     border-bottom: 1px solid;
     border-color: #CE3B3C;
-    opacity: 0; /* Initially, set the opacity to 0 */
+    opacity: 0; 
     animation: fadeInRight 2s ease forwards;
 }
 
 
 .seventh-box-content-wax{
     font-size: 20px;
-    font-weight: bold;
-    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    font-family: "Poppins", Sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,4 +127,27 @@
     to {
         opacity: 1; /* Set the opacity to 1 at the end of the animation */
     }
+}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 660px) {
+    .big-heading-6{
+        margin-top: 30px;
+    }
+    .big-heading-6 h2{
+        font-size: 40px;
+    }
+    .big-heading-6 h3{
+        font-size: 25px;
+        margin-left: 2px;
+    }
+    .seventh-box{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+    .middle-five-icons{
+        display: none;
+    }
+    
 }

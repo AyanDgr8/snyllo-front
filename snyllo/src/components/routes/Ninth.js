@@ -16,35 +16,35 @@ const Ninth = () => {
                 <div className="ninth-container">
                     <div className='ninth-column-one'>
                         <img 
-                        src="https://snylloestetica.com/wp-content/uploads/2023/11/1box.png" 
-                        class="ninth-column-one-img" 
-                        alt ="ninth-column-one-img" 
+                        src="/upload/ninth-column-one-1.png" 
+                        class="ninth-column-one-1" 
+                        alt ="ninth-column-one-1" 
                         />
                         <img 
-                        src="https://snylloestetica.com/wp-content/uploads/2023/11/3box.png" 
-                        class="ninth-column-one-img" 
-                        alt ="ninth-column-one-img" 
+                        src="/upload/ninth-column-one-2.png" 
+                        class="ninth-column-one-2" 
+                        alt ="ninth-column-one-2" 
                         />
                     </div>
 
                     <div className='ninth-column-two'>
                         <img  
                         src="https://snylloestetica.com/wp-content/uploads/2023/11/Mobile-Final-1.png" 
-                        class="ninth-column-two-img" 
-                        alt = "ninth-column-two-img"
+                        class="ninth-column-two" 
+                        alt = "ninth-column-two"
                         />
                     </div>
 
                     <div className='ninth-column-three'>
                         <img 
-                        src="https://snylloestetica.com/wp-content/uploads/2023/11/2box.png" 
-                        class="ninth-column-three-img" 
-                        alt ="ninth-column-three-img" 
+                        src="/upload/ninth-column-two-1.png" 
+                        class="ninth-column-three-1" 
+                        alt ="ninth-column-three-1" 
                         />
                         <img 
-                        src="https://snylloestetica.com/wp-content/uploads/2023/11/4box.png" 
-                        class="ninth-column-three-img" 
-                        alt="ninth-column-three-img"
+                        src="/upload/ninth-column-two-2.png" 
+                        class="ninth-column-three-2" 
+                        alt="ninth-column-three-2"
                         />
                     </div>
                     

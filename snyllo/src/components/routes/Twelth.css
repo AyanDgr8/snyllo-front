@@ -18,7 +18,7 @@
     font-size: 5.5em;
     margin-top: 0;
     margin-bottom: 0;
-    color: pink;
+    color: #D63D3E63;
     position: relative;
     top: 0;
     z-index: 1;
@@ -32,7 +32,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 50px;
+    margin-top: 45px;
     z-index: 2;
     right: -100%;
     animation: slideInFromRight 1s ease forwards;
@@ -93,4 +93,32 @@
     width: 80px; 
     height: 80px; 
     margin-bottom: 20px; 
+}
+
+
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 660px) {
+    .big-heading-11{
+        margin-top: 35px;
+    }
+    .big-heading-11 h2{
+        font-size: 40px;
+    }
+    .big-heading-11 h3{
+        font-size: 30px;
+
+    }
+    .twelth-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .twelth-img{
+        margin-left: 10px;
+        width: 450px;
+    }
+    .iconn-column{
+        margin-left: 300px;
+    }
 }

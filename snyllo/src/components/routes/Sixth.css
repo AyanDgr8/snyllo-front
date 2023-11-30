@@ -7,6 +7,8 @@
     align-items: center;
     position: relative;
     margin-bottom: 0;
+    /* background: linear-gradient(to bottom left, white 0%, pink 100%); */
+
 }
 
 .big-heading-5 {
@@ -19,7 +21,7 @@
     font-size: 6em;
     margin-top: 0;
     margin-bottom: 0;
-    color: pink;
+    color: #D63D3E63 ;
     position: relative;
     top: 0;
     z-index: 1;
@@ -47,12 +49,28 @@
 
 .routine-logo {
     display: flex;
-    gap: 30px;
 }
 
 .routine-logo img {
-    height: 325px;
-    width: 355px;
+    height: 250px;
+    width: 400px;
+    margin: 10px 10px;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 660px) {
+    .big-heading-5 h2{
+        font-size: 40px;
+    }
+    .big-heading-5 h3{
+        font-size: 20px;
+    }
+    .routine-logo{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
 }

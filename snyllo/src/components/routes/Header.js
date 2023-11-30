@@ -38,11 +38,11 @@ const Header = () => {
             </img>
           </div>
           <div className="buttons">
-              <button onClick={() => window.open('https://alienotion.live/?page_id=5425', '_blank')} className="button">Benefits of LHR</button>
+              <button onClick={() => window.open('https://alienotion.live/?page_id=5425', '_blank')} className="button benefits">Benefits of LHR</button>
               <button onClick={() => window.open('https://alienotion.live/?page_id=5407', '_blank')} className="button">Products</button>
               <button onClick={() => window.open('https://alienotion.live/?page_id=5421', '_blank')} className="button">Treatments</button>
               <button onClick={() => window.open('https://alienotion.live/?page_id=5410', '_blank')} className="button">Technology</button>
-              <button onClick={() => window.open('https://alienotion.live/?page_id=32', '_blank')} className="button">Prices & Services</button>
+              <button onClick={() => window.open('https://alienotion.live/?page_id=32', '_blank')} className="button prices">Prices & Services</button>
               <button onClick={() => window.open('https://alienotion.live/?page_id=32', '_blank')} className='button contact'>Talk to Us</button>
             </div>
           {/* Hamburger menu for mobile */}

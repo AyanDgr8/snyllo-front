@@ -15,16 +15,17 @@ const Thirteenth = () => {
 
                 <div className='thirteenth-container'>
                     <div className='thirteenth-left-container'>
-                        <img   src="https://snylloestetica.com/wp-content/uploads/2023/11/new-side-machineW.png"
-                        class="thirteenth-img" 
-                        alt ="thirteenth-img" 
-                        />
-                    </div>
-                    <div className='thirteenth-right-container'>
                         <p>When the machine is turned on, an automated 24 point system
                             safety check is launched. This ensures it it in perfect working
                             order and highlights any problems to the user in advance.
                         </p>
+                    </div>
+                    <div className='thirteenth-right-container'>
+                        <img   
+                        src="https://snylloestetica.com/wp-content/uploads/2023/11/new-side-machineW.png"
+                        class="thirteenth-img" 
+                        alt ="thirteenth-img" 
+                        />
                     </div>
                     
                 </div>

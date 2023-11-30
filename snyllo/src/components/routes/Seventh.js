@@ -38,7 +38,7 @@ const Seventh = () => {
             <div className='seventh-page-content'>
                 <span className='big-heading-6'>
                     <h2>WHY LHR ?</h2>
-                    <h3>OVER WAXING WOES</h3>
+                    <h3>OVER WAXING </h3>
                 </span>
                 <div className='seventh-box'>
                     <div className='lhr'>

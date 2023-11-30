@@ -15,7 +15,7 @@ const Fourth = () => {
               <div className="two-images">
                     <img 
                     src="https://snylloestetica.com/wp-content/uploads/2023/11/sizew-1.png" 
-                    class=" big-left-img " 
+                    class="big-left-img " 
                     alt ="big-left-img" >
                     </img>
                     <img 

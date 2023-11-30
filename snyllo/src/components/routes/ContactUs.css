@@ -1,0 +1,135 @@
+/* src/components/routes/ContactUs.css */
+
+
+.big-heading-contactus {
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    margin-bottom: 50;
+}
+
+.big-heading-contactus h2 {
+    font-size: 5.5em;
+    margin-top: 50px;
+    margin-bottom: 0;
+    color: pink;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    left: -100%;
+    animation: slideInFromLeft 1s ease forwards;
+}
+
+.big-heading-contactus h3 {
+    font-size: 2.5em;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 45px;
+    z-index: 2;
+    right: -100%;
+    animation: slideInFromRight 1s ease forwards;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.form-part{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 400px;
+    align-items: center; 
+    justify-content: center; 
+    color:white;
+}
+
+.head {
+    margin-bottom: 20px; 
+    margin-top:0;
+    margin-left: 0;
+    padding-left:30px;
+    font-size: 24px;
+    font-style: italic;
+    font-style: bold;
+    color: black;
+}
+
+input{
+    width: 50%;
+    padding: 10px;
+    margin-bottom:10px;
+    border:0;
+    outline: 0;
+    border-radius: 10px;
+    margin-left: 40px;
+    background-color: lightgray;
+    border-bottom: 1px solid white;
+    color:black; 
+}
+
+input:hover{
+    background-color: #D63D3E63 ;
+    color:white;
+}
+
+select{
+    width: 50%;
+    padding: 10px;
+    margin-bottom:10px;
+    border:0;
+    outline: 0;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: lightgray;
+    border-bottom: 1px solid white;
+    color:black; 
+}
+
+select:hover{
+    background-color: #D63D3E63 ;
+    color:white;
+}
+
+button.formbutton {
+    width: 40%;
+    background-color: #CE3B3C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px;
+}
+
+button.formbutton:hover {
+    background-color: lightgray;
+}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 660px) {
+    .big-heading-contactus{
+        margin-top: 35px;
+    }
+    .big-heading-contactus h2{
+        font-size: 4.8em;
+    }
+    .big-heading-contactus h3{
+        font-size: 2.3em;
+        margin-top: 36px;
+    }
+    .form-part{
+        margin-left: 300px;
+        width: 800px;
+    }
+}

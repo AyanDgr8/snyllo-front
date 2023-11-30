@@ -5,6 +5,8 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    /* background: linear-gradient(to bottom left, white 0%, pink 100%); */
+
 }
 
 .big-heading-1 {
@@ -16,7 +18,8 @@
 .big-heading-1 h2 {
     font-size: 6em;
     margin-top: 0;
-    color: pink;
+    margin-bottom: 0;
+    color:#D63D3E63 ;
     position: relative;
     top: 0;
     z-index: 1; /* Ensure h1 is in the background */
@@ -43,8 +46,8 @@
 }
 
 .girl-images {
-    width: 340px;
-    height: 340px; 
+    width: 300px;
+    height: 300px; 
     margin: 10px;  
 }
 
@@ -56,22 +59,24 @@
 }
 
 .machine-images {
-    width: 240px;
-    height: 240px; 
-    margin: 8px;
-    margin-top: 0;
-    margin-left: 90px;
+    width: 150px;
+    height: 150px; 
+    margin: 40px;
    
 }
 
 .machine1{
-    margin-left: 0;
+    margin-left: 70px;
 }
 .machine2{
     margin-left: 140px;
 }
-.machine3, .machine4{
-    margin-left: 100px;
+.machine3{
+    margin-left: 120px;
+
+}
+.machine4{
+    margin-left: 140px;
 }
 
 
@@ -85,4 +90,39 @@
     to {
         right: 0;
     }
+}
+
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 660px) {
+    .big-heading-1 h2{
+        font-size: 40px;
+    }
+    .big-heading-1 h3{
+        font-size: 40px;
+    }
+    .girl-image-containers {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .machine-images{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .machine1{
+        margin-left: 90px;
+    }
+    .machine2{
+        margin-left: 90px;
+    }
+    .machine3{
+        margin-left: 90px;
+    
+    }
+    .machine4{
+        margin-left: 90px;
+    }
+
 }

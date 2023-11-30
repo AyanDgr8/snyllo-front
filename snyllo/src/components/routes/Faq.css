@@ -1,0 +1,105 @@
+/* src/components/routes/Faq.css */
+
+.faq-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.big-heading-faq {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.big-heading-faq h2 {
+    font-size: 5.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #D63D3E63;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    left: -100%;
+    animation: slideInFromLeft 1s ease forwards;
+}
+
+.big-heading-faq h3 {
+    font-size: 2.5em;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 45px;
+    z-index: 2;
+    right: -100%;
+    animation: slideInFromRight 1s ease forwards;
+}
+
+.fa-questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.faq-button {
+    width:600px;
+    background-color: #CE3B3C; /* Green background color */
+    box-sizing: border-box;
+    border: none; /* Remove borders */
+    color: white; /* White text color */
+    padding: 10px 10px; 
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 ;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px; /* Optional: add a rounded corners */
+}
+
+.faq-button:hover {
+    background-color: white; /* White background color */
+    color: black; /* Black text color */
+}
+
+p {
+    max-width: 400px;
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Animation */
+@keyframes slideInFromLeft {
+    to {
+        left: 0;
+    }
+}
+
+@keyframes slideInFromRight {
+    to {
+        right: 0;
+    }
+}
+
+
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 660px) {
+    .big-heading-faq{
+        margin-top: 35px;
+    }
+    .big-heading-faq h2{
+        font-size: 5.3em;
+    }
+    .faq-button {
+        width:500px;
+    }
+}

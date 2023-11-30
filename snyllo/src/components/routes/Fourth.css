@@ -1,21 +1,29 @@
 /* src/components/routes/Fourth.css */
 
+/* .fourth-page-content{
+    background: linear-gradient(to bottom left, white 0%, pink 100%);
+
+} */
+
 .big-heading-3 {
     text-align: center;
     margin-top: 50px;
     position: relative;
-    
+    margin-bottom: 0; 
 }
+    
 
 .big-heading-3 h2 {
     font-size: 7em;
     margin-top: 0;
-    color: pink;
+    margin-bottom: 10px;    
+    color:#D63D3E63 ;
     position: relative;
     top: 0;
     z-index: 1; /* Ensure h1 is in the background */
     left: -100%;
     animation: slideInFromLeft 1s ease forwards;
+
 }
 
 .big-heading-3 h3 {
@@ -38,35 +46,45 @@
     border: 0;
 }
 
-/* .left-container{
-    width:50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 .big-left-img{
-    width: 700px;
+    width: 900px;
     height: 500px;
-    margin-left: 10px;
-    margin-top: 0;
+    margin-left: 30px;
+    margin-top: 80px;
 }
 
-/* .right-container{
-    width:50%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-} */
 
 .big-right-machine{
-    width: 400px;
-    height: 500px;
+    width: 800px;
+    height: 700px;
     margin-top: 0;
     margin-right: 0;
-    margin-left: 230px;
+    margin-left: 250px;
 }
 
-.big-heading-3 {
-    margin-bottom: 0; 
+/* Media query for mobile screens */
+@media only screen and (max-width: 660px) {
+    .big-heading-3 h2{
+        font-size: 60px;
+    }
+    .big-heading-3 h3{
+        font-size: 60px;
+    }
+    .two-images{
+        display: flex;
+        flex-direction: column;
+    }
+    .big-left-img{
+        height: 600px;
+        width: 500px;
+        margin-left: 20px;
+
+    }
+    .big-right-machine{
+        height: 600px;
+        width: 400px;        
+        margin-left: 190px;
+    }
+    
+    
 }

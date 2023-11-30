@@ -16,7 +16,7 @@ const Fourteenth = () => {
                 <div className="fourteenth-row1">
                     <p>Our intelligent system senses when the applicator is placed back in its holder and laser use is disabled in this 
                         position, making it impossible for accidental shots to be fired. The cooling system also automatically shuts 
-                        off. These special <br/>features ensure that Snyllo Epilaze -X is both safe and environmentally friendly.
+                        off. These special features ensure that Snyllo Epilaze -X is both safe and environmentally friendly.
                     </p>
                 </div>
                 <div className="fourteenth-row2">

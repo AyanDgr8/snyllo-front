@@ -1,4 +1,5 @@
 // src/components/routes/Fifth.js
+
 import React from 'react';
 import './Fifth.css';
 
@@ -6,10 +7,10 @@ const Fifth = () => {
     return (
         <div>
             <div className="fifth-page-content">
-                    <div className="big-heading-4">
+                    <span className="big-heading-4">
                         <h2>WE HAVE DEVELOPED</h2>
                         <h3>A UNIQUE LASER FOR HAIR REMOVAL</h3>
-                    </div>
+                    </span>
 
                     {/* Icon Grid */}
                     <div className="icon-grid">
@@ -27,7 +28,7 @@ const Fifth = () => {
 
                             <div className="icon-row">
                                 <div className="icon-caption">
-                                    <img  src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-588-copy.png" 
+                                    <img src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-588-copy.png" 
                                     class="Icon-2" 
                                     alt="Icon-2" 
                                     />

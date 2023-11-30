@@ -16,6 +16,9 @@ import Thirteenth from './routes/Thirteenth';
 import Fourteenth from './routes/Fourteenth';
 import Fifteenth from './routes/Fifteenth';
 import Sixteenth from './routes/Sixteenth';
+import Faq from './routes/Faq';
+import ContactUs from './routes/ContactUs';
+import Footer from './routes/Footer';
 
 // import Popup from './routes/Popup';
 
@@ -39,6 +42,9 @@ export default function Main(){
         <Fourteenth />
         <Fifteenth />
         <Sixteenth />
+        <Faq />
+        <ContactUs />
+        <Footer />
     </div>
   );
 }

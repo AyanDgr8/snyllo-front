@@ -9,7 +9,6 @@ const First = () => {
     <div>
       {/* Include the Header component */}
       <Header />
-      {/* Your content for First.js */}
       <div className="first-page-content">
         {/* Left side text content */}
         <div className='left-content-first'>
@@ -30,41 +29,41 @@ const First = () => {
           <div className="left-icons-wrapper">
             <div className="left-icons-container">
               {/* Replace with your desired icons */}
-              <div className="icon1">
+              <span className="icon1">
                 <img  
                   src="https://snylloestetica.com/wp-content/uploads/2023/11/ist-icon.png" 
                   className="icon1img" 
                   alt="icon1img" 
                 />
-                <div className="icon1caption">
+                <span className="icon1caption">
                   <h3>FOREVER READY</h3>
                   <h4>With Zero Prep</h4>
-                </div>
-              </div>
+                </span>
+              </span>
                 
-              <div className="icon2">
+              <span className="icon2">
                 <img  
                   src="https://snylloestetica.com/wp-content/uploads/2023/11/icn-2.png" 
                   className="icon2img" 
                   alt="icon2img"
                 />
-                <div className="icon2caption">
+                <span className="icon2caption">
                   <h3>SMOOTH SKIN</h3>
                   <h4>No more in grown hair, bumps, stubble</h4>
-                </div>
-              </div>
+                </span>
+              </span>
 
-              <div className="icon3">
+              <span className="icon3">
                 <img 
                   src="https://snylloestetica.com/wp-content/uploads/2023/11/iocn-34.png" 
                   className="icon3img" 
                   alt="icon3img"
                 />
-                <div className="icon3caption">
+                <span className="icon3caption">
                   <h3>PAINLESS</h3>
                   <h4>Ice Cool Tech for a Painless Experience</h4>
-                </div>
-              </div>
+                </span>
+              </span>
             </div>
           </div>
         </div>
@@ -75,8 +74,6 @@ const First = () => {
             src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-w-1.png" 
             className="twomachinesright" 
             alt="twomachinesright">
-            {/* // srcset="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-w-1.png 493w, https://snylloestetica.com/wp-content/uploads/2023/11/Layer-w-1-300x294.png 300w" 
-            // sizes="(max-width: 493px) 100vw, 493px"   */}
           </img>
         </div>
       </div>
