@@ -1,11 +1,11 @@
 /* src/components/routes/Fourth.css */
 
 
-        .big-heading-3 {
-        text-align: center;
-        margin-top: 3.125rem;
-        position: relative;
-        margin-bottom: 0; 
+.big-heading-3 {
+    text-align: center;
+    margin-top: 3.125rem;
+    position: relative;
+    margin-bottom: 0; 
     }
         
 
@@ -23,10 +23,10 @@
     }
 
     .big-heading-3 h3 {
-        font-size: 2.1875rem;
+        font-size: 2.5rem;
         font-weight: 600;
         position: absolute; /* Keep h2 in the normal flow */
-        margin-top: 3.125rem;
+        margin-top: 1.9rem;
         top: 0;
         left:0;
         z-index: 2; /* Ensure h2 is on top */
