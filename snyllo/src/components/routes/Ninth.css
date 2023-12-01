@@ -1,111 +1,114 @@
 /* src/components/routes/Ninth.css */
 
 
-.ninth-page-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    /* background: linear-gradient(to bottom left, white 0%, pink 100%); */
+    .ninth-page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        /* background: linear-gradient(to bottom left, white 0%, pink 100%); */
 
-}
+    }
 
-.big-heading-8 {
-    text-align: center;
-    margin-top: 50px;
-    position: relative;
-    margin-bottom: 0;
-}
+    .big-heading-8 {
+        text-align: center;
+        margin-top: 3.125rem;
+        position: relative;
+        margin-bottom: 0;
+    }
 
-.big-heading-8 h2 {
-    font-size: 6em;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #D63D3E63 ;
-    position: relative;
-    top: 0;
-    z-index: 1;
-    left: -100%;
-    animation: slideInFromLeft 1s ease forwards;
-}
+    .big-heading-8 h2 {
+        font-size: 6em;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #D63D3E63 ;
+        position: relative;
+        top: 0;
+        z-index: 1;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
+    }
 
-.big-heading-8 h3 {
-    font-size: 2.5em;
-    font-weight: 700;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 50px;
-    z-index: 2;
-    right: -100%;
-    animation: slideInFromRight 1s ease forwards;
-}
+    .big-heading-8 h3 {
+        font-size: 2.5em;
+        font-weight: 700;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 3.125rem;
+        z-index: 2;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
 
-.ninth-container{
-    display: flex;
-    justify-content: space-between; /* Align items with equal space between them */
-    flex-direction: row;
-    width: 80%;
-}
+    .ninth-container{
+        display: flex;
+        justify-content: space-between; /* Align items with equal space between them */
+        flex-direction: row;
+        width: 80%;
+    }
 
-.ninth-column-one,
-.ninth-column-three {
-    width: 30%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+    .ninth-column-one,
+    .ninth-column-three {
+        width: 30%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
 
-.ninth-column-two {
-    width: 40%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+    .ninth-column-two {
+        width: 40%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
-.ninth-column-one img{
-    width: 350px;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-}
+    .ninth-column-one img{
+        width: 21.875;
+        height: 15.625rem;
+        display: flex;
+        justify-content: center;
+    }
 
-.ninth-column-two img{
-    height: 500px;
-    width: 275px;
-}
+    .ninth-column-two img{
+        height: 31.25rem;
+        width: 17.188rem;
+    }
 
-.ninth-column-three img{
-    width: 350px;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-}
+    .ninth-column-three img{
+        width: 21.875;
+        height: 15.625rem;
+        display: flex;
+        justify-content: center;
+    } 
+
+
+
 
 /* Media query for mobile screens */
-@media screen and ( max-width: 480px){
+@media screen and ( max-width: 425px){
     .big-heading-8{
-        margin-top: 30px;
+        margin-top: 1.875rem;
     }
     .big-heading-8 h2{
-        font-size: 40px;
+        font-size: 2.5rem;
     }
     .big-heading-8 h3{
-        font-size: 30px;
+        font-size: 1.875rem;
 
     }
     .ninth-container{
         display: flex;
         flex-direction: column;
-        margin-top: 50px;
-    }
-    .ninth-container {
-        margin-left: 275px;
+        margin-top: 3.125rem;
+        margin-left: 13.75rem;
+        width: 25rem;
+
     }
     .ninth-column-two{
-        margin-right: 50px;
+        margin-right: 3.125rem;
     }
 }

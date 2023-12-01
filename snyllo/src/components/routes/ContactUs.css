@@ -1,135 +1,145 @@
 /* src/components/routes/ContactUs.css */
 
+        .big-heading-contactus {
+        text-align: center;
+        margin-top: 6.25rem;
+        position: relative;
+        margin-bottom: 3.125rem;
+    }
 
-.big-heading-contactus {
-    text-align: center;
-    margin-top: 100px;
-    position: relative;
-    margin-bottom: 50;
-}
+    .big-heading-contactus h2 {
+        font-size: 5.5em;
+        margin-top: 3.125rem;
+        margin-bottom: 0;    
+        color: #D63D3E63;
+        position: relative;
+        top: 0;
+        z-index: 1;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
+    }
 
-.big-heading-contactus h2 {
-    font-size: 5.5em;
-    margin-top: 50px;
-    margin-bottom: 0;    
-    color: #D63D3E63;
-    position: relative;
-    top: 0;
-    z-index: 1;
-    left: -100%;
-    animation: slideInFromLeft 1s ease forwards;
-}
-
-.big-heading-contactus h3 {
-    font-size: 2.5em;
-    font-weight: 700;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 45px;
-    z-index: 2;
-    right: -100%;
-    animation: slideInFromRight 1s ease forwards;
-}
-
-
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    
-}
+    .big-heading-contactus h3 {
+        font-size: 2.5em;
+        font-weight: 700;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 2.813rem;
+        z-index: 2;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
 
 
-.form-part{
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
-    margin-left: 400px;
-    align-items: center; 
-    justify-content: center; 
-    color:white;
-}
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
 
-.head {
-    margin-bottom: 20px; 
-    margin-top:0;
-    margin-left: 0;
-    padding-left:30px;
-    font-size: 24px;
-    font-style: italic;
-    font-style: bold;
-    color: black;
-}
 
-input{
-    width: 50%;
-    padding: 10px;
-    margin-bottom:10px;
-    border:0;
-    outline: 0;
-    border-radius: 10px;
-    margin-left: 40px;
-    background-color: lightgray;
-    border-bottom: 1px solid white;
-    color:black; 
-}
+    .form-part{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: 25rem;
+        align-items: center; 
+        justify-content: center; 
+        color:white;
+    }
 
-input:hover{
-    background-color: #D63D3E63 ;
-    color:white;
-}
+    .head {
+        margin-bottom: 1.25rem; 
+        margin-top:0;
+        margin-left: 0;
+        padding-left:1.875rem;
+        font-size: 1.5rem;
+        font-style: italic;
+        font-style: bold;
+        color: black;
+    }
 
-select{
-    width: 50%;
-    padding: 10px;
-    margin-bottom:10px;
-    border:0;
-    outline: 0;
-    border-radius: 10px;
-    margin-left: 50px;
-    background-color: lightgray;
-    border-bottom: 1px solid white;
-    color:black; 
-}
+    input{
+        width: 50%;
+        padding: 0.625rem;
+        margin-bottom:0.625rem;
+        border:0;
+        outline: 0;
+        border-radius: 0.625rem;
+        margin-left: 2.5rem;
+        background-color: lightgray;
+        border-bottom: 1px solid white;
+        color:black; 
+    }
 
-select:hover{
-    background-color: #D63D3E63 ;
-    color:white;
-}
+    input:hover{
+        background-color: #D63D3E63 ;
+        color:white;
+    }
 
-button.formbutton {
-    width: 40%;
-    background-color: #CE3B3C;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    margin-left: 100px;
-    margin-top: 20px;
-    border-radius: 10px;
-    height: 40px;
-    padding: 5px;
-}
+    select{
+        width: 50%;
+        padding: 0.625rem;
+        margin-bottom:0.625rem;
+        border:0;
+        outline: 0;
+        border-radius: 0.625rem;
+        margin-left: 3.125rem;
+        background-color: lightgray;
+        border-bottom: 1px solid white;
+        color:black; 
+    }
 
-button.formbutton:hover {
-    background-color: lightgray;
-}
+    select:hover{
+        background-color: #D63D3E63 ;
+        color:white;
+    }
+
+    button.formbutton {
+        width: 40%;
+        background-color: #CE3B3C;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        margin-left: 6.25rem;
+        margin-top: 1.25rem;
+        border-radius: 0.625rem;
+        height: 2.5rem;
+        padding: 0.313rem;
+    }
+
+    button.formbutton:hover {
+        background-color: lightgray;
+    }
+
+
 
 /* Media query for mobile screens */
-@media screen and ( max-width: 480px){
+@media screen and ( max-width: 425px){
     .big-heading-contactus{
-        margin-top: 35px;
+        margin-top: 3.125rem;
     }
     .big-heading-contactus h2{
-        font-size: 4.8em;
+        font-size: 1.875rem;
     }
     .big-heading-contactus h3{
-        font-size: 2.3em;
-        margin-top: 36px;
+        font-size: 1.25rem;
+        margin-top: 2.25rem;
     }
     .form-part{
-        margin-left: 300px;
-        width: 800px;
+        margin-top: 1.25rem;
+        margin-left: 18.75rem;
+        width: 43.75rem;
+        margin-right: 2.5rem;
+    }
+    .head{
+        font-size: 1rem;
+        margin-right: 0.625rem;
+        /* margin-left: 0px; */
+        margin-top: 2.5rem;
+
     }
 }

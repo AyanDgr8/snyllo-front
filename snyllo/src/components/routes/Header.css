@@ -1,130 +1,126 @@
 /* src/components/routes/Header.css */
-body{
-  background-color: white;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  font-family: "Roboto", Sans-serif;
-
+:root {
+  --base-font-size: 16px; /* Define the base font size */
 }
 
-.header-container {
-  background-color: white;
-  width: 95%;
-  box-shadow:
-      0 0 8px 1px #CE3B3C, 
-      0 0 0 2px #CE3B3C inset;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 10px;
-  margin-top: 25px;
-  margin-right:auto;
-  margin-left:auto;
-  color: white;
- }
-
-.logo img {
-    margin-top:10px;
-    margin-left:20px;
-    margin-bottom: 10px;
-    width: 180px;
-    height: 40px;
-  }
-  
-
-.buttons {
-    display: flex;
-    flex-direction: row; 
-    align-items: center; 
-    margin-left:210px;
-    padding: 10px;
-  }
-  
-.button {
+  .header-container {
     background-color: white;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0;
-    border:0;
-    outline: 0;
-    width:120px;
-    transition: all 0.3s ease 0s;
-  }
-  
-.button:hover {
-    color: #CE3B3C;
-  }
-
-.benefits{
-  width:125px;
-}  
-
-.prices{
-  width:145px;
-}  
-
-
-.contact {
-    position: relative;
-    overflow: hidden;
-    margin-left: 40px;
-    width: 175px;
-    border: 1px;
-    box-shadow: 0 0 15px red;
-
-}
-  
-.contact::before {
-    content: "Talk to Us";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    color: black;
+    width: 95%;
+    box-shadow:
+        0 0 0.5rem 0.0625rem #CE3B3C, 
+        0 0 0 0.125rem #CE3B3C inset;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    transition: opacity 0.5s ease;
-}
-  
-.contact:hover::before {
-  opacity: 0;
-}
-  
-.contact::after {
-    content: "98009 96009";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #CE3B3C;
+    border-radius: 0.625rem;
+    margin-top: 1.5625rem;
+    margin-right:auto;
+    margin-left:auto;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: opacity 0.3s ease;
+  }
+
+  .logo img {
+      margin-top:0.625rem;
+      margin-left:1.25rem;
+      margin-bottom: 0.625rem;
+      width: 11.25rem;
+      height: 2.5rem;
+    }
+    
+
+  .buttons {
+      display: flex;
+      flex-direction: row; 
+      align-items: center; 
+      margin-left:15rem;
+      padding: 1rem;
+    }
+    
+  .button {
+      background-color: white;
+      font-size: 0.875rem;
+      font-weight: 700;
+      border-radius: 0.313rem;
+      cursor: pointer;
+      margin: 0;
+      border:0;
+      outline: 0;
+      width:6rem;
+      gap: 0;
+      transition: all 0.3s ease 0s;
+    }
+    
+  .button:hover {
+      color: #CE3B3C;
+    }
+
+  .benefits{
+    width:10rem;
+  }  
+
+  .prices{
+    width:10rem;
+  }  
+
+
+  .contact {
+      position: relative;
+      overflow: hidden;
+      margin-left: 3rem;
+      width: 7rem;
+      border: 0.625rem;
+      height: 2rem;
+      box-shadow: 0 0 1rem red;
+  }
+    
+  .contact::before {
+      content: "Talk to Us";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.5s ease;
+  }
+    
+  .contact:hover::before {
     opacity: 0;
-}
-  
-.contact:hover::after {
-  opacity: 1;
-} 
+  }
+    
+  .contact::after {
+      content: "98009 96009";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #CE3B3C;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.3s ease;
+      opacity: 0;
+  }
+    
+  .contact:hover::after {
+    opacity: 1;
+  } 
 
 
-.hamburger-menu {
-  display: none; /* Hide by default on larger screens */
-}
+  .hamburger-menu {
+    display: none; /* Hide by default on larger screens */
+  }
+
 
 
 
 /* Add a media query for mobile screens */
-@media screen and ( max-width: 480px){
+@media screen and ( max-width: 425px){
   .header-container {
       background-color: white;
       align-items: stretch; 
@@ -133,8 +129,8 @@ body{
   .buttons {
     display: none; 
     flex-direction: column;
-    margin-top: 10px;
-    margin-left: 0px;
+    margin-top: 0.625rem; 
+    margin-left: 0;
   }
 
   .button {
@@ -146,11 +142,10 @@ body{
     display: inline; /* Show on smaller screens */
     cursor: pointer;
     color:black;
-    margin-left: 60px;
-    margin-top:30px;
+    font-weight: 900;
+    margin-left: 5rem;
+    margin-top:1.875rem;
     background-color: #fff;
-    height:25px;
-    font-weight: 900 ;
   }
 
   /* Show buttons when the mobile menu is active */
@@ -158,25 +153,25 @@ body{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 120px; /* Adjust the top position as needed */
-    right: 12px; /* Adjust the right position as needed */
+    top: 7.5rem; /* Adjust the top position as needed */
+    right: 0.75rem; /* Adjust the right position as needed */
     background: linear-gradient(to right, white 0%, pink 50%, white 100%);
     color: black;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(245, 12, 12, 0.1);
+    border-radius: 0.625rem;
+    padding: 0.625rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(245, 12, 12, 0.1);
     z-index: 1; /* Ensure the mobile menu is on top */
   }
 
   .mobile-menu .button {
-    margin: 5px 5px;
+    margin: 0.3125rem;
   }
 
   .logo img {
-    margin-top:10px;
-    margin-left:30px;
-    width:200px;
-    height: 60px;
+    margin-top: 0.625rem; 
+    margin-left: 1.875rem; 
+    width: 12.5rem; 
+    height: 3.75rem; 
   }
 
 }

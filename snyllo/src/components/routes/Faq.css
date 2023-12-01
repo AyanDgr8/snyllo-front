@@ -1,82 +1,86 @@
 /* src/components/routes/Faq.css */
 
-.faq-page-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
 
-.big-heading-faq {
-    text-align: center;
-    margin-top: 50px;
-    position: relative;
-    margin-bottom: 0;
-}
+        .faq-page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
 
-.big-heading-faq h2 {
-    font-size: 5.5em;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #D63D3E63;
-    position: relative;
-    top: 0;
-    z-index: 1;
-    left: -100%;
-    animation: slideInFromLeft 1s ease forwards;
-}
+    .big-heading-faq {
+        text-align: center;
+        margin-top: 3.125rem;
+        position: relative;
+        margin-bottom: 0;
+    }
 
-.big-heading-faq h3 {
-    font-size: 2.5em;
-    font-weight: 700;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 45px;
-    z-index: 2;
-    right: -100%;
-    animation: slideInFromRight 1s ease forwards;
-}
+    .big-heading-faq h2 {
+        font-size: 5.5em;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #D63D3E63;
+        position: relative;
+        top: 0;
+        z-index: 1;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
+    }
 
-.fa-questions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-}
+    .big-heading-faq h3 {
+        font-size: 2.5em;
+        font-weight: 700;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 2.813rem;
+        z-index: 2;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
 
-.faq-button {
-    width:600px;
-    background-color: #CE3B3C; /* Green background color */
-    box-sizing: border-box;
-    border: none; /* Remove borders */
-    color: white; /* White text color */
-    padding: 10px 10px; 
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-    margin: 10px 0 ;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 8px; 
-}
+    .fa-questions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1.25rem;
+    }
 
-.faq-button:hover {
-    background-color: lightgray; 
-    color: black; /* Black text color */
-}
+    .faq-button {
+        width:37.5rem;
+        background-color: #CE3B3C; /* Green background color */
+        box-sizing: border-box;
+        border: none; /* Remove borders */
+        color: white; /* White text color */
+        padding: 0.625rem 0.625rem; 
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 1rem;
+        margin: 0.625rem 0 ;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 0.5rem; 
+    }
 
-p {
-    max-width: 600px;
-    width: 100%;
-    font-size: 1.2em;
-    line-height: 1.5;
-    margin-top: 10px;
-    text-align: left;
-    white-space: pre-line;
-}
+    .faq-button:hover {
+        background-color: lightgray; 
+        color: black; /* Black text color */
+    }
+
+    p {
+        max-width: 37.5rem;
+        width: 100%;
+        font-size: 1.2em;
+        line-height: 1.5;
+        margin-top: 0.625rem;
+        text-align: left;
+        white-space: pre-line;
+    }
+
+
+
 
 /* Animation */
 @keyframes slideInFromLeft {
@@ -94,21 +98,21 @@ p {
 
 
 /* Media query for mobile screens */
-@media screen and ( max-width: 480px){
+@media screen and ( max-width: 425px){
     .big-heading-faq{
-        margin-top: 35px;
+        margin-top: 2.188rem;
     }
     .big-heading-faq h2{
-        font-size: 4.5em;
+        font-size: 2.5rem;
     }
     .big-heading-faq h3{
-        font-size: 2.5em;
-        margin-top: 65px;
+        font-size: 1.563rem;
+        margin-top: 2.5rem;
     }
     .faq-button {
-        width:400px;
+        width:25rem;
     }
     p{
-        max-width: 400px;
+        max-width: 25rem;
     }
 }

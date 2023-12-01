@@ -1,111 +1,115 @@
 /* src/components/routes/Fifth.css */
 
-.fifth-page-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    /* background: linear-gradient(to bottom right, white 0%, pink 100%); */
 
-}
-
-.big-heading-4 {
-    text-align: center;
-    margin-top: 50px;
-    position: relative;
-}
-
-.big-heading-4 h2 {
-    font-size: 5.5em;
-    margin-top: 0;
-    margin-bottom: 5px;
-    color: #D63D3E63;
-    position: relative;
-    top: 0;
-    z-index: 1;
-    left: -100%;
-    animation: slideInFromLeft 1s ease forwards;
-}
-
-.big-heading-4 h3 {
-    font-size: 2.5em;
-    font-weight: 700;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 45px;
-    z-index: 2;
-    right: -100%;
-    animation: slideInFromRight 1s ease forwards;
-}
-
-.icon-grid {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    /* background-image: url('../images/bg1.png') center center/cover no-repeat rgba(0, 0, 0, 1); */
-    /* box-shadow:
-        0 0 8px 1px #CE3B3C, 
-        0 0 0 2px #CE3B3C inset; */
-    border-radius: 10px;
-    margin-left: 1%;
-    margin-right: 1%;
-    font-family: "Roboto", Sans-serif;
-}
-
-/* .icon-column,
-.empty-column {
-    flex: 1;
-} */
-
-.icon-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* margin-bottom: 20px;  */
-    align-items: center;
-}
-
-.icon-caption {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    /* margin-top: 10px;  */
-}
-
-.icon-caption img {
-    width: 80px; 
-    height: 80px; 
-    margin-bottom: 0; 
-}
-
-.fifth-machine {
-    display: flex;
-    justify-content: center;
-    height: 500px;
-    width: 300px;
-    margin-bottom: 20px;
-    margin: 10px; 
-}
-
-/* Media query for mobile screens */
-@media screen and ( max-width: 480px){
-    .big-heading-4 h2{
-        font-size: 34px;
-    }
-    .big-heading-4 h3{
-        font-size: 18px;
-    }
-    .icon-grid{
-        margin-top: 30px;
+        .fifth-page-content {
         display: flex;
         flex-direction: column;
-        font-size: 14px;
+        align-items: center;
+        position: relative;
+        /* background: linear-gradient(to bottom right, white 0%, pink 100%); */
+
+    }
+
+    .big-heading-4 {
+        text-align: center;
+        margin-top: 3.125rem;
+        position: relative;
+    }
+
+    .big-heading-4 h2 {
+        font-size: 5.5em;
+        margin-top: 0;
+        margin-bottom: 0.313rem;
+        color: #D63D3E63;
+        position: relative;
+        top: 0;
+        z-index: 1;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
+    }
+
+    .big-heading-4 h3 {
+        font-size: 2.5em;
+        font-weight: 700;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 2.813rem;
+        z-index: 2;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
+
+    .icon-grid {
+        display: flex;
+        justify-content: center;
+        margin-top: 0.625rem;
+        /* background-image: url('../images/bg1.png') center center/cover no-repeat rgba(0, 0, 0, 1); */
+        /* box-shadow:
+            0 0 8px 1px #CE3B3C, 
+            0 0 0 2px #CE3B3C inset; */
+        border-radius: 0.625rem;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-family: "Roboto", Sans-serif;
+    }
+
+    /* .icon-column,
+    .empty-column {
+        flex: 1;
+    } */
+
+    .icon-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* margin-bottom: 20px;  */
+        align-items: center;
+    }
+
+    .icon-caption {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: 10px;  */
+    }
+
+    .icon-caption img {
+        width: 5rem; 
+        height: 5rem; 
+        margin-bottom: 0; 
+    }
+
+    .fifth-machine {
+        display: flex;
+        justify-content: center;
+        height: 31.25rem;
+        width: 18.75rem;
+        margin-bottom: 1.25rem;
+        margin: 0.625rem; 
+    }
+
+
+
+
+/* Media query for mobile screens */
+@media screen and ( max-width: 425px){
+    .big-heading-4 h2{
+        font-size: 2.125rem;
+    }
+    .big-heading-4 h3{
+        font-size: 1.125rem;
+    }
+    .icon-grid{
+        margin-top: 1.875rem;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.875rem;
     }
     .fifth-machine{
-        margin-left: 100px;
+        margin-left: 3.125rem;
     }
     
     

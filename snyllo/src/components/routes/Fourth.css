@@ -1,85 +1,89 @@
 /* src/components/routes/Fourth.css */
 
 
-.big-heading-3 {
-    text-align: center;
-    margin-top: 50px;
-    position: relative;
-    margin-bottom: 0; 
-}
-    
+        .big-heading-3 {
+        text-align: center;
+        margin-top: 3.125rem;
+        position: relative;
+        margin-bottom: 0; 
+    }
+        
 
-.big-heading-3 h2 {
-    font-size: 7em;
-    margin-top: 0;
-    margin-bottom: 10px;    
-    color:#D63D3E63 ;
-    position: relative;
-    top: 0;
-    z-index: 1; /* Ensure h1 is in the background */
-    left: -100%;
-    animation: slideInFromLeft 1s ease forwards;
+    .big-heading-3 h2 {
+        font-size: 4.375rem;
+        margin-top: 0;
+        margin-bottom: 0.625rem;    
+        color:#D63D3E63 ;
+        position: relative;
+        top: 0;
+        z-index: 1; /* Ensure h1 is in the background */
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
 
-}
+    }
 
-.big-heading-3 h3 {
-    font-size: 3.5em;
-    font-weight: 600;
-    position: absolute; /* Keep h2 in the normal flow */
-    margin-top: 50px;
-    top: 0;
-    left:0;
-    z-index: 2; /* Ensure h2 is on top */
-    right: -100%;
-    animation: slideInFromRight 1s ease forwards;
-}
+    .big-heading-3 h3 {
+        font-size: 2.1875rem;
+        font-weight: 600;
+        position: absolute; /* Keep h2 in the normal flow */
+        margin-top: 3.125rem;
+        top: 0;
+        left:0;
+        z-index: 2; /* Ensure h2 is on top */
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
 
-.two-images{
-    display: flex;
-    flex-direction: row;
-    margin-top: 0;
-    padding-top: 0;
-    border: 0;
-}
+    .two-images{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        padding-top: 0;
+        border: 0;
+    }
 
-.big-left-img{
-    width: 900px;
-    height: 500px;
-    margin-left: 30px;
-    margin-top: 80px;
-}
+    .big-left-img{
+        width: 56.25rem;
+        height: 31.25rem;
+        margin-left: 1.875rem;
+        margin-top: 5rem;
+    }
 
 
-.big-right-machine{
-    width: 800px;
-    height: 700px;
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: 250px;
-}
+    .big-right-machine{
+        width: 50rem;
+        height: 43.75rem;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 15.625rem;
+    }
+
+
 
 /* Media query for mobile screens */
-@media screen and ( max-width: 480px){
+@media screen and ( max-width: 425px){
     .big-heading-3 h2{
-        font-size: 34px;
+        font-size: 2.125rem;
     }
     .big-heading-3 h3{
-        font-size: 22px;
+        font-size: 1.375rem;
     }
     .two-images{
         display: flex;
         flex-direction: column-reverse;
     }
     .big-left-img{
-        height: 600px;
-        width: 500px;
-        margin: 0 0 0 0;
+        height: 21.875rem;
+        width: 21.875rem;
+        padding-left: 1.25rem;
+        margin-top: 0;
+        /* margin: 0 0 0 0; */
         /* margin-right: 1px; */
 
     }
     .big-right-machine{
-        height: 600px;
-        width: 400px;        
+        height: 37.5rem;
+        width: 25rem;        
         margin-left: 0;
     }
     

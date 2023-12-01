@@ -1,94 +1,96 @@
 /* src/components/routes/Thirteenth.css */
 
 
-.thirteenth-page-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
+        .thirteenth-page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
 
-.big-heading-12 {
-    text-align: center;
-    margin-top: 50px;
-    position: relative;
-    margin-bottom: 0;
-}
+    .big-heading-12 {
+        text-align: center;
+        margin-top: 3.125rem;
+        position: relative;
+        margin-bottom: 0;
+    }
 
-.big-heading-12 h2 {
-    font-size: 5.5em;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #D63D3E63;
-    position: relative;
-    top: 0;
-    z-index: 1;
-    left: -100%;
-    animation: slideInFromLeft 1s ease forwards;
-}
+    .big-heading-12 h2 {
+        font-size: 5.5em;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #D63D3E63;
+        position: relative;
+        top: 0;
+        z-index: 1;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
+    }
 
-.big-heading-12 h3 {
-    font-size: 2.5em;
-    font-weight: 700;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 45px;
-    z-index: 2;
-    right: -100%;
-    animation: slideInFromRight 1s ease forwards;
-}
-
-
-.thirteenth-container{
-    display: flex;
-    justify-content: space-between; 
-    flex-direction: row;
-}
-
-.thirteenth-left-container{
-    margin-top: 30px;
-    height: 300px;
-    width: 500px;
-    display:flex ;
-    justify-content: space-between; /* Align items with equal space between them */
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-}
+    .big-heading-12 h3 {
+        font-size: 2.5em;
+        font-weight: 700;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 2.813rem;
+        z-index: 2;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
 
 
-.thirteenth-left-container p{
-    font-family: "Roboto", Sans-serif;
-    font-size: 25px;
-    border-radius: 25px;
-    border: 1px solid;
-    background-color: #CE3B3C;
-    color:white;
-    height: 100%; /* Cover the entire height of the container */
-    width: 100%; /* Cover the entire width of the container */
-    padding: 20px; /* Adjust padding as needed */
-    box-sizing: border-box; 
-}
+    .thirteenth-container{
+        display: flex;
+        justify-content: space-between; 
+        flex-direction: row;
+    }
 
-.thirteenth-img{
-    width: 550px;
-    height:500px;    
-    animation: slideInFromRight 1s ease forwards;
-}
+    .thirteenth-left-container{
+        margin-top: 1.875rem;
+        height: 15.625rem;
+        width: 31.25rem;
+        display:flex ;
+        justify-content: space-between; /* Align items with equal space between them */
+        flex-direction: column;
+        align-items: center;
+        margin-top: 6.25rem;
+    }
+
+
+    .thirteenth-left-container p{
+        font-family: "Roboto", Sans-serif;
+        font-size: 1.563rem;
+        border-radius: 1.563rem;
+        border: 1px solid;
+        background-color: #CE3B3C;
+        color:white;
+        height: 100%; /* Cover the entire height of the container */
+        width: 100%; /* Cover the entire width of the container */
+        padding: 1.25rem; /* Adjust padding as needed */
+        box-sizing: border-box; 
+    }
+
+    .thirteenth-img{
+        width: 34.375rem;
+        height:34.375rem;    
+        animation: slideInFromRight 1s ease forwards;
+    }
+
 
 
 
 /* Media query for mobile screens */
-@media screen and ( max-width: 480px){
+@media screen and ( max-width: 425px){
     .big-heading-12{
-        margin-top: 35px;
+        margin-top: 2.188rem;
     }
     .big-heading-12 h2{
-        font-size: 40px;
+        font-size: 2.125rem;
     }
     .big-heading-12 h3{
-        font-size: 30px;
+        font-size: 1.75rem;
+        margin-top: 2.188rem;
 
     }
     .thirteenth-container{
@@ -98,14 +100,14 @@
 
     }
     .thirteenth-img{
-        margin-left: 30px;
-        width: 450px;
-        margin-top: 60px;
+        margin-left: 1.875rem;
+        width: 25rem;
+        margin-top: 3.75rem;
     }
     .thirteenth-left-container{
-        margin-left: 40px;
-        height: 300px;
-        width: 400px;
+        margin-left: 2.5rem;
+        height: 18.75rem;
+        width: 25rem;
         margin-top: 0;
     }
 }
