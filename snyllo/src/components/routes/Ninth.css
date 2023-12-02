@@ -98,17 +98,18 @@
     }
     .big-heading-8 h3{
         font-size: 1.875rem;
+        margin-top: 2.3rem;
 
     }
     .ninth-container{
         display: flex;
         flex-direction: column;
         margin-top: 3.125rem;
-        margin-left: 13.75rem;
-        width: 25rem;
+        margin-left: 14.5rem;
+        width: 80%;
 
     }
     .ninth-column-two{
-        margin-right: 3.125rem;
+        margin-right: 1.5rem;
     }
 }

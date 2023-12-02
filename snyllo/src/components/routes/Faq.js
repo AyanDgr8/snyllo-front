@@ -79,8 +79,7 @@ const Faq = () => {
         },
         {
             question:"When is it safe to another Laser Hair Treatment for Hair Reduction?",
-            answer:`The frequency of Laser Hair Reduction treatments varies from patient to patient. Typically, \n
-            one should get treatment every 4 to 6 weeks.`
+            answer:`The frequency of Laser Hair Reduction treatments varies from patient to patient. Typically, one should get treatment every 4 to 6 weeks.`
         },
         {
             question:"How to can and reschedule appointments?",

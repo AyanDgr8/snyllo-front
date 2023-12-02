@@ -111,21 +111,23 @@
     .sixteenth-container{
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 2.5rem;
+        /* margin-top: 2.5rem;
+        width: 80%;
+        margin-left: 0; */
     }
     .sixteenth-img{
-        margin-left: 1.25rem;
-        width:25rem;
+        margin-left: 3.5rem;
+        width:150%;
         height: 18.75rem;
     }
     .sixteenth-left-container{
-        margin-left: 1.875rem;
-        width:18.75rem;
-        flex-direction: stretch;
+        margin-left: 0;
+        width:80%; 
     }
     .sixteenth-line h2{
         margin-left: 0;
+        font-size: 1.5rem;
         text-align: center;
-        padding-top: 0.313rem;
+        /* padding-top: 0.313rem; */
     }
 }

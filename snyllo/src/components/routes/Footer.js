@@ -69,7 +69,7 @@ const Footer = () =>{
                                 Sector 61, Gurugram, Haryana -122011</p>
                             </div>
                         </span>
-                        <div className="footer-icon-row">
+                        <div className="footer-icon-row address">
                             <div className="footer-icon-caption-2">
                                 <img 
                                 src="/upload/icon-phone.png"

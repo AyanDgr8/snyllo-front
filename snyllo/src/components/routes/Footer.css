@@ -160,15 +160,61 @@
         width: 50rem;
     }
     .footer-column-one{
-        margin-right: 25rem;
+        margin-right: 27rem;
     }
     .footer-column-two{
-        margin-left: 6.25rem;
+        margin-left: 4rem;
+    }
+    .footer-column-two .footer-icon-row address{
+        margin-left: 1rem;
+    }
+    .footer-column-two .footer-icon-caption-2{
+        margin-left: 0.3rem;
+    }
+
+    .footer-column-two .footer-icon-caption-2 p{
+        margin-left: 1.55rem;
+        width:8rem;
+    }
+
+    .footer-column-two .footer-icon-caption-2 .icon-seven{
+        margin-right:1.3rem;
+    }
+
+    .footer-column-two .footer-icon-caption-3 .icon-eight{
+        margin-right:2.8rem;
     }
     
     .footer-column-three,
     .footer-column-four,
     .footer-column-five{
-        margin-left: 9.375rem;
+        margin-left: 7rem;
+        width: 80%;
     }
+    .footer-column-three h3,
+    .footer-column-four h3,
+    .footer-column-five h3{
+        margin-left: 1rem;
+    }
+    .footer-column-three a,
+    .footer-column-four a,
+    .footer-column-five a{
+        margin-left: 1.4rem;
+        font-size: 0.9rem;
+    }
+    .footer-icon-caption-5 p{
+        margin-left: 0rem;
+        width: 8rem;
+    }
+    .footer-icon-caption-5 .icon-nine{
+        margin-right: 1.1rem;
+
+    }
+    .footer-icon-caption-5 .icon-ten{
+        margin-right: 1.1rem;
+    }
+    .footer-icon-caption-5{
+        margin-left: 1.5rem;
+    }
+
 }

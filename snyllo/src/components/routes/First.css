@@ -206,7 +206,8 @@
     .first-page-content {
         display: flex;
         flex-direction: column;
-        margin-top: 1.5625rem;
+        flex-wrap: wrap;
+        margin-top: 1.2rem;
     }
 
     .epilazexleft {
@@ -215,8 +216,9 @@
 
     .left-para {
         flex-direction: column;
+        flex-wrap: wrap;
         align-items: stretch;
-        margin-left: 0;
+        margin-left: 2.5rem;
     }
 
     .firstline {
@@ -231,10 +233,11 @@
     .thirdline {
         margin-top: 0.625rem;
         font-size: 1.2rem;
+        width: 100%;
     }
 
     .left-icons-wrapper {
-        margin-left: 0;
+        margin-left: 0.5rem;
     }
 
     .left-icons-container {
@@ -297,6 +300,8 @@
     }
 
     .twomachinesright {
+        margin-top:2rem ;
+        margin-bottom: 0;
         width: 18.75rem;
         height: 18.75rem;
     }

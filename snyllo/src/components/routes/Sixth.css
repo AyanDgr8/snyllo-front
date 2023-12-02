@@ -29,7 +29,7 @@
 
     .big-heading-5 h3 {
         font-size: 2.5em;
-        font-weight: 600;
+        font-weight: 700;
         position: absolute;
         top: 0;
         left: 0;
@@ -65,14 +65,14 @@
         font-size: 2.125rem;
     }
     .big-heading-5 h3{
-        font-size: 1.375rem;
+        font-size: 1.125rem;
+        margin-top: 2.5rem;
     }
     .routine-logo{
         margin-top: 1.875rem;
         display: flex;
         flex-direction: column;
-        /* width:390px; */
-        margin-left: 0;
-        margin-right: 0;
+        flex-wrap:wrap ;
+        width:100%;
     }
 }

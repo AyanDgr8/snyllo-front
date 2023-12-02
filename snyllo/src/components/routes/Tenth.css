@@ -96,17 +96,16 @@
     .tenth-container{
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 1.875rem;
+        margin-top: 2rem;
     }
-    .tenth-right-container img,
-    .tenth-left-container p {
-      order: initial; /* Reset the order to default */
+    .tenth-right-container img{
+      width:80%; 
+      height: 80%;
     }
-    .tenth-img{
-        margin-left: 0.625rem;
-        width: 28.125rem;
-    }
+
     .tenth-left-container p{
-        margin-left: 6.25rem;
+        margin-left: 2rem;
+        margin-top: 0;
+        font-size: 1.4rem;
     }
 }

@@ -3,7 +3,7 @@
   --base-font-size: 16px; /* Define the base font size */
 }
 
-  .header-container {
+.header-container {
     background-color: white;
     width: 95%;
     box-shadow:
@@ -19,7 +19,7 @@
     color: white;
   }
 
-  .logo img {
+.logo img {
       margin-top:0.625rem;
       margin-left:1.25rem;
       margin-bottom: 0.625rem;
@@ -28,7 +28,7 @@
     }
     
 
-  .buttons {
+.buttons {
       display: flex;
       flex-direction: row; 
       align-items: center; 
@@ -36,7 +36,7 @@
       padding: 1rem;
     }
     
-  .button {
+.button {
       background-color: white;
       font-size: 0.875rem;
       font-weight: 700;
@@ -50,20 +50,20 @@
       transition: all 0.3s ease 0s;
     }
     
-  .button:hover {
+.button:hover {
       color: #CE3B3C;
     }
 
-  .benefits{
+.benefits{
     width:10rem;
   }  
 
-  .prices{
+.prices{
     width:10rem;
   }  
 
 
-  .contact {
+.contact {
       position: relative;
       overflow: hidden;
       margin-left: 3rem;
@@ -73,7 +73,7 @@
       box-shadow: 0 0 1rem red;
   }
     
-  .contact::before {
+.contact::before {
       content: "Talk to Us";
       position: absolute;
       left: 0;
@@ -87,11 +87,11 @@
       transition: opacity 0.5s ease;
   }
     
-  .contact:hover::before {
+.contact:hover::before {
     opacity: 0;
   }
     
-  .contact::after {
+.contact::after {
       content: "98009 96009";
       position: absolute;
       left: 0;
@@ -107,12 +107,12 @@
       opacity: 0;
   }
     
-  .contact:hover::after {
+.contact:hover::after {
     opacity: 1;
   } 
 
 
-  .hamburger-menu {
+.hamburger-menu {
     display: none; /* Hide by default on larger screens */
   }
 
@@ -124,7 +124,7 @@
   .header-container {
       background-color: white;
       align-items: stretch; 
-      width:70%;
+      width:75%;
   }
   .buttons {
     display: none; 
@@ -169,9 +169,9 @@
 
   .logo img {
     margin-top: 0.625rem; 
-    margin-left: 1.875rem; 
-    width: 12.5rem; 
-    height: 3.75rem; 
+    margin-left: 2rem; 
+    width: 14rem; 
+    height: 4rem; 
   }
 
 }

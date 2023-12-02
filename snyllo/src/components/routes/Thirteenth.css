@@ -74,7 +74,7 @@
     .thirteenth-img{
         width: 34.375rem;
         height:34.375rem;    
-        animation: slideInFromRight 1s ease forwards;
+        animation: boomerangAnimation 2s ease-in-out infinite alternate;
     }
 
 
@@ -86,18 +86,17 @@
         margin-top: 2.188rem;
     }
     .big-heading-12 h2{
-        font-size: 2.125rem;
+        font-size: 2.35rem;
     }
     .big-heading-12 h3{
         font-size: 1.75rem;
-        margin-top: 2.188rem;
+        margin-top: 2.25rem;
 
     }
     .thirteenth-container{
         display: flex;
         flex-direction: column-reverse;
         margin-top: 0;
-
     }
     .thirteenth-img{
         margin-left: 1.875rem;
@@ -106,8 +105,11 @@
     }
     .thirteenth-left-container{
         margin-left: 2.5rem;
-        height: 18.75rem;
-        width: 25rem;
+        height: 20rem;
+        width: 80%;
         margin-top: 0;
+    }
+    .thirteenth-left-container p{
+        font-size: 1.3rem;
     }
 }

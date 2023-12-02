@@ -132,14 +132,12 @@
     .form-part{
         margin-top: 1.25rem;
         margin-left: 18.75rem;
-        width: 43.75rem;
-        margin-right: 2.5rem;
+        width: 45rem;
+        margin-right: 2.6rem;
     }
     .head{
         font-size: 1rem;
-        margin-right: 0.625rem;
-        /* margin-left: 0px; */
+        margin-right: 1rem;
         margin-top: 2.5rem;
-
     }
 }

@@ -31,7 +31,7 @@
 
     .big-heading-6 h3 {
         font-size: 2.5em;
-        font-weight: 600;
+        font-weight: 700;
         position: absolute;
         top: 0;
         left: 0;
@@ -140,11 +140,11 @@
     }
     .big-heading-6 h2{
         font-size: 2.5rem;
+        letter-spacing: 0.1rem;
     }
     .big-heading-6 h3{
-        font-size: 1.563rem;
-        margin-right: 3.438rem;
-        width: 12.5rem;
+        font-size: 1.5rem;
+        margin-left: 1rem;
     }
     .seventh-box{
         margin-top: 5rem;
@@ -153,16 +153,10 @@
         width: 25rem;
     }
     .button-lhr-waxing{
-        margin-right: 5rem;
+        margin-right: 80%;
     }
     .middle-five-icons{
         display: none;
-    }
-    .waxing{
-        width:25rem;
-    }
-    .lhr{
-        width:25rem;
     }
     
 }

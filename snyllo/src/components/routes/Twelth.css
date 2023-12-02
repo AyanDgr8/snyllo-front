@@ -1,21 +1,21 @@
 /* src/components/routes/Twelth.css */
 
 
-        .twelth-page-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-    }
+.twelth-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
 
-    .big-heading-11 {
+.big-heading-11 {
         text-align: center;
         margin-top: 3.125rem;
         position: relative;
         margin-bottom: 0;
-    }
+}
 
-    .big-heading-11 h2 {
+.big-heading-11 h2 {
         font-size: 5.5em;
         margin-top: 0;
         margin-bottom: 0;
@@ -25,9 +25,9 @@
         z-index: 1;
         left: -100%;
         animation: slideInFromLeft 1s ease forwards;
-    }
+}
 
-    .big-heading-11 h3 {
+.big-heading-11 h3 {
         font-size: 2.5em;
         font-weight: 700;
         position: absolute;
@@ -37,48 +37,53 @@
         z-index: 2;
         right: -100%;
         animation: slideInFromRight 1s ease forwards;
-    }
+}
 
-    .twelth-container{
+.twelth-container{
         display: flex;
         justify-content: space-between; /* Align items with equal space between them */
         flex-direction: row;
         width: 80%;
-    }
+        
+}
 
-    .twelth-column-two,
-    .twelth-column-three {
-        width: 25%; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+.twelth-img{
+    animation: boomerangAnimation 2s ease-in-out infinite alternate;
+    width:100%;
+}
 
+.twelth-column-two,
+.twelth-column-three {
+    width: 25%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-    .iconn-grid {
+.iconn-grid {
         display: flex;
         justify-content: center;
         margin-top: 0.625rem;
         border-radius: 0.625rem;
         margin-left: 20%;
         margin-right: 0;
-    }
+}
 
-    .iconn-column {
+.iconn-column {
         flex: 1;
-    }
+}
 
-    .iconn-row {
+.iconn-row {
         display: flex;
         flex-direction: row;
         align-items: center;
         align-items: center;
         margin-right: 0.625rem;
         margin-left: 0.938rem;
-    }
+}
 
-    .iconn-caption {
+.iconn-caption {
         display: flex;
         flex-direction: row;
         text-align: center;
@@ -88,13 +93,13 @@
         font-family: "Roboto", Sans-serif;
         font-size: 1.125rem;
         font-weight: 500;
-    }
+}
 
-    .iconn-caption img {
+.iconn-caption img {
         width: 5rem; 
         height: 5rem; 
         margin-bottom: 1.25rem; 
-    }
+}
 
 
 
@@ -103,13 +108,14 @@
 /* Media query for mobile screens */
 @media screen and ( max-width: 425px){
     .big-heading-11{
-        margin-top: 2.188rem;
+        margin-top: 2rem;
     }
     .big-heading-11 h2{
         font-size: 2.5rem;
     }
     .big-heading-11 h3{
         font-size: 1.875rem;
+        margin-top: 2.5rem;
 
     }
     .twelth-container{
@@ -118,8 +124,8 @@
         margin-top: 3.125rem;
     }
     .twelth-img{
-        margin-left: 0;
-        width: 23.125rem;
+        margin-left: 1rem;
+        width: 90%;
     }
     .iconn-column{
         margin-left: 13.125rem;

@@ -62,17 +62,18 @@
         border: 1px solid;
         background-color: #CE3B3C;
         color:white;
-        height: 100%; /* Cover the entire height of the container */
+        height: 40rem; /* Cover the entire height of the container */
         width: 100%; /* Cover the entire width of the container */
         padding: 1.25rem; /* Adjust padding as needed */
         box-sizing: border-box; 
+        margin-left: 6.5rem;
     }
 
     .eleventh-img{
         margin-top: 1.875rem;
-        width: 37.5rem;
-        height:28.125rem;
-        animation: slideInFromLeft 2s ease forwards;
+        width: 30rem;
+        height:25rem;
+        animation: boomerangAnimation 2s ease-in-out infinite alternate;
     }
 
 
@@ -84,27 +85,40 @@
     .big-heading-10{
         margin-top: 1.875rem;
     }
+
     .big-heading-10 h2{
-        font-size: 1.875rem;
+        font-size: 2.5rem;
     }
+
     .big-heading-10 h3{
         font-size: 1.563rem;
-        margin-top: 1.875rem;
+        margin-top: 2.2rem;
 
     }
+
     .eleventh-container{
         display: flex;
         flex-direction: column;
         margin-top: 1.875rem;
     }
-    .tenth-img{
-        margin-left: 0.625rem;
-        width: 28.125rem;
+
+    .eleventh-img{
+        margin-left: 1rem;
+        width: 80%;
+        height: 80%;
     }
+
     .eleventh-right-container{
-        margin-top: 1.875rem;
-        height: 25rem;
-        width: 25rem;
-        margin-left: 6.563rem;
+        height: 16rem;
+        margin-top: 0;
+        margin-left: 0;
     }
+
+    .eleventh-right-container p{ 
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 0.3rem;
+        font-size: 1.2rem;
+    }
+    
 }
