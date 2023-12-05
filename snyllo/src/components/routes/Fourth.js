@@ -14,8 +14,8 @@ const Fourth = () => {
               {/* Image Containers */}
               <div className="two-images">
                     <img 
-                    src="https://snylloestetica.com/wp-content/uploads/2023/11/sizew-1.png" 
-                    class="big-left-img " 
+                    src="/upload/big-left-img.png" 
+                    class="big-left-img" 
                     alt ="big-left-img" >
                     </img>
                     <img 

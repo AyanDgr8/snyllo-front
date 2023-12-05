@@ -1,6 +1,10 @@
 /* src/components/routes/Sixth.css */
 
 
+:root {
+    --base-font-size: 16px; /* Define the base font size */
+  }
+
         .sixth-page-content {
         display: flex;
         flex-direction: column;

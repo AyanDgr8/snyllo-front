@@ -1,15 +1,15 @@
 /* src/components/routes/First.css */
 
-        /* body {
-        margin: 0;
-        padding: 0;
-        font-family: "Roboto", Sans-serif;
-    } */
-
+    :root {
+        --base-font-size: 16px; /* Define the base font size */
+      }
+      
+      
 
     .first-page-content {
         display: flex;
         align-items: center;
+        margin-top: 1.2rem;
         padding: 1.25rem; /* Adjust as needed */
         background: linear-gradient(to bottom , white 0%, pink 60%, white 90%, pink 100%);
     }
@@ -68,20 +68,20 @@
         margin-top: 1.25rem; /* Adjust as needed */
         /* font-family: "Roboto", Sans-serif; */
         /* font-family: "Roboto", "Arial", "Helvetica", "sans-serif"; */
-        font-family: "Roboto", "Georgia", "serif";
+        /* font-family: "Roboto", "Georgia", "serif"; */
         font-family: 'Playfair Display', serif;
         border-radius: 0.625rem; 
         background-color: transparent;
         box-shadow: 0 0 0.9375rem red;
         display: flex;
         justify-content: space-between; 
-        align-items: center; 
+        /* align-items: center;  */
     }
     
     .left-icons-container {
         display: flex;
         flex-direction: row;
-        width: auto;
+        /* width: auto; */
         opacity: 0; /* Initially hidden */
         transform: translateY(1.25rem); /* Initially positioned below */
         animation: slideInFromBottom 2s ease forwards;
@@ -207,18 +207,23 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-top: 1.2rem;
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-right: auto;
     }
 
     .epilazexleft {
         width: 12.5rem;
+        margin-right: 5rem;
+        margin-left: 1rem;
     }
 
     .left-para {
         flex-direction: column;
         flex-wrap: wrap;
-        align-items: stretch;
-        margin-left: 2.5rem;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
     .firstline {
@@ -234,16 +239,19 @@
         margin-top: 0.625rem;
         font-size: 1.2rem;
         width: 100%;
+        text-align:left ;
     }
 
     .left-icons-wrapper {
-        margin-left: 0.5rem;
+        margin-left: 0;
+        margin-right: 0;
+        box-shadow: none;
     }
 
     .left-icons-container {
         flex-direction: column; /* Stack items vertically on smaller screens */
         height: auto;
-        width: 17.1875rem;
+        align-items: center;
         justify-content: center;
         margin-left: 0;
     }
@@ -253,17 +261,19 @@
     .icon3 {
         display: flex;
         flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .icon1img,
     .icon2img,
     .icon3img {
-        width: 12.5rem;
-        height: 12.5rem;
+        width: 10rem;
+        height: 10rem;
         margin-top: 0;
         margin-bottom: 0;
-        margin-left: 2.5rem;
-        margin-right: 0;
+        margin-left: 0;
+        margin-right: 16rem;
     }
 
     .icon1caption,
@@ -272,7 +282,7 @@
         display: flex;
         flex-direction: column;
         align-items: center; /* Center items horizontally on smaller screens */
-        margin-left: 6.25rem; /* Remove left margin for better centering */
+        margin-left: 1.4rem; /* Remove left margin for better centering */
         margin-top: 0; /* Adjust top margin for spacing */
     }
 
@@ -285,7 +295,6 @@
         align-items: center;
         width: 9.375rem;
         margin-top: 0;
-        margin-left: 5rem;
         font-size: 1.5rem;
     }
 
@@ -293,7 +302,7 @@
     .icon2caption h4,
     .icon3caption h4 {
         margin-top: 0.3125rem;
-        margin-left: 4.375rem;
+        margin-left:0;
         font-size: 1.125rem;
         align-items: center;
         width: 15.625rem;
@@ -302,7 +311,96 @@
     .twomachinesright {
         margin-top:2rem ;
         margin-bottom: 0;
-        width: 18.75rem;
-        height: 18.75rem;
+        width: 18rem;
+        height: 18rem;
+        margin-right: 2.5rem;
+        margin-left:0;
     }
+
+}
+
+
+
+@media screen and (min-width:426px) and (max-width: 640px) {
+    .first-page-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-right: auto;
+    }
+    
+    .left-para {
+        margin-left: 2rem;
+        margin-right: 0;
+
+    }
+    
+    .left-icons-wrapper {
+        margin-left: 2rem;
+        margin-right: 0rem;
+        /* box-shadow: none; */
+    }
+
+    .left-icons-container {
+        flex-direction: column; 
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon1,
+    .icon2,
+    .icon3 {
+        display: flex;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .icon1img,
+    .icon2img,
+    .icon3img {
+        width: 10rem;
+        height: 10rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon1caption,
+    .icon2caption,
+    .icon3caption {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        margin-left: 0; 
+        margin-top: 0;
+     
+    } 
+
+    .icon1caption h3,
+    .icon2caption h3,
+    .icon3caption h3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 9.375rem;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .icon1caption h4,
+    .icon2caption h4,
+    .icon3caption h4 {
+        margin-top: 0.3125rem;
+        margin-left:0;
+        font-size: 1.125rem;
+        align-items: center;
+        width: 15.625rem;
+    }
+
+
 }

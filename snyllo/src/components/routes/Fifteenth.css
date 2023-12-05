@@ -1,7 +1,8 @@
 /* src/components/routes/Fifteenth.css */
 
-
-        
+:root {
+    --base-font-size: 16px; /* Define the base font size */
+  }    
     .fifteenth-page-content {
         display: flex;
         flex-direction: column;

@@ -5,9 +5,14 @@ import './Third.css';
 
 const Third = () => {
   const [activeButton, setActiveButton] = useState(null);
+  const [isWomenSelected, setIsWomenSelected] = useState(true);
 
   const handleButtonClick = (buttonId) => {
     setActiveButton(buttonId);
+  };
+
+  const handleToggleSwitch = () => {
+    setIsWomenSelected(!isWomenSelected);
   };
 
   return (
@@ -19,7 +24,35 @@ const Third = () => {
             <h3>SERVICES</h3>
           </div>
 
+          {/* Toggle Switch */}
+          <div className="toggle-switch-container">
+            <label className="eae-cs-switch-label">
+              <input
+                className="eae-content-toggle-switch"
+                type="checkbox"
+                checked={isWomenSelected}
+                onChange={handleToggleSwitch}
+              />
+              <span className="eae-content-toggle-switcher"></span>
+            </label>
+            <div className="eae-content-switch-label secondary-label eae-cs-icon-align-left">
+              {isWomenSelected ? 'WOMEN' : 'MEN'}
+            </div>
+          </div>
+
+          {/* Men/Women Icons */}
           <div className='men-women'>
+            <div className="men-women-caption">
+              <img
+                src={isWomenSelected ? "https://snylloestetica.com/wp-content/uploads/2023/11/womenW.png" : "https://snylloestetica.com/wp-content/uploads/2023/11/menW-1.png"}
+                className="Icon-W"
+                alt={isWomenSelected ? "Icon-Women" : "Icon-Men"}
+              />
+              <p>{isWomenSelected ? 'WOMEN' : 'MEN'}</p>
+            </div>
+          </div>
+
+          {/* <div className='men-women'>
             <div className="men-women-caption">
               <img src="https://snylloestetica.com/wp-content/uploads/2023/11/womenW.png"
               class="Icon-W" 
@@ -34,7 +67,7 @@ const Third = () => {
               />
               <p class='menn'>MEN</p>
             </div>
-          </div>
+          </div> */}
 
           {/* Buttons */}
           <div className="buttonsss-container">
@@ -185,3 +218,7 @@ const Third = () => {
 };
 
 export default Third;
+
+
+
+

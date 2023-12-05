@@ -1,18 +1,49 @@
 // src/components/routes/First.js
 
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Header from './Header';
 import './First.css';  // You can import any additional styles if needed
 
 const First = () => {
+  const leftContentRef = useRef(null);
+  const rightContentRef = useRef(null);
+
+  useEffect(() => {
+    // Intersection Observer setup
+    const options = {
+      root: null, // use the viewport as the root
+      rootMargin: '0px', // no margin
+      threshold: 0.5, // trigger when 50% of the element is visible
+    };
+
+    const leftContentObserver = new IntersectionObserver(handleIntersection, options);
+    leftContentObserver.observe(leftContentRef.current);
+
+    const rightContentObserver = new IntersectionObserver(handleIntersection, options);
+    rightContentObserver.observe(rightContentRef.current);
+
+    return () => {
+      // Cleanup the observers
+      leftContentObserver.disconnect();
+      rightContentObserver.disconnect();
+    };
+  }, []);
+
+  const handleIntersection = (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        // Add your animation class here
+        entry.target.classList.add('animate');
+      }
+    });
+  };
   return (
     <div>
-      {/* Include the Header component */}
       <Header />
       <div className="first-page-content">
         {/* Left side text content */}
-        <div className='left-content-first'>
-          <div className="left-images-first">
+        <div className='left-content-first' ref={leftContentRef}>
+          <div className="left-images-first" >
             <img    
               src="https://snylloestetica.com/wp-content/uploads/2023/11/Epilax-Logos-w.png" 
               className="epilazexleft" 
@@ -31,7 +62,7 @@ const First = () => {
               {/* Replace with your desired icons */}
               <span className="icon1">
                 <img  
-                  src="https://snylloestetica.com/wp-content/uploads/2023/11/ist-icon.png" 
+                  src="/upload/icon1img.png" 
                   className="icon1img" 
                   alt="icon1img" 
                 />
@@ -43,7 +74,7 @@ const First = () => {
                 
               <span className="icon2">
                 <img  
-                  src="https://snylloestetica.com/wp-content/uploads/2023/11/icn-2.png" 
+                  src="/upload/icon2img.png"
                   className="icon2img" 
                   alt="icon2img"
                 />
@@ -55,7 +86,7 @@ const First = () => {
 
               <span className="icon3">
                 <img 
-                  src="https://snylloestetica.com/wp-content/uploads/2023/11/iocn-34.png" 
+                  src="/upload/icon3img.png"
                   className="icon3img" 
                   alt="icon3img"
                 />
@@ -69,9 +100,9 @@ const First = () => {
         </div>
 
         {/* Right side image */}
-        <div className="right-content-first">
+        <div className="right-content-first" ref={rightContentRef}>
           <img 
-            src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-w-1.png" 
+            src="/upload/twomachinesright.png" 
             className="twomachinesright" 
             alt="twomachinesright">
           </img>

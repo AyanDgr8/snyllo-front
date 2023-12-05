@@ -1,6 +1,10 @@
 /* src/components/routes/Fourteenth.css */
 
 
+:root {
+    --base-font-size: 16px; /* Define the base font size */
+  }
+
         .fourteenth-page-content {
         display: flex;
         flex-direction: column;
@@ -68,6 +72,10 @@
         align-content: center;
         justify-content: center;
         align-items: center;
+        background-color: #CE3B3C;
+        border-radius: 10px;
+        padding: 5px;
+        color: white;
     }
 
     .fourteenth-row2 {

@@ -1,8 +1,11 @@
 /* src/components/routes/Third.css */
 
+:root {
+    --base-font-size: 16px; /* Define the base font size */
+  }
 
 .third-page-content {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     position: relative;
@@ -153,3 +156,17 @@
         margin-top: 0;
     }
 }
+
+@media screen and (min-width:426px) and (max-width: 640px) {
+    .big-heading-2 h2{
+        margin-top: 0;
+        font-size: 7rem;
+        letter-spacing: 0.4rem;
+        margin-left: 0.30rem;
+    }
+    .big-heading-2 h3{
+        font-size: 3rem;
+    }
+
+}
+   

@@ -1,7 +1,10 @@
 /* src/components/routes/Eighth.css */
 
+:root {
+    --base-font-size: 16px; /* Define the base font size */
+  }
 .eighth-page-content {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     position: relative;
@@ -62,7 +65,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 0.313;
-    margin-left: 12.5rem;
+    margin-left: 8.5rem;
 }
 
 .eigth-right-container{

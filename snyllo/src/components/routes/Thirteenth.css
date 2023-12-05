@@ -1,6 +1,8 @@
 /* src/components/routes/Thirteenth.css */
 
-
+:root {
+    --base-font-size: 16px; /* Define the base font size */
+  }
         .thirteenth-page-content {
         display: flex;
         flex-direction: column;
@@ -101,10 +103,11 @@
     .thirteenth-img{
         margin-left: 1.875rem;
         width: 25rem;
+        height: 30rem;
         margin-top: 3.75rem;
     }
     .thirteenth-left-container{
-        margin-left: 2.5rem;
+        margin-left: 2rem;
         height: 20rem;
         width: 80%;
         margin-top: 0;
