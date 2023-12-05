@@ -1,8 +1,5 @@
 /* src/components/routes/Second.css */
 
-:root {
-    --base-font-size: 16px; /* Define the base font size */
-  }
 
 .second-page-content {
     /* display: flex; */
@@ -129,44 +126,4 @@
         margin-left: 5.625rem;
     }    
 
-}
-
-
-@media screen and (min-width:426px) and (max-width: 640px) {
-    
-    .big-heading-1 h2 {
-        font-size: 3.2rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .big-heading-1 h3 {
-        font-size: 2rem;
-        margin-top: 0rem;
-    }
-    
-    
-    .girl-image-containers {
-        display: flex;
-        flex-direction: column;
-        width: 20rem;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0;
-    }
-    .girl-images{
-        width: 25rem;
-        height: auto;
-    }
-    
-    .machine-images {
-        display: flex;
-        flex-direction: column;
-        margin-top: 1.5625rem;
-        width: 18rem;
-        height: auto;
-        padding: 2rem;
-        margin-right: auto;
-        margin-left: auto;
-    }
 }

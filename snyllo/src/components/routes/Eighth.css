@@ -1,8 +1,5 @@
 /* src/components/routes/Eighth.css */
 
-:root {
-    --base-font-size: 16px; /* Define the base font size */
-  }
 .eighth-page-content {
     /* display: flex; */
     flex-direction: column;

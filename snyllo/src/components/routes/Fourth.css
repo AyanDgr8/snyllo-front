@@ -1,8 +1,5 @@
 /* src/components/routes/Fourth.css */
 
-:root {
-    --base-font-size: 16px; /* Define the base font size */
-  }
 
 .big-heading-3 {
     text-align: center;
@@ -92,34 +89,3 @@
     
     
 }
-
-@media screen and (min-width:426px) and (max-width: 640px) {
-    .big-heading-3 h2{
-        font-size: 5rem;
-    }
-    .big-heading-3 h3{
-        font-size: 2rem;
-        margin-top: 2.4rem;
-    }
-    .two-images{
-        display: flex;
-        flex-direction: row;
-    }
-    .big-left-img{
-        height: 22rem;
-        width: 40rem;
-        margin-top: 5rem;
-        margin-left: 0;
-        margin-left: 0;
-
-    }
-    .big-right-machine{
-        height: 26rem;
-        width: 40%;        
-        margin-left:0;
-        margin-right: 4rem;
-
-    }
-
-}
-    
