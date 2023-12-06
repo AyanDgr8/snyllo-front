@@ -4,7 +4,7 @@
     --base-font-size: 16px; /* Define the base font size */
   }
 
-        .footer-content {
+    .footer-content {
         background: linear-gradient(to bottom, white 0%, pink 70%, #CE3B3C 100%);
         padding: 1.25rem;
         text-align: center;
@@ -142,15 +142,30 @@
         text-align: center;
     }
 
+    .footer-column-five img{
+        width:10rem;
+        height: 3rem;
+        margin: 1rem;
+        margin-left: 0;
+    }
 
-    .footer-icon-caption-5{
-        margin-left: 0.938rem;
-        margin-top: 1.25rem;
+    .footer-column-five > img :hover{
+        background-color: black;
     }
 
 
 
 
+    /* .footer-icon-caption-5{
+        margin-left: 0.938rem;
+        margin-top: 1.25rem;
+        border-radius: 10px;
+        box-shadow:
+            0 0 0.5rem 0.0625rem #CE3B3C, 
+            0 0 0 0.0625rem #CE3B3C inset;
+        padding: 2px;
+
+    } */
 
 /* Media query for mobile screens */
 @media screen and ( max-width: 425px){
@@ -200,8 +215,7 @@
         margin-left: 1rem;
     }
     .footer-column-three a,
-    .footer-column-four a,
-    .footer-column-five a{
+    .footer-column-four a{
         margin-left: 1.4rem;
         font-size: 0.9rem;
     }
@@ -210,7 +224,8 @@
         width: 8rem;
     }
     .footer-icon-caption-5 .icon-nine{
-        margin-right: 1.1rem;
+        margin-right: 1rem;
+        height: 10%;
 
     }
     .footer-icon-caption-5 .icon-ten{

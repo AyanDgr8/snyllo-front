@@ -20,6 +20,8 @@ import Faq from './routes/Faq';
 import ContactUs from './routes/ContactUs';
 import Footer from './routes/Footer';
 
+import './Main.css';
+
 // import Popup from './routes/Popup';
 
 export default function Main(){

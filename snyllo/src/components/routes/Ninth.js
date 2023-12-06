@@ -29,7 +29,7 @@ const Ninth = () => {
 
                     <div className='ninth-column-two'>
                         <img  
-                        src="https://snylloestetica.com/wp-content/uploads/2023/11/Mobile-Final-1.png" 
+                        src="/upload/ninth-column-two.png" 
                         class="ninth-column-two" 
                         alt = "ninth-column-two"
                         />

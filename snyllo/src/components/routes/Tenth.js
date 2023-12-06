@@ -23,7 +23,7 @@ const Tenth = () => {
                     </div>
                     <div className='tenth-right-container'>
                         <img 
-                        src="https://snylloestetica.com/wp-content/uploads/2023/11/HAIR-REMOVAL-SCaNNERw.png" 
+                        src="/upload/tenth-img.png" 
                         class="tenth-img" 
                         alt ="tenth-img" 
                         />

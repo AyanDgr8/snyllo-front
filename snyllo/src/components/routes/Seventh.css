@@ -52,7 +52,7 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 4.375rem;
-        margin-top: 0.625rem;
+        margin-top: 0.5rem;
     }
 
     .button-lhr-waxing{
@@ -80,8 +80,8 @@
     } 
 
     .middle-five-icons{
-        margin-top: 5rem;
-        height: 23.75rem;
+        height: 30rem;
+
     }
 
     .seventh-box-content-lhr{

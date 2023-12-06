@@ -18,7 +18,7 @@ const Fifth = () => {
                         <div className="icon-column">
                             <div className="icon-row">
                                 <div className="icon-caption">
-                                    <img src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-561-copy.png" 
+                                    <img src="/upload/Icon-1.png" 
                                     class="Icon-1" 
                                     alt="Icon-1"
                                     />
@@ -28,7 +28,7 @@ const Fifth = () => {
 
                             <div className="icon-row">
                                 <div className="icon-caption">
-                                    <img src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-588-copy.png" 
+                                    <img src="/upload/Icon-2.png" 
                                     class="Icon-2" 
                                     alt="Icon-2" 
                                     />
@@ -38,7 +38,7 @@ const Fifth = () => {
 
                             <div className="icon-row">
                                 <div className="icon-caption">
-                                    <img src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-587-copy.png" 
+                                    <img src="/upload/Icon-3.png" 
                                     class="Icon-3" 
                                     alt="Icon-3" 
                                     />
@@ -48,7 +48,7 @@ const Fifth = () => {
 
                             <div className="icon-row">
                                 <div className="icon-caption">
-                                    <img src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-5881-copy.png" 
+                                    <img src="/upload/Icon-4.png" 
                                     class="Icon-4" 
                                     alt="Icon-4" 
                                     />
@@ -58,7 +58,7 @@ const Fifth = () => {
 
                             <div className="icon-row">
                                 <div className="icon-caption">
-                                    <img src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-5882-copy.png" 
+                                    <img src="/upload/Icon-5.png" 
                                     class="Icon-5" 
                                     alt="Icon-5" 
                                     />
@@ -68,7 +68,7 @@ const Fifth = () => {
 
                             <div className="icon-row">
                                 <div className="icon-caption">
-                                    <img src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-5883-copy.png" 
+                                    <img src="/upload/Icon-6.png" 
                                     class="Icon-6" 
                                     alt="Icon-6"
                                     />
@@ -89,7 +89,7 @@ const Fifth = () => {
                         <div className="icon-column">
                             <div className="icon-row">
                                 <div className="icon-caption">
-                                    <img src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-868-copy.png" 
+                                    <img src="/upload/Icon-7.png" 
                                     class="Icon-7" 
                                     alt="Icon-7" 
                                     />
@@ -99,7 +99,7 @@ const Fifth = () => {
 
                             <div className="icon-row">
                                 <div className="icon-caption">
-                                    <img src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-869-copy.png" 
+                                    <img src="/upload/Icon-8.png" 
                                     class="Icon-8" 
                                     alt="Icon-8" />
                                     <p>Low Noise</p>
@@ -108,7 +108,7 @@ const Fifth = () => {
 
                             <div className="icon-row">
                                 <div className="icon-caption">
-                                    <img src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-870.png" 
+                                    <img src="/upload/Icon-9.png" 
                                     class="Icon-9" 
                                     alt="Icon-9" 
                                     />
@@ -118,7 +118,7 @@ const Fifth = () => {
 
                             <div className="icon-row">
                                 <div className="icon-caption">
-                                    <img src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-871-copy.png" 
+                                    <img src="/upload/Icon-10.png" 
                                     class="Icon-10" 
                                     alt="Icon-10" 
                                     />
@@ -128,7 +128,7 @@ const Fifth = () => {
 
                             <div className="icon-row">
                                 <div className="icon-caption">
-                                    <img src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-872-copy.png" 
+                                    <img src="/upload/Icon-11.png" 
                                     class="Icon-11"
                                     alt="Icon-11" 
                                     />
@@ -138,7 +138,7 @@ const Fifth = () => {
 
                             <div className="icon-row">
                                 <div className="icon-caption">
-                                    <img src="https://snylloestetica.com/wp-content/uploads/2023/11/Layer-5883-copy.png" 
+                                    <img src="/upload/Icon-12.png" 
                                     class="Icon-12" 
                                     alt="Icon-12"
                                     />

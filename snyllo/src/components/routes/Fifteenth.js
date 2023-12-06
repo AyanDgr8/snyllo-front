@@ -13,42 +13,42 @@ const Fifteenth = () => {
                 </span>
                 <div className="fifteenth-image-container">
                     <img 
-                    src="https://snylloestetica.com/wp-content/uploads/2023/11/8-300x300.jpg" 
+                    src="/upload/15th-1.png" 
                     class="fifteenth-image" 
                     alt ="15th-1"
                     />
                     <img 
-                    src="https://snylloestetica.com/wp-content/uploads/2023/11/7.jpg" 
+                    src="/upload/15th-2.png" 
                     class="fifteenth-image" 
                     alt ="15th-2"
                     />
                     <img 
-                    src="https://snylloestetica.com/wp-content/uploads/2023/11/6.jpg" 
+                    src="/upload/15th-3.png" 
                     class="fifteenth-image" 
                     alt ="15th-3"
                     />
                     <img 
-                    src="https://snylloestetica.com/wp-content/uploads/2023/11/5.jpg" 
+                    src="/upload/15th-4.png" 
                     class="fifteenth-image" 
                     alt ="15th-4"
                     />
                     <img 
-                    src="https://snylloestetica.com/wp-content/uploads/2023/11/4.jpg" 
+                    src="/upload/15th-5.png" 
                     class="fifteenth-image" 
                     alt ="15th-5"
                     />
                     <img 
-                    src="https://snylloestetica.com/wp-content/uploads/2023/11/3.jpg" 
+                    src="/upload/15th-6.png" 
                     class="fifteenth-image" 
                     alt ="15th-6"
                     />
                     <img 
-                    src="https://snylloestetica.com/wp-content/uploads/2023/11/2.jpg" 
+                    src="/upload/15th-7.png" 
                     class="fifteenth-image" 
                     alt ="15th-7"
                     />
                     <img 
-                    src="https://snylloestetica.com/wp-content/uploads/2023/11/1.jpg" 
+                    src="/upload/15th-8.png" 
                     class="fifteenth-image" 
                     alt ="15th-8"
                     />

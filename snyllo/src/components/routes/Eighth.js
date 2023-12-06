@@ -14,17 +14,17 @@ const Eighth = () => {
                 <div className='eighth-containers'>
                     <div className='eighth-left-container'>
                         <img 
-                        src="https://snylloestetica.com/wp-content/uploads/2023/11/2-3-days.png" 
-                        class="eighth-left-one" 
-                        alt ="eighth-left-one"
+                        src="/upload/eigth-left-first.png" 
+                        class="eighth-left-first" 
+                        alt ="eighth-left-first"
                         />
                         <img 
-                        src="https://snylloestetica.com/wp-content/uploads/2023/11/7-10days.png" 
+                        src="/upload/eigth-left-second.png" 
                         class="eighth-left-second" 
                         alt ="eighth-left-second"
                         />
                         <img 
-                        src="https://snylloestetica.com/wp-content/uploads/2023/11/2-3-weeks-1.png" 
+                        src="/upload/eigth-left-third.png" 
                         class="eighth-left-third" 
                         alt ="eighth-left-third"
                         />

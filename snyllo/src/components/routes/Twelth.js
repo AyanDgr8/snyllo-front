@@ -24,7 +24,7 @@ const Twelth = () => {
                             <div className="iconn-column">
                                 <div className="iconn-row">
                                     <div className="iconn-caption">
-                                        <img src="https://snylloestetica.com/wp-content/uploads/2023/11/1-1.png" 
+                                        <img src="/upload/twelth-icon-1.png" 
                                         class="twelth-icon-1" 
                                         alt="twelth-icon-1"
                                         />
@@ -33,7 +33,7 @@ const Twelth = () => {
                                 </div>
                                 <div className="iconn-row">
                                     <div className="iconn-caption">
-                                        <img src="https://snylloestetica.com/wp-content/uploads/2023/11/3-1.png" 
+                                        <img src="/upload/twelth-icon-2.png" 
                                         class="twelth-icon-2" 
                                         alt="twelth-icon-2"
                                         />
@@ -49,7 +49,7 @@ const Twelth = () => {
                             <div className="iconn-column">
                                 <div className="iconn-row">
                                     <div className="iconn-caption">
-                                        <img src="https://snylloestetica.com/wp-content/uploads/2023/11/2-1.png" 
+                                        <img src="/upload/twelth-icon-3.png" 
                                         class="twelth-icon-3"
                                         alt="twelth-icon-3"
                                         />
@@ -58,7 +58,7 @@ const Twelth = () => {
                                 </div>
                                 <div className="iconn-row">
                                     <div className="iconn-caption">
-                                        <img src="https://snylloestetica.com/wp-content/uploads/2023/11/4-1.png" 
+                                        <img src="/upload/twelth-icon-4.png" 
                                         class="twelth-icon-4" 
                                         alt="twelth-icon-4" 
                                         />

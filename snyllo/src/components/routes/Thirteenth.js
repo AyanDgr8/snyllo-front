@@ -2,7 +2,7 @@
 
 
 import React from "react";
-import './Thirteenth.css'
+import './Thirteenth.css';
 
 const Thirteenth = () => {
     return (
@@ -22,7 +22,7 @@ const Thirteenth = () => {
                     </div>
                     <div className='thirteenth-right-container'>
                         <img   
-                        src="https://snylloestetica.com/wp-content/uploads/2023/11/new-side-machineW.png"
+                        src="/upload/thirteenth-img.png"
                         class="thirteenth-img" 
                         alt ="thirteenth-img" 
                         />

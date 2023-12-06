@@ -45,7 +45,7 @@ const First = () => {
         <div className='left-content-first' ref={leftContentRef}>
           <div className="left-images-first" >
             <img    
-              src="https://snylloestetica.com/wp-content/uploads/2023/11/Epilax-Logos-w.png" 
+              src="/upload/epilazexleft.png" 
               className="epilazexleft" 
               alt="epilazexleft">
             </img>

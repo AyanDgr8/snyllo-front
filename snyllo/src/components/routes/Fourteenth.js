@@ -26,7 +26,7 @@ const Fourteenth = () => {
                                 <div className="iconnn-row">
                                     <div className="iconnn-caption">
                                         <img 
-                                        src="https://snylloestetica.com/wp-content/uploads/2023/11/Allpicator.png" 
+                                        src="/upload/fourteenth-icon-1.png" 
                                         class="fourteenth-icons" 
                                         alt="fourteenth-icon-1"
                                         />
@@ -36,7 +36,7 @@ const Fourteenth = () => {
                                 <div className="iconnn-row">
                                     <div className="iconnn-caption">
                                         <img 
-                                        src="https://snylloestetica.com/wp-content/uploads/2023/11/Allpicator-1.png" 
+                                        src="/upload/fourteenth-icon-2.png" 
                                         class="fourteenth-icons" 
                                         alt="fourteenth-icon-2"
                                         />

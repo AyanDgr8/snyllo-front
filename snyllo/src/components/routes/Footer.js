@@ -60,30 +60,30 @@ const Footer = () =>{
                     <div className='footer-column-five'>
                         <h3>COMING SOON</h3>
                         <div className="footer-icon-row">
-                            <div className="footer-icon-caption footer-icon-caption-5">
+                            {/* <div className="footer-icon-caption footer-icon-caption-5"> */}
                                 <img 
-                                src="/upload/icon-google-play.png"
+                                src="/upload/google-play.png"
                                 class="icon-nine footer-icons"
                                 alt="google-play"
                                 />
-                                <p>Google Play</p>
-                            </div>
+                                {/* <p>Google Play</p> */}
+                            {/* </div> */}
                         </div>
                         <div className="footer-icon-row">
-                            <div className="footer-icon-caption footer-icon-caption-5">
+                            {/* <div className="footer-icon-caption footer-icon-caption-5"> */}
                                 <img 
-                                src="/upload/icon-app-store.png"
+                                src="/upload/app-store.png"
                                 class="icon-ten footer-icons"
                                 alt="app-store"
                                 />
-                                <p>App Store</p>
-                            </div>
+                                {/* <p>App Store</p> */}
+                            {/* </div> */}
                         </div>
                     </div>
                     
                     <div className='footer-column-one'>
                         <img 
-                        src="https://snylloestetica.com/wp-content/uploads/2023/11/cropped-snyllo-logo-with-red-1.png"
+                        src="/upload/snyllo-red.png"
                         class="footer-column-image-1"
                         alt="snyllo-red"
                         />

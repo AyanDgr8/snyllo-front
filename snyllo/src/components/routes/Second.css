@@ -132,7 +132,7 @@
 }
 
 
-@media screen and (min-width:426px) and (max-width: 640px) {
+/* @media screen and (min-width:426px) and (max-width: 640px) { 
     
     .big-heading-1 h2 {
         font-size: 3.2rem;
@@ -169,4 +169,4 @@
         margin-right: auto;
         margin-left: auto;
     }
-}
+} */

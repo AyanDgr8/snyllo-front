@@ -13,6 +13,10 @@
         padding: 1.25rem; /* Adjust as needed */
         background: linear-gradient(to bottom , white 0%, pink 60%, white 90%, pink 100%);
     }
+    .epilazexleft{
+        width:20rem;
+        height: 5rem;
+    }
 
     /* Left-side */
     .left-content-first {
@@ -249,7 +253,7 @@
     }
 
     .left-icons-container {
-        flex-direction: column; /* Stack items vertically on smaller screens */
+        flex-direction: column; 
         height: auto;
         align-items: center;
         justify-content: center;
@@ -281,9 +285,9 @@
     .icon3caption {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Center items horizontally on smaller screens */
-        margin-left: 1.4rem; /* Remove left margin for better centering */
-        margin-top: 0; /* Adjust top margin for spacing */
+        align-items: center; 
+        margin-left: 1.4rem; 
+        margin-top: 0; 
     }
 
     .icon1caption h3,
@@ -321,7 +325,7 @@
 
 
 
-@media screen and (min-width:426px) and (max-width: 640px) {
+/* @media screen and (min-width:426px) and (max-width: 640px) { 
     .first-page-content {
         display: flex;
         flex-direction: column;
@@ -340,7 +344,6 @@
     .left-icons-wrapper {
         margin-left: 2rem;
         margin-right: 0rem;
-        /* box-shadow: none; */
     }
 
     .left-icons-container {
@@ -403,4 +406,4 @@
     }
 
 
-}
+} */

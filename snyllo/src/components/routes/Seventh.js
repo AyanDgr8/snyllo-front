@@ -51,7 +51,7 @@ const Seventh = () => {
                             <span>Cheaper & Cost-effective in long term</span>
                         </div>
                     </div>
-                    <img src="https://snylloestetica.com/wp-content/uploads/2023/11/Line-639-copy-4.png" 
+                    <img src="/upload/middle-five-icons.png" 
                     class="middle-five-icons" 
                     alt ="middle-five-icons" 
                     />

@@ -24,7 +24,11 @@ const ContactUs = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const apiUrl = 'https://snylloestetica-backend.onrender.com/user-details/';
+    // console.log('Backend URL:', process.env.REACT_APP_BACKEND_URL);
+    const apiUrl = 'https://snylloestetica-backend.onrender.com/user-details';
+    console.log('apiUrl:', apiUrl); // Add this log
+    console.log('formData:', formData); // Add this log
+
 
     try {
       const response = await fetch(apiUrl, {
@@ -36,6 +40,7 @@ const ContactUs = () => {
       });
 
       const data = await response.json().catch(() => null);
+      console.log('Response data:', data);
 
       if (!response.ok || !data) {
         console.error('Error submitting form:', data);
@@ -52,7 +57,7 @@ const ContactUs = () => {
 
   useEffect(() => {
     if (submissionStatus) {
-      // Reset the form after 2 seconds
+      // Reset the form after 3 seconds
       const resetForm = setTimeout(() => {
         setSubmissionStatus(null);
         setFormData({
@@ -62,7 +67,7 @@ const ContactUs = () => {
           treatment: '',
           location: '',
         });
-      }, 2000);
+      }, 3000);
 
       return () => clearTimeout(resetForm);
     }

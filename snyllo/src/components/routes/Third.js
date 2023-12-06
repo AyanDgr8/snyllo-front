@@ -5,14 +5,15 @@ import './Third.css';
 
 const Third = () => {
   const [activeButton, setActiveButton] = useState(null);
-  const [isWomenSelected, setIsWomenSelected] = useState(true);
+  const [activeGender, setActiveGender] = useState('women');
 
   const handleButtonClick = (buttonId) => {
     setActiveButton(buttonId);
   };
 
-  const handleToggleSwitch = () => {
-    setIsWomenSelected(!isWomenSelected);
+  const handleGenderButtonClick = (gender) => {
+    setActiveGender(gender);
+    setActiveButton(null); // Reset active button when gender changes
   };
 
   return (
@@ -24,23 +25,23 @@ const Third = () => {
             <h3>SERVICES</h3>
           </div>
 
-          {/* Toggle Switch */}
-          <div className="toggle-switch-container">
-            <label className="eae-cs-switch-label">
-              <input
-                className="eae-content-toggle-switch"
-                type="checkbox"
-                checked={isWomenSelected}
-                onChange={handleToggleSwitch}
-              />
-              <span className="eae-content-toggle-switcher"></span>
-            </label>
-            <div className="eae-content-switch-label secondary-label eae-cs-icon-align-left">
-              {isWomenSelected ? 'WOMEN' : 'MEN'}
-            </div>
+          {/* Men/Women Buttons */}
+          <div className="men-women-buttons">
+            <button
+              className={`gender-button ${activeGender === 'women' ? 'active' : ''}`}
+              onClick={() => handleGenderButtonClick('women')}
+            >
+              Women
+            </button>
+            <button
+              className={`gender-button ${activeGender === 'men' ? 'active' : ''}`}
+              onClick={() => handleGenderButtonClick('men')}
+            >
+              Men
+            </button>
           </div>
 
-          {/* Men/Women Icons */}
+          {/* Men/Women Icons
           <div className='men-women'>
             <div className="men-women-caption">
               <img
@@ -49,23 +50,6 @@ const Third = () => {
                 alt={isWomenSelected ? "Icon-Women" : "Icon-Men"}
               />
               <p>{isWomenSelected ? 'WOMEN' : 'MEN'}</p>
-            </div>
-          </div>
-
-          {/* <div className='men-women'>
-            <div className="men-women-caption">
-              <img src="https://snylloestetica.com/wp-content/uploads/2023/11/womenW.png"
-              class="Icon-W" 
-              alt="Icon-W" 
-              />
-              <p>WOMEN</p>
-            </div>
-            <div className="men-women-caption">
-              <img src="https://snylloestetica.com/wp-content/uploads/2023/11/menW-1.png"
-              class="Icon-M" 
-              alt="Icon-M" 
-              />
-              <p class='menn'>MEN</p>
             </div>
           </div> */}
 
@@ -124,24 +108,22 @@ const Third = () => {
             
 
             {/* Images */}
-              {activeButton === 1 && (
+            {activeGender === 'women' && activeButton === 1 && (
+              <div className="images-container">
+                {/* Images for Women Button 1 */}
+                {/* ... rest of your women images ... */}
+              </div>
+            )}
+
+            {activeGender === 'men' && activeButton === 1 && (
+              <div className="images-container">
+                {/* Images for Men Button 1 */}
+                {/* ... rest of your men images ... */}
+              </div>
+            )}
+              
+              {/* {activeButton === 2 && (
                 <div className="images-container">
-                  {/* Images for Button 1 */}
-                  <img src="https://snylloestetica.com/wp-content/uploads/2023/11/chestw.png" 
-                  class="button-image"
-                  alt="back"
-                  > 
-                  </img>
-                  <img src="https://snylloestetica.com/wp-content/uploads/2023/11/chestw.png" 
-                  class="button-image"
-                  alt="back"
-                  > 
-                  </img>
-                </div>
-              )}
-              {activeButton === 2 && (
-                <div className="images-container">
-                  {/* Images for Button 2 */}
                   <img src="https://snylloestetica.com/wp-content/uploads/2023/11/chestw.png" 
                   class="button-image"
                   alt="back"
@@ -151,64 +133,14 @@ const Third = () => {
               )}
               {activeButton === 3 && (
                 <div className="images-container">
-                  {/* Images for Button 3 */}
                   <img src="https://snylloestetica.com/wp-content/uploads/2023/11/chestw.png" 
                   class="button-image"
                   alt="back"
                   > 
                   </img>
                 </div>
-              )}
-              {activeButton === 4 && (
-                <div className="images-container">
-                  {/* Images for Button 4 */}
-                  <img src="https://snylloestetica.com/wp-content/uploads/2023/11/chestw.png" 
-                  class="button-image"
-                  alt="back"
-                  > 
-                  </img>
-                </div>
-              )}
-              {activeButton === 5 && (
-                <div className="images-container">
-                  {/* Images for Button 5 */}
-                  <img src="https://snylloestetica.com/wp-content/uploads/2023/11/chestw.png" 
-                  class="button-image"
-                  alt="back"
-                  > 
-                  </img>
-                </div>
-              )}
-              {activeButton === 6 && (
-                <div className="images-container">
-                  {/* Images for Button 6 */}
-                  <img src="https://snylloestetica.com/wp-content/uploads/2023/11/chestw.png" 
-                  class="button-image"
-                  alt="back"
-                  > 
-                  </img>
-                </div>
-              )}
-              {activeButton === 7 && (
-                <div className="images-container">
-                  {/* Images for Button 7 */}
-                  <img src="https://snylloestetica.com/wp-content/uploads/2023/11/chestw.png" 
-                  class="button-image"
-                  alt="back"
-                  > 
-                  </img>
-                </div>
-              )}
-              {activeButton === 8 && (
-                <div className="images-container">
-                  {/* Images for Button 8 */}
-                  <img src="https://snylloestetica.com/wp-content/uploads/2023/11/chestw.png" 
-                  class="button-image"
-                  alt="back"
-                  > 
-                  </img>
-                </div>
-              )}
+              )} */}
+              
             
           </div>
         </div>
