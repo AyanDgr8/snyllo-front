@@ -26,9 +26,8 @@ const ContactUs = () => {
     event.preventDefault();
     // console.log('Backend URL:', process.env.REACT_APP_BACKEND_URL);
     const apiUrl = 'https://snylloestetica-backend.onrender.com/user-details';
-    console.log('apiUrl:', apiUrl); // Add this log
-    console.log('formData:', formData); // Add this log
-
+    console.log('apiUrl:', apiUrl); 
+    console.log('formData:', formData); 
 
     try {
       const response = await fetch(apiUrl, {
@@ -65,6 +64,7 @@ const ContactUs = () => {
           phone: '',
           email: '',
           treatment: '',
+          bodypart:'',
           location: '',
         });
       }, 3000);
