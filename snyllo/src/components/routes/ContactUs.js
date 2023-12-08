@@ -26,6 +26,7 @@ const ContactUs = () => {
     event.preventDefault();
     // console.log('Backend URL:', process.env.REACT_APP_BACKEND_URL);
     const apiUrl = 'https://snylloestetica-backend.onrender.com/user-details';
+    // const apiUrl = 'http://localhost:3000/user-details';
     console.log('apiUrl:', apiUrl); 
     console.log('formData:', formData); 
 
