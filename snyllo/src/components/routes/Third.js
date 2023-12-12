@@ -112,12 +112,12 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/women-body-1.png"
-                class="women-body-1" 
+                className="women-body-1" 
                 alt ="women-body-1" 
                 />
                 <img   
                 src="/upload/women-body-2.png"
-                class="women-body-2" 
+                className="women-body-2" 
                 alt ="women-body-2" 
                 />
               </div>
@@ -126,12 +126,12 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/women-body-1.png"
-                class="women-body-1" 
+                className="women-body-1" 
                 alt ="women-body-1" 
                 />
                 <img   
                 src="/upload/women-body-2.png"
-                class="women-body-2" 
+                className="women-body-2" 
                 alt ="women-body-2" 
                 />
               </div>
@@ -140,27 +140,27 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/women-hand-1.png"
-                class="women-hand-1" 
+                className="women-hand-1" 
                 alt ="women-hand-1" 
                 />
                 <img   
                 src="/upload/women-hand-2.png"
-                class="women-hand-2" 
+                className="women-hand-2" 
                 alt ="women-hand-2" 
                 />
                 <img   
                 src="/upload/women-hand-3.png"
-                class="women-hand-3" 
+                className="women-hand-3" 
                 alt ="women-hand-3" 
                 />
                 <img   
                 src="/upload/women-hand-4.png"
-                class="women-hand-4" 
+                className="women-hand-4" 
                 alt ="women-hand-4" 
                 />
                 <img   
                 src="/upload/women-hand-5.png"
-                class="women-hand-5" 
+                className="women-hand-5" 
                 alt ="women-hand-5" 
                 />
               </div>
@@ -169,12 +169,12 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/women-body-1.png"
-                class="women-body-1" 
+                className="women-body-1" 
                 alt ="women-body-1" 
                 />
                 <img   
                 src="/upload/women-body-2.png"
-                class="women-body-2" 
+                className="women-body-2" 
                 alt ="women-body-2" 
                 />
               </div>
@@ -183,32 +183,32 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/women-legs-1.png"
-                class="women-legs-1" 
+                className="women-legs-1" 
                 alt ="women-body-1" 
                 />
                 <img   
                 src="/upload/women-legs-2.png"
-                class="women-legs-2" 
+                className="women-legs-2" 
                 alt ="women-legs-2" 
                 />
                 <img   
                 src="/upload/women-legs-3.png"
-                class="women-legs-3" 
+                className="women-legs-3" 
                 alt ="women-legs-3" 
                 />
                 <img   
                 src="/upload/women-legs-4.png"
-                class="women-legs-4" 
+                className="women-legs-4" 
                 alt ="women-legs-4" 
                 />
                 <img   
                 src="/upload/women-legs-5.png"
-                class="women-legs-5" 
+                className="women-legs-5" 
                 alt ="women-legs-5" 
                 />
                 <img   
                 src="/upload/women-legs-6.png"
-                class="women-legs-6" 
+                className="women-legs-6" 
                 alt ="women-legs-6" 
                 />
               </div>
@@ -217,32 +217,32 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/women-face-1.png"
-                class="women-face-1" 
+                className="women-face-1" 
                 alt ="women-face-1" 
                 />
                 <img   
                 src="/upload/women-face-2.png"
-                class="women-face-2" 
+                className="women-face-2" 
                 alt ="women-face-2" 
                 />
                 <img   
                 src="/upload/women-face-3.png"
-                class="women-face-3" 
+                className="women-face-3" 
                 alt ="women-face-3" 
                 />
                 <img   
                 src="/upload/women-face-4.png"
-                class="women-face-4" 
+                className="women-face-4" 
                 alt ="women-face-4" 
                 />
                 <img   
                 src="/upload/women-face-5.png"
-                class="women-face-5" 
+                className="women-face-5" 
                 alt ="women-face-5" 
                 />
                 <img   
                 src="/upload/women-face-6.png"
-                class="women-face-6" 
+                className="women-face-6" 
                 alt ="women-face-6" 
                 />
               </div>
@@ -251,27 +251,27 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/women-chest-1.png"
-                class="women-chest-1" 
+                className="women-chest-1" 
                 alt ="women-chest-1" 
                 />
                 <img   
                 src="/upload/women-chest-2.png"
-                class="women-chest-2" 
+                className="women-chest-2" 
                 alt ="women-chest-2" 
                 />
                 <img   
                 src="/upload/women-chest-3.png"
-                class="women-chest-3" 
+                className="women-chest-3" 
                 alt ="women-chest-3" 
                 />
                 <img   
                 src="/upload/women-chest-4.png"
-                class="women-chest-4" 
+                className="women-chest-4" 
                 alt ="women-chest-4" 
                 />
                 <img   
                 src="/upload/women-chest-5.png"
-                class="women-chest-5" 
+                className="women-chest-5" 
                 alt ="women-chest-5" 
                 />
               </div>
@@ -280,17 +280,17 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/women-back-1.png"
-                class="women-back-1" 
+                className="women-back-1" 
                 alt ="women-back-1" 
                 />
                 <img   
                 src="/upload/women-back-2.png"
-                class="women-back-2" 
+                className="women-back-2" 
                 alt ="women-back-2" 
                 />
                 <img   
                 src="/upload/women-back-3.png"
-                class="women-back-3" 
+                className="women-back-3" 
                 alt ="women-back-3" 
                 />
               </div>
@@ -301,7 +301,7 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/men-bikini-1.png"
-                class="men-bikini-1" 
+                className="men-bikini-1" 
                 alt ="men-bikini-1" 
                 />
               </div>
@@ -310,7 +310,7 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/men-bikini-1.png"
-                class="men-bikini-1" 
+                className="men-bikini-1" 
                 alt ="men-bikini-1" 
                 />
               </div>
@@ -319,32 +319,32 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/men-hand-1.png"
-                class="men-hand-1" 
+                className="men-hand-1" 
                 alt ="men-hand-1" 
                 />
                 <img   
                 src="/upload/men-hand-2.png"
-                class="men-hand-2" 
+                className="men-hand-2" 
                 alt ="men-hand-2" 
                 />
                 <img   
                 src="/upload/men-hand-3.png"
-                class="men-hand-3" 
+                className="men-hand-3" 
                 alt ="men-hand-3" 
                 />
                 <img   
                 src="/upload/men-hand-4.png"
-                class="men-hand-4" 
+                className="men-hand-4" 
                 alt ="men-hand-4" 
                 />
                 <img   
                 src="/upload/men-hand-5.png"
-                class="men-hand-5" 
+                className="men-hand-5" 
                 alt ="men-hand-5" 
                 />
                 <img   
                 src="/upload/men-hand-6.png"
-                class="men-hand-6" 
+                className="men-hand-6" 
                 alt ="men-hand-6" 
                 />
               </div>
@@ -353,32 +353,32 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/men-bikini-1.png"
-                class="men-bikini-1" 
+                className="men-bikini-1" 
                 alt ="men-bikini-1" 
                 />
                 <img   
                 src="/upload/men-bikini-2.png"
-                class="men-bikini-2" 
+                className="men-bikini-2" 
                 alt ="men-bikini-2" 
                 />
                 <img   
                 src="/upload/men-bikini-3.png"
-                class="men-bikini-3" 
+                className="men-bikini-3" 
                 alt ="men-bikini-3" 
                 />
                 <img   
                 src="/upload/men-bikini-4.png"
-                class="men-bikini-4" 
+                className="men-bikini-4" 
                 alt ="men-bikini-4" 
                 />
                 <img   
                 src="/upload/men-bikini-5.png"
-                class="men-bikini-5" 
+                className="men-bikini-5" 
                 alt ="men-bikini-5" 
                 />
                 <img   
                 src="/upload/men-bikini-6.png"
-                class="men-bikini-6" 
+                className="men-bikini-6" 
                 alt ="men-bikini-6" 
                 />
               </div>
@@ -387,32 +387,32 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/men-legs-1.png"
-                class="men-legs-1" 
+                className="men-legs-1" 
                 alt ="men-legs-1" 
                 />
                 <img   
                 src="/upload/men-legs-2.png"
-                class="men-legs-2" 
+                className="men-legs-2" 
                 alt ="men-legs-2" 
                 />
                 <img   
                 src="/upload/men-legs-3.png"
-                class="men-legs-3" 
+                className="men-legs-3" 
                 alt ="men-legs-3" 
                 />
                 <img   
                 src="/upload/men-legs-4.png"
-                class="men-legs-4" 
+                className="men-legs-4" 
                 alt ="men-legs-4" 
                 />
                 <img   
                 src="/upload/men-legs-5.png"
-                class="men-legs-5" 
+                className="men-legs-5" 
                 alt ="men-legs-5" 
                 />
                 <img   
                 src="/upload/men-legs-6.png"
-                class="men-legs-6" 
+                className="men-legs-6" 
                 alt ="men-legs-6" 
                 />
               </div>
@@ -421,7 +421,7 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/men-bikini-1.png"
-                class="men-bikini-1" 
+                className="men-bikini-1" 
                 alt ="men-bikini-1" 
                 />
               </div>
@@ -430,7 +430,7 @@ const Third = () => {
               <div className="images-container">
                 <img   
                 src="/upload/men-bikini-1.png"
-                class="men-bikini-1" 
+                className="men-bikini-1" 
                 alt ="men-bikini-1" 
                 />
               </div>

@@ -16,7 +16,7 @@ const Eleventh = () => {
                     <div className='eleventh-left-container'>
                         <img 
                         src="/upload/Eleventh-img.png"
-                        class="eleventh-img" 
+                        className="eleventh-img" 
                         alt ="eleventh-img" 
                         />
                     </div>

@@ -14,7 +14,7 @@ const Footer = () =>{
                             <div className="footer-icon-caption-1">
                                 <img 
                                 src="/upload/icon-address.png"
-                                class="icon-six footer-icons"
+                                className="icon-six footer-icons"
                                 alt="address"
                                 />
                                 <p>4th Floor, BPTP Centra One, Golf Course Ext Rd,
@@ -25,7 +25,7 @@ const Footer = () =>{
                             <div className="footer-icon-caption-2">
                                 <img 
                                 src="/upload/icon-phone.png"
-                                class="icon-seven footer-icons"
+                                className="icon-seven footer-icons"
                                 alt="phone"
                                 />
                                 <p>+91-98009-96009 <br></br>+91-91008-96008</p>
@@ -63,7 +63,7 @@ const Footer = () =>{
                             {/* <div className="footer-icon-caption footer-icon-caption-5"> */}
                                 <img 
                                 src="/upload/google-play.png"
-                                class="icon-nine footer-icons"
+                                className="icon-nine footer-icons"
                                 alt="google-play"
                                 />
                                 {/* <p>Google Play</p> */}
@@ -73,7 +73,7 @@ const Footer = () =>{
                             {/* <div className="footer-icon-caption footer-icon-caption-5"> */}
                                 <img 
                                 src="/upload/app-store.png"
-                                class="icon-ten footer-icons"
+                                className="icon-ten footer-icons"
                                 alt="app-store"
                                 />
                                 {/* <p>App Store</p> */}
@@ -84,21 +84,21 @@ const Footer = () =>{
                     <div className='footer-column-one'>
                         <img 
                         src="/upload/snyllo-red.png"
-                        class="footer-column-image-1"
+                        className="footer-column-image-1"
                         alt="snyllo-red"
                         />
                         <span className='footer-column-1-icons'>
                             <a href="https://www.instagram.com/snylloestetica/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank">
                                 <img 
                                 src="/upload/icon-instagram.png"
-                                class="icon-one footer-icons"
+                                className="icon-one footer-icons"
                                 alt="instagram"
                                 />
                             </a>
                             <a href="https://www.facebook.com/people/Snyllo-%C3%89stetica-Premium-Laser-Hair-Reduction-at-HOME/61553207344302/?mibextid=LQQJ4d">
                                 <img 
                                 src="/upload/icon-facebook.png"
-                                class="icon-two footer-icons"
+                                className="icon-two footer-icons"
                                 alt="facebook"
                                 />
                                 
@@ -106,7 +106,7 @@ const Footer = () =>{
                             <a href="https://www.youtube.com/">
                                 <img 
                                 src="/upload/icon-youtube.png"
-                                class="icon-three footer-icons"
+                                className="icon-three footer-icons"
                                 alt="youtube"
                                 />
 
@@ -114,7 +114,7 @@ const Footer = () =>{
                             <a href="https://www.xing.com/en">
                                 <img 
                                 src="/upload/icon-xing.png"
-                                class="icon-four footer-icons"
+                                className="icon-four footer-icons"
                                 alt="xing"
                                 />
 
@@ -122,7 +122,7 @@ const Footer = () =>{
                             <a href="https://www.linkedin.com/company/snyllo-%C3%A9stetica/mycompany/">
                                 <img 
                                 src="/upload/icon-linkedin.png"
-                                class="icon-five footer-icons"
+                                className="icon-five footer-icons"
                                 alt="linkedin"
                                 />
 

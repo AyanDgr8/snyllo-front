@@ -15,24 +15,24 @@ const Sixth = () =>{
                 <span className="routine-row">
                     <div className="routine-logo">
                         <img src="/upload/routine-logo-1.png"
-                        class="routine-logo-1" 
+                        className="routine-logo-1" 
                         alt ="routine-logo-1"/>
                         <img src="/upload/routine-logo-2.png" 
-                        class="routine-logo-2" 
+                        className="routine-logo-2" 
                         alt ="routine-logo-2"/>
                         <img src="/upload/routine-logo-3.png" 
-                        class="routine-logo-3" 
+                        className="routine-logo-3" 
                         alt ="routine-logo-3"/>
                     </div>
                     <div className="routine-logo">
                         <img src="/upload/routine-logo-4.png" 
-                        class="routine-logo-4" 
+                        className="routine-logo-4" 
                         alt ="routine-logo-4"/>
                         <img src="/upload/routine-logo-5.png" 
-                        class="routine-logo-5" 
+                        className="routine-logo-5" 
                         alt ="routine-logo-5"/>
                         <img src="/upload/routine-logo-6.png" 
-                        class="routine-logo-6" 
+                        className="routine-logo-6" 
                         alt ="routine-logo-6"/>
                     </div>
                 </span>

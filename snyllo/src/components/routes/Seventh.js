@@ -52,7 +52,7 @@ const Seventh = () => {
                         </div>
                     </div>
                     <img src="/upload/middle-five-icons.png" 
-                    class="middle-five-icons" 
+                    className="middle-five-icons" 
                     alt ="middle-five-icons" 
                     />
                     <div className='waxing'>

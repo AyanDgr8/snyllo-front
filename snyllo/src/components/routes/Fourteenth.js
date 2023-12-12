@@ -27,7 +27,7 @@ const Fourteenth = () => {
                                     <div className="iconnn-caption">
                                         <img 
                                         src="/upload/fourteenth-icon-1.png" 
-                                        class="fourteenth-icons" 
+                                        className="fourteenth-icons" 
                                         alt="fourteenth-icon-1"
                                         />
                                         <p>Internal Safety Monitoring</p>
@@ -37,7 +37,7 @@ const Fourteenth = () => {
                                     <div className="iconnn-caption">
                                         <img 
                                         src="/upload/fourteenth-icon-2.png" 
-                                        class="fourteenth-icons" 
+                                        className="fourteenth-icons" 
                                         alt="fourteenth-icon-2"
                                         />
                                         <p>Secure and Energy-Saving</p>
@@ -49,7 +49,7 @@ const Fourteenth = () => {
                     <span className="fourteenth-column-two">
                     <img 
                     src='/upload/eigth-right-machine.png' 
-                    class="fourteenth-img"
+                    className="fourteenth-img"
                     alt="fourteenth"/>
                     </span>
                 </div>

@@ -15,12 +15,12 @@ const Fourth = () => {
               <div className="two-images">
                     <img 
                     src="/upload/big-left-img.png" 
-                    class="big-left-img" 
+                    className="big-left-img" 
                     alt ="big-left-img" >
                     </img>
                     <img 
                     src="/upload/big-right-machine.png" 
-                    class="big-right-machine" 
+                    className="big-right-machine" 
                     alt ="big-right-machine" >
                     </img>
               </div>

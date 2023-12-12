@@ -26,7 +26,7 @@ const Sixteenth = () => {
                     <div className="sixteenth-right-container">
                         <img 
                             src="/upload/half-hairy-half-clear.jpg"
-                            class="sixteenth-img"
+                            className="sixteenth-img"
                             alt ="sixteenth-img"
                         />    
                     </div>

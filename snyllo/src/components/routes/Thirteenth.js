@@ -23,7 +23,7 @@ const Thirteenth = () => {
                     <div className='thirteenth-right-container'>
                         <img   
                         src="/upload/thirteenth-img.png"
-                        class="thirteenth-img" 
+                        className="thirteenth-img" 
                         alt ="thirteenth-img" 
                         />
                     </div>

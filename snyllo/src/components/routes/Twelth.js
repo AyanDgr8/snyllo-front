@@ -15,7 +15,7 @@ const Twelth = () => {
                     <div className="twelth-column-one">
                         <img 
                         src="/upload/twelth-left.png"
-                        class="twelth-img" 
+                        className="twelth-img" 
                         alt ="twelth-img" 
                         />
                     </div>
@@ -25,7 +25,7 @@ const Twelth = () => {
                                 <div className="iconn-row">
                                     <div className="iconn-caption">
                                         <img src="/upload/twelth-icon-1.png" 
-                                        class="twelth-icon-1" 
+                                        className="twelth-icon-1" 
                                         alt="twelth-icon-1"
                                         />
                                         <p>ENERGY ADJUSTMENT</p>
@@ -34,7 +34,7 @@ const Twelth = () => {
                                 <div className="iconn-row">
                                     <div className="iconn-caption">
                                         <img src="/upload/twelth-icon-2.png" 
-                                        class="twelth-icon-2" 
+                                        className="twelth-icon-2" 
                                         alt="twelth-icon-2"
                                         />
                                         <p>FREQUENCY ADJUSTMENT</p>
@@ -50,7 +50,7 @@ const Twelth = () => {
                                 <div className="iconn-row">
                                     <div className="iconn-caption">
                                         <img src="/upload/twelth-icon-3.png" 
-                                        class="twelth-icon-3"
+                                        className="twelth-icon-3"
                                         alt="twelth-icon-3"
                                         />
                                         <p>PULSE WIDTH ADJUSTMENT</p>
@@ -59,7 +59,7 @@ const Twelth = () => {
                                 <div className="iconn-row">
                                     <div className="iconn-caption">
                                         <img src="/upload/twelth-icon-4.png" 
-                                        class="twelth-icon-4" 
+                                        className="twelth-icon-4" 
                                         alt="twelth-icon-4" 
                                         />
                                         <p>REAL-TIME TEMPERATURE MONITORING</p>

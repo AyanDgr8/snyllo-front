@@ -15,17 +15,17 @@ const Eighth = () => {
                     <div className='eighth-left-container'>
                         <img 
                         src="/upload/eigth-left-first.png" 
-                        class="eighth-left-first" 
+                        className="eighth-left-first" 
                         alt ="eighth-left-first"
                         />
                         <img 
                         src="/upload/eigth-left-second.png" 
-                        class="eighth-left-second" 
+                        className="eighth-left-second" 
                         alt ="eighth-left-second"
                         />
                         <img 
                         src="/upload/eigth-left-third.png" 
-                        class="eighth-left-third" 
+                        className="eighth-left-third" 
                         alt ="eighth-left-third"
                         />
                     </div>

@@ -102,7 +102,7 @@ const Faq = () => {
                 <div className="fa-questions">
                     {faqData.map((faq, index) => (
                         <div key={index}>
-                            <button class ="faq-button" onClick={() => handleQuestionClick(index)}>
+                            <button className ="faq-button" onClick={() => handleQuestionClick(index)}>
                                 {faq.question}
                             </button>
                             {openQuestion === index && <p>{faq.answer}</p>}

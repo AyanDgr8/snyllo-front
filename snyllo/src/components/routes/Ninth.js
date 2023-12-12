@@ -17,12 +17,12 @@ const Ninth = () => {
                     <div className='ninth-column-one'>
                         <img 
                         src="/upload/ninth-column-one-1.png" 
-                        class="ninth-column-one-1" 
+                        className="ninth-column-one-1" 
                         alt ="ninth-column-one-1" 
                         />
                         <img 
                         src="/upload/ninth-column-one-2.png" 
-                        class="ninth-column-one-2" 
+                        className="ninth-column-one-2" 
                         alt ="ninth-column-one-2" 
                         />
                     </div>
@@ -30,7 +30,7 @@ const Ninth = () => {
                     <div className='ninth-column-two'>
                         <img  
                         src="/upload/ninth-column-two.png" 
-                        class="ninth-column-two" 
+                        className="ninth-column-two" 
                         alt = "ninth-column-two"
                         />
                     </div>
@@ -38,12 +38,12 @@ const Ninth = () => {
                     <div className='ninth-column-three'>
                         <img 
                         src="/upload/ninth-column-two-1.png" 
-                        class="ninth-column-three-1" 
+                        className="ninth-column-three-1" 
                         alt ="ninth-column-three-1" 
                         />
                         <img 
                         src="/upload/ninth-column-two-2.png" 
-                        class="ninth-column-three-2" 
+                        className="ninth-column-three-2" 
                         alt="ninth-column-three-2"
                         />
                     </div>
