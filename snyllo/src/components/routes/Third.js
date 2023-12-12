@@ -110,15 +110,329 @@ const Third = () => {
             {/* Images */}
             {activeGender === 'women' && activeButton === 1 && (
               <div className="images-container">
-                {/* Images for Women Button 1 */}
-                {/* ... rest of your women images ... */}
+                <img   
+                src="/upload/women-body-1.png"
+                class="women-body-1" 
+                alt ="women-body-1" 
+                />
+                <img   
+                src="/upload/women-body-2.png"
+                class="women-body-2" 
+                alt ="women-body-2" 
+                />
+              </div>
+            )}
+            {activeGender === 'women' && activeButton === 2 && (
+              <div className="images-container">
+                <img   
+                src="/upload/women-body-1.png"
+                class="women-body-1" 
+                alt ="women-body-1" 
+                />
+                <img   
+                src="/upload/women-body-2.png"
+                class="women-body-2" 
+                alt ="women-body-2" 
+                />
+              </div>
+            )}
+            {activeGender === 'women' && activeButton === 3 && (
+              <div className="images-container">
+                <img   
+                src="/upload/women-hand-1.png"
+                class="women-hand-1" 
+                alt ="women-hand-1" 
+                />
+                <img   
+                src="/upload/women-hand-2.png"
+                class="women-hand-2" 
+                alt ="women-hand-2" 
+                />
+                <img   
+                src="/upload/women-hand-3.png"
+                class="women-hand-3" 
+                alt ="women-hand-3" 
+                />
+                <img   
+                src="/upload/women-hand-4.png"
+                class="women-hand-4" 
+                alt ="women-hand-4" 
+                />
+                <img   
+                src="/upload/women-hand-5.png"
+                class="women-hand-5" 
+                alt ="women-hand-5" 
+                />
+              </div>
+            )}
+            {activeGender === 'women' && activeButton === 4 && (
+              <div className="images-container">
+                <img   
+                src="/upload/women-body-1.png"
+                class="women-body-1" 
+                alt ="women-body-1" 
+                />
+                <img   
+                src="/upload/women-body-2.png"
+                class="women-body-2" 
+                alt ="women-body-2" 
+                />
+              </div>
+            )}
+            {activeGender === 'women' && activeButton === 5 && (
+              <div className="images-container">
+                <img   
+                src="/upload/women-legs-1.png"
+                class="women-legs-1" 
+                alt ="women-body-1" 
+                />
+                <img   
+                src="/upload/women-legs-2.png"
+                class="women-legs-2" 
+                alt ="women-legs-2" 
+                />
+                <img   
+                src="/upload/women-legs-3.png"
+                class="women-legs-3" 
+                alt ="women-legs-3" 
+                />
+                <img   
+                src="/upload/women-legs-4.png"
+                class="women-legs-4" 
+                alt ="women-legs-4" 
+                />
+                <img   
+                src="/upload/women-legs-5.png"
+                class="women-legs-5" 
+                alt ="women-legs-5" 
+                />
+                <img   
+                src="/upload/women-legs-6.png"
+                class="women-legs-6" 
+                alt ="women-legs-6" 
+                />
+              </div>
+            )}
+            {activeGender === 'women' && activeButton === 6 && (
+              <div className="images-container">
+                <img   
+                src="/upload/women-face-1.png"
+                class="women-face-1" 
+                alt ="women-face-1" 
+                />
+                <img   
+                src="/upload/women-face-2.png"
+                class="women-face-2" 
+                alt ="women-face-2" 
+                />
+                <img   
+                src="/upload/women-face-3.png"
+                class="women-face-3" 
+                alt ="women-face-3" 
+                />
+                <img   
+                src="/upload/women-face-4.png"
+                class="women-face-4" 
+                alt ="women-face-4" 
+                />
+                <img   
+                src="/upload/women-face-5.png"
+                class="women-face-5" 
+                alt ="women-face-5" 
+                />
+                <img   
+                src="/upload/women-face-6.png"
+                class="women-face-6" 
+                alt ="women-face-6" 
+                />
+              </div>
+            )}
+            {activeGender === 'women' && activeButton === 7 && (
+              <div className="images-container">
+                <img   
+                src="/upload/women-chest-1.png"
+                class="women-chest-1" 
+                alt ="women-chest-1" 
+                />
+                <img   
+                src="/upload/women-chest-2.png"
+                class="women-chest-2" 
+                alt ="women-chest-2" 
+                />
+                <img   
+                src="/upload/women-chest-3.png"
+                class="women-chest-3" 
+                alt ="women-chest-3" 
+                />
+                <img   
+                src="/upload/women-chest-4.png"
+                class="women-chest-4" 
+                alt ="women-chest-4" 
+                />
+                <img   
+                src="/upload/women-chest-5.png"
+                class="women-chest-5" 
+                alt ="women-chest-5" 
+                />
+              </div>
+            )}
+            {activeGender === 'women' && activeButton === 8 && (
+              <div className="images-container">
+                <img   
+                src="/upload/women-back-1.png"
+                class="women-back-1" 
+                alt ="women-back-1" 
+                />
+                <img   
+                src="/upload/women-back-2.png"
+                class="women-back-2" 
+                alt ="women-back-2" 
+                />
+                <img   
+                src="/upload/women-back-3.png"
+                class="women-back-3" 
+                alt ="women-back-3" 
+                />
               </div>
             )}
 
+
             {activeGender === 'men' && activeButton === 1 && (
               <div className="images-container">
-                {/* Images for Men Button 1 */}
-                {/* ... rest of your men images ... */}
+                <img   
+                src="/upload/men-bikini-1.png"
+                class="men-bikini-1" 
+                alt ="men-bikini-1" 
+                />
+              </div>
+            )}
+            {activeGender === 'men' && activeButton === 2 && (
+              <div className="images-container">
+                <img   
+                src="/upload/men-bikini-1.png"
+                class="men-bikini-1" 
+                alt ="men-bikini-1" 
+                />
+              </div>
+            )}
+            {activeGender === 'men' && activeButton === 3 && (
+              <div className="images-container">
+                <img   
+                src="/upload/men-hand-1.png"
+                class="men-hand-1" 
+                alt ="men-hand-1" 
+                />
+                <img   
+                src="/upload/men-hand-2.png"
+                class="men-hand-2" 
+                alt ="men-hand-2" 
+                />
+                <img   
+                src="/upload/men-hand-3.png"
+                class="men-hand-3" 
+                alt ="men-hand-3" 
+                />
+                <img   
+                src="/upload/men-hand-4.png"
+                class="men-hand-4" 
+                alt ="men-hand-4" 
+                />
+                <img   
+                src="/upload/men-hand-5.png"
+                class="men-hand-5" 
+                alt ="men-hand-5" 
+                />
+                <img   
+                src="/upload/men-hand-6.png"
+                class="men-hand-6" 
+                alt ="men-hand-6" 
+                />
+              </div>
+            )}
+            {activeGender === 'men' && activeButton === 4 && (
+              <div className="images-container">
+                <img   
+                src="/upload/men-bikini-1.png"
+                class="men-bikini-1" 
+                alt ="men-bikini-1" 
+                />
+                <img   
+                src="/upload/men-bikini-2.png"
+                class="men-bikini-2" 
+                alt ="men-bikini-2" 
+                />
+                <img   
+                src="/upload/men-bikini-3.png"
+                class="men-bikini-3" 
+                alt ="men-bikini-3" 
+                />
+                <img   
+                src="/upload/men-bikini-4.png"
+                class="men-bikini-4" 
+                alt ="men-bikini-4" 
+                />
+                <img   
+                src="/upload/men-bikini-5.png"
+                class="men-bikini-5" 
+                alt ="men-bikini-5" 
+                />
+                <img   
+                src="/upload/men-bikini-6.png"
+                class="men-bikini-6" 
+                alt ="men-bikini-6" 
+                />
+              </div>
+            )}
+            {activeGender === 'men' && activeButton === 5 && (
+              <div className="images-container">
+                <img   
+                src="/upload/men-legs-1.png"
+                class="men-legs-1" 
+                alt ="men-legs-1" 
+                />
+                <img   
+                src="/upload/men-legs-2.png"
+                class="men-legs-2" 
+                alt ="men-legs-2" 
+                />
+                <img   
+                src="/upload/men-legs-3.png"
+                class="men-legs-3" 
+                alt ="men-legs-3" 
+                />
+                <img   
+                src="/upload/men-legs-4.png"
+                class="men-legs-4" 
+                alt ="men-legs-4" 
+                />
+                <img   
+                src="/upload/men-legs-5.png"
+                class="men-legs-5" 
+                alt ="men-legs-5" 
+                />
+                <img   
+                src="/upload/men-legs-6.png"
+                class="men-legs-6" 
+                alt ="men-legs-6" 
+                />
+              </div>
+            )}
+            {activeGender === 'men' && activeButton === 7 && (
+              <div className="images-container">
+                <img   
+                src="/upload/men-bikini-1.png"
+                class="men-bikini-1" 
+                alt ="men-bikini-1" 
+                />
+              </div>
+            )}
+            {activeGender === 'men' && activeButton === 8 && (
+              <div className="images-container">
+                <img   
+                src="/upload/men-bikini-1.png"
+                class="men-bikini-1" 
+                alt ="men-bikini-1" 
+                />
               </div>
             )}
               
