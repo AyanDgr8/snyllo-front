@@ -20,7 +20,8 @@
   }
 
 .logo img {
-      margin-top:0.625rem;
+      /* margin-top:0.625rem; */
+      margin-top:2vh;
       margin-left:1.25rem;
       margin-bottom: 0.625rem;
       width: 11.25rem;

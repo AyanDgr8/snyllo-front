@@ -68,20 +68,21 @@ const ContactUs = () => {
   
 
   useEffect(() => {
-    // Reset the form and submission status after 3 seconds
-    const resetForm = setTimeout(() => {
-      setFormData({
-        name: '',
-        phone: '',
-        email: '',
-        treatment: '',
-        bodypart:'',
-        location: '',
-      });
-      setSubmissionStatus(null);
-    }, 3000);
-
-    return () => clearTimeout(resetForm);
+    if (submissionStatus) {
+      // Reset the form after 3 seconds
+      const resetForm = setTimeout(() => {
+        setSubmissionStatus(null);
+        setFormData({
+          name: '',
+          phone: '',
+          email: '',
+          treatment: '',
+          bodypart:'',
+          location: '',
+        });
+      }, 3000);
+      return () => clearTimeout(resetForm);
+    }
   }, [formData, submissionStatus]);
 
   return (

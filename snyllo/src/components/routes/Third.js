@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import './Third.css';
 
 const Third = () => {
-  const [activeButton, setActiveButton] = useState(null);
+  const [activeButton, setActiveButton] = useState(1);
   const [activeGender, setActiveGender] = useState('women');
 
   const handleButtonClick = (buttonId) => {
