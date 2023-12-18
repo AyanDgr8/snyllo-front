@@ -8,6 +8,51 @@ const Footer = () =>{
         <div>
             <div className='footer-content'>
                 <span className='footer-container'>
+                    
+                    <div className='footer-column-one'>
+                        <img 
+                        src="/upload/snyllo-red.png"
+                        className="footer-column-image-1"
+                        alt="snyllo-red"
+                        />
+                        <span className='footer-column-1-icons'>
+                            <a href="https://www.instagram.com/snylloestetica/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank">
+                                <img 
+                                src="/upload/icon-instagram.png"
+                                className="icon-one footer-icons"
+                                alt="instagram"
+                                />
+                            </a>
+                            <a href="https://www.facebook.com/people/Snyllo-%C3%89stetica-Premium-Laser-Hair-Reduction-at-HOME/61553207344302/?mibextid=LQQJ4d">
+                                <img 
+                                src="/upload/icon-facebook.png"
+                                className="icon-two footer-icons"
+                                alt="facebook"
+                                />
+                            </a>
+                            <a href="https://www.youtube.com/">
+                                <img 
+                                src="/upload/icon-youtube.png"
+                                className="icon-three footer-icons"
+                                alt="youtube"
+                                />
+                            </a>
+                            <a href="https://www.xing.com/en">
+                                <img 
+                                src="/upload/icon-xing.png"
+                                className="icon-four footer-icons"
+                                alt="xing"
+                                />
+                            </a>
+                            <a href="https://www.linkedin.com/company/snyllo-%C3%A9stetica/mycompany/">
+                                <img 
+                                src="/upload/icon-linkedin.png"
+                                className="icon-five footer-icons"
+                                alt="linkedin"
+                                />
+                            </a>
+                        </span>
+                    </div>
                     <div className='footer-column-two'>
                         <h3>ADDRESS</h3>
                         <span className="footer-icon-row-1">
@@ -21,15 +66,12 @@ const Footer = () =>{
                                 Sector 61, Gurugram, Haryana -122011</p>
                             </div>
                         </span>
-                        <div className="footer-icon-row address">
-                            <div className="footer-icon-caption-2">
+                        <div className="footer-icon-row">
                                 <img 
-                                src="/upload/icon-phone.png"
+                                src="/upload/call.png"
                                 className="icon-seven footer-icons"
                                 alt="phone"
                                 />
-                                <p>+91-98009-96009 <br></br>+91-91008-96008</p>
-                            </div>
                         </div>
                         <div className="footer-icon-row">
                             <div className="footer-icon-caption-3">
@@ -60,74 +102,19 @@ const Footer = () =>{
                     <div className='footer-column-five'>
                         <h3>COMING SOON</h3>
                         <div className="footer-icon-row">
-                            {/* <div className="footer-icon-caption footer-icon-caption-5"> */}
-                                <img 
+                            <img 
                                 src="/upload/google-play.png"
                                 className="icon-nine footer-icons"
                                 alt="google-play"
-                                />
-                                {/* <p>Google Play</p> */}
-                            {/* </div> */}
+                            />
                         </div>
                         <div className="footer-icon-row">
-                            {/* <div className="footer-icon-caption footer-icon-caption-5"> */}
-                                <img 
+                            <img 
                                 src="/upload/app-store.png"
                                 className="icon-ten footer-icons"
                                 alt="app-store"
-                                />
-                                {/* <p>App Store</p> */}
-                            {/* </div> */}
+                            />
                         </div>
-                    </div>
-                    
-                    <div className='footer-column-one'>
-                        <img 
-                        src="/upload/snyllo-red.png"
-                        className="footer-column-image-1"
-                        alt="snyllo-red"
-                        />
-                        <span className='footer-column-1-icons'>
-                            <a href="https://www.instagram.com/snylloestetica/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank">
-                                <img 
-                                src="/upload/icon-instagram.png"
-                                className="icon-one footer-icons"
-                                alt="instagram"
-                                />
-                            </a>
-                            <a href="https://www.facebook.com/people/Snyllo-%C3%89stetica-Premium-Laser-Hair-Reduction-at-HOME/61553207344302/?mibextid=LQQJ4d">
-                                <img 
-                                src="/upload/icon-facebook.png"
-                                className="icon-two footer-icons"
-                                alt="facebook"
-                                />
-                                
-                            </a>
-                            <a href="https://www.youtube.com/">
-                                <img 
-                                src="/upload/icon-youtube.png"
-                                className="icon-three footer-icons"
-                                alt="youtube"
-                                />
-
-                            </a>
-                            <a href="https://www.xing.com/en">
-                                <img 
-                                src="/upload/icon-xing.png"
-                                className="icon-four footer-icons"
-                                alt="xing"
-                                />
-
-                            </a>
-                            <a href="https://www.linkedin.com/company/snyllo-%C3%A9stetica/mycompany/">
-                                <img 
-                                src="/upload/icon-linkedin.png"
-                                className="icon-five footer-icons"
-                                alt="linkedin"
-                                />
-
-                            </a>
-                        </span>
                     </div>
 
                 </span>

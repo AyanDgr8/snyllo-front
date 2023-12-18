@@ -19,7 +19,7 @@
     }
 
     .big-heading-15 h2 {
-        font-size: 6em;
+        font-size: 5rem;
         margin-top: 0;
         margin-bottom: 0;
         color: #D63D3E63;
@@ -31,10 +31,10 @@
     }
 
     .big-heading-15 h3 {
-        font-size: 2.5em;
-        font-weight: 600;
+        font-size: 2.5rem;
+        font-weight: 700;
         position: absolute;
-        top: 0;
+        top: 2rem;
         left: 0;
         margin-top: 3.125rem;
         z-index: 2;
@@ -49,10 +49,7 @@
 
     .sixteenth-left-container {
         width: 50%;
-        padding: 3.125rem; /* Add padding for better spacing */
-        padding-top: 3.125rem;
-        margin-left: 2.5rem;
-        margin-top: 0;
+        margin: 5rem;
         position: relative;
     }
 
@@ -68,21 +65,21 @@
     }
 
     .sixteenth-line h2 {
-        font-size: 1.625rem;
+        font-size: 1.5rem;
         font-weight: 400;
-        line-height: 1.1;
+        line-height: 1;
         text-align: left;
         margin-left: 0.313rem;
     }
 
     .sixteenth-line-2 h2 {
         color: #CE3B3C; 
-        font-family: "Poppins", Sans-serif;
-        font-weight: 800;
-        font-size: 2rem;
+        font-weight: 600;
+        font-size: 1.55rem;
         border-bottom: 1px solid;
         border-top: 1px solid;
-        padding: 0.625rem;
+        padding-top: 0.5rem;
+        padding-bottom:0.5rem;
 
     }
 
@@ -101,15 +98,13 @@
 
 /* Media query for mobile screens */
 @media screen and ( max-width: 425px){
-    .big-heading-15{
-        margin-top: 2.188rem;
-    }
+    
     .big-heading-15 h2{
-        font-size: 1.875rem;
+        font-size: 2rem;
     }
     .big-heading-15 h3{
-        font-size: 1.563rem;
-        margin-top: 1.875rem;
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
 
     }
     .sixteenth-container{
@@ -120,18 +115,18 @@
         margin-left: 0; 
     }
     .sixteenth-img{
-        margin-left: 3.5rem;
+        margin-left: 3rem;
         width:150%;
-        height: 18.75rem;
+        height: 15rem;
     }
     .sixteenth-left-container{
-        margin-left: 0;
-        width:80%; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
+        width:85%; 
     }
     .sixteenth-line h2{
-        margin-left: 0;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         text-align: center;
-        /* padding-top: 0.313rem;  */
     }
 }

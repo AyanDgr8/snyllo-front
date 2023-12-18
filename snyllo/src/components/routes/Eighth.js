@@ -30,13 +30,9 @@ const Eighth = () => {
                         />
                     </div>
                     <div className='eigth-right-container'>
-                        <img src='/upload/eigth-right-machine.png'
-                        className='eighth-right-machine'
-                        alt='eighth-right-machine'
-                        />
-                        <img src='/upload/eighth-right-legs.png'
-                        className='eighth-right-legs'
-                        alt='eighth-right-legs'
+                        <img src='/upload/forever.png'
+                        className='forever'
+                        alt='forever'
                         />
                     </div>
                 </div>    

@@ -18,7 +18,7 @@
     }
 
     .big-heading-12 h2 {
-        font-size: 5.5em;
+        font-size: 5rem;
         margin-top: 0;
         margin-bottom: 0;
         color: #D63D3E63;
@@ -30,10 +30,10 @@
     }
 
     .big-heading-12 h3 {
-        font-size: 2.5em;
+        font-size: 2.5rem;
         font-weight: 700;
         position: absolute;
-        top: 0;
+        top: 2rem;
         left: 0;
         margin-top: 2.813rem;
         z-index: 2;
@@ -46,37 +46,39 @@
         display: flex;
         justify-content: space-between; 
         flex-direction: row;
+        margin-top:1.5rem;
     }
 
     .thirteenth-left-container{
-        margin-top: 1.875rem;
-        height: 15.625rem;
-        width: 31.25rem;
+        height: 16rem;
+        width: 28rem;
         display:flex ;
         justify-content: space-between; /* Align items with equal space between them */
         flex-direction: column;
         align-items: center;
-        margin-top: 6.25rem;
+        margin-top: 8rem;
     }
 
 
     .thirteenth-left-container p{
         font-family: "Roboto", Sans-serif;
-        font-size: 1.563rem;
+        font-size: 1.25rem;
+        line-height: 1.2;
         border-radius: 1.563rem;
         border: 1px solid;
         background-color: #CE3B3C;
+        box-shadow: inset 0 0 1vw rgba(250, 4, 4, 0.5);
         color:white;
-        height: 100%; /* Cover the entire height of the container */
-        width: 100%; /* Cover the entire width of the container */
-        padding: 1.25rem; /* Adjust padding as needed */
+        /* height: 100%; Cover the entire height of the container */
+        /* width: 100%; Cover the entire width of the container */
+        padding: 1rem; /* Adjust padding as needed */
         box-sizing: border-box; 
     }
 
     .thirteenth-img{
-        width: 34.375rem;
-        height:34.375rem;    
-        animation: boomerangAnimation 2s ease-in-out infinite alternate;
+        width: 30rem;
+        height:30rem;    
+        /* animation: boomerangAnimation 2s ease-in-out infinite alternate; */
     }
 
 
@@ -84,15 +86,13 @@
 
 /* Media query for mobile screens */
 @media screen and ( max-width: 425px){
-    .big-heading-12{
-        margin-top: 2.188rem;
-    }
+    
     .big-heading-12 h2{
-        font-size: 2.35rem;
+        font-size: 2rem;
     }
     .big-heading-12 h3{
-        font-size: 1.75rem;
-        margin-top: 2.25rem;
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
 
     }
     .thirteenth-container{
@@ -107,12 +107,14 @@
         margin-top: 3.75rem;
     }
     .thirteenth-left-container{
-        margin-left: 2rem;
+        margin-left: auto;
+        margin-right: auto;
         height: 20rem;
-        width: 80%;
+        width: 100%;
         margin-top: 0;
     }
     .thirteenth-left-container p{
-        font-size: 1.3rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

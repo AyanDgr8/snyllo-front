@@ -5,7 +5,7 @@
     --base-font-size: 16px; /* Define the base font size */
   }
 
-        .sixth-page-content {
+    .sixth-page-content {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -20,7 +20,7 @@
     }
 
     .big-heading-5 h2 {
-        font-size: 6em;
+        font-size: 5rem;
         margin-top: 0;
         margin-bottom: 0;
         color: #D63D3E63 ;
@@ -32,10 +32,10 @@
     }
 
     .big-heading-5 h3 {
-        font-size: 2.5em;
+        font-size: 2.5rem;
         font-weight: 700;
         position: absolute;
-        top: 0;
+        top: 2rem;
         left: 0;
         margin-top: 3.125rem;
         z-index: 2;
@@ -54,11 +54,9 @@
     }
 
     .routine-logo img {
-        height: 15.625rem;
-        width: 25rem;
-        margin: 0.625rem 0.625rem;
-        margin-top: 0;
-        margin-bottom: 0;
+        height: 10rem;
+        width: 15rem;
+        margin: 2rem;
     }
 
 
@@ -70,10 +68,10 @@
     }
     .big-heading-5 h3{
         font-size: 1.125rem;
-        margin-top: 2.5rem;
+        margin-top: 1rem;
     }
     .routine-logo{
-        margin-top: 1.875rem;
+        margin-top: 1.5rem;
         display: flex;
         flex-direction: column;
         flex-wrap:wrap ;

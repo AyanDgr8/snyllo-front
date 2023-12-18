@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import Header from './Header';
-import './First.css';  // You can import any additional styles if needed
+import './First.css';  
 
 const First = () => {
   const leftContentRef = useRef(null);
@@ -38,14 +38,20 @@ const First = () => {
     });
   };
   return (
-    <div>
+    <div className="first-page-wrapper">
+      <div className="video-background">
+        <video autoPlay loop muted className="video">
+          <source src="/upload/first-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
       <Header />
       <div className="first-page-content">
         {/* Left side text content */}
         <div className='left-content-first' ref={leftContentRef}>
           <div className="left-images-first" >
             <img    
-              src="/upload/epilazexleft.png" 
+              src="/upload/testing.png" 
               className="epilazexleft" 
               alt="epilazexleft">
             </img>

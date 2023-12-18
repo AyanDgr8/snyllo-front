@@ -1,157 +1,190 @@
 /* src/components/routes/First.css */
 
-    :root {
-        --base-font-size: 16px; /* Define the base font size */
-      }
-      
-      
+:root {
+    --base-font-size: 2.5vw; /* Change base font size to vw */
+}
 
-    .first-page-content {
-        display: flex;
-        align-items: center;
-        margin-top: 1.2rem;
-        padding: 1.25rem; /* Adjust as needed */
-        background: linear-gradient(to bottom , white 0%, pink 60%, white 90%, pink 100%);
-    }
-    .epilazexleft{
-        width:20rem;
-        height: 5rem;
-    }
+.first-page-content {
+    display: flex;
+    margin-top: 0;
+}
 
-    /* Left-side */
-    .left-content-first {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 60%;
-        position:relative;
-    }
+.first-page-wrapper {
+    position: relative;
+}
 
-    .epilazexleft {
-        animation: boomerangAnimation 2s ease-in-out infinite alternate;
-    }
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(81%); /* Change height to vh */
+    overflow: hidden;
+    z-index: -1;
+    background: linear-gradient(to right, white 0%, lightpink 50%, white 80%, lightpink 100%);
+}
 
-    .left-para {
-        margin-left: 3.125rem; 
-        color: white; 
-        margin-left:auto;
-    }
+.video {
+    object-fit: cover;
+    opacity: 0.2;
+    width: 100%;
+}
+
+
+.left-images-first {
+    margin-right:  18vw; /* Change margin-right to vw */
+}
+
+.epilazexleft {
+    width: 20vw;
+    height: 10vh;
+    margin-top: 10vh;
+}
+
+
+/* Left-side */
+.left-content-first {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    position: relative;
+    margin: 0;
+}
+
+.left-para {
+    margin-left: 6vw;
+    margin-top: 4vh;
+    margin-right: 0; 
+}
     
-    .firstline{
-        color: black;
-        font-family: "Roboto", Sans-serif;
-        font-size: 5.2rem;
-        font-weight: 900;
-        line-height: 1.2em;
-        letter-spacing: 0;
-        -webkit-text-stroke-width: 0.125rem;
-        stroke-width: 0.125rem;
-        -webkit-text-stroke-color: #CE3B3C;
-        stroke: black;
-    }
+.firstline {
+    color: transparent;
+    font-family: "Roboto", Sans-serif;
+    font-size: 5vw; /* Change font size to vw */
+    font-weight: 900;
+    line-height: 1em;
+    letter-spacing: 0;
+    -webkit-text-stroke-width: 0.125vw; /* Change stroke width to vw */
+    stroke-width: 0.125vw;
+    -webkit-text-stroke-color: black;
+    stroke: black;
+}
     
-    .secondline{
-        color: #CE3B3C;
-        font-family: "Roboto", Sans-serif;
-        font-size: 3.8rem;
-        font-weight: 900;
-        line-height: 1.2em;
-        letter-spacing: 0;
-    }
+.secondline {
+    color: #CE3B3C;
+    font-family: "Roboto", Sans-serif;
+    font-size: 3.6vw; /* Change font size to vw */
+    font-weight: 900;
+    line-height: 1em;
+    letter-spacing: 0;
+}
 
-    .thirdline{
-        font-family: "Roboto", Sans-serif;
-        font-weight: 500;
-        font-size: 1.6rem;
-        margin-left: 0.3125rem;
-        color:black;
-    }
+.thirdline {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    font-size: 2vw; /* Change font size to vw */
+    margin-left: 0.1vw;
+    color: black;
+}
 
-    .left-icons-wrapper {
-        margin-left: auto;
-        margin-top: 1.25rem; /* Adjust as needed */
-        /* font-family: "Roboto", Sans-serif; */
-        /* font-family: "Roboto", "Arial", "Helvetica", "sans-serif"; */
-        /* font-family: "Roboto", "Georgia", "serif"; */
-        font-family: 'Playfair Display', serif;
-        border-radius: 0.625rem; 
-        background-color: transparent;
-        box-shadow: 0 0 0.9375rem red;
-        display: flex;
-        justify-content: space-between; 
-        /* align-items: center;  */
-    }
+
+.left-icons-wrapper {
+    /* font-family: "Roboto", "Arial", "Helvetica", "sans-serif"; */
+    /* font-family: "Roboto", "Georgia", "serif"; */
+    /* font-family: 'Playfair Display', serif; */
+    font-family: "Roboto", Sans-serif;
+    margin-left: 5vw;
+    margin-top: 10vh; /* Change margin-top to vh */
+    border-radius: 3vw; /* Change border-radius to vw */
+    background-color: rgba(201, 175, 175, 0.2);
+    backdrop-filter: blur(1px) brightness(1.2);
+    box-shadow: 0 0 1vw rgba(255, 255, 255, 0.5),
+                inset 0 0 2vw rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    width: 45vw;
+}
+
     
-    .left-icons-container {
-        display: flex;
-        flex-direction: row;
-        /* width: auto; */
-        opacity: 0; /* Initially hidden */
-        transform: translateY(1.25rem); /* Initially positioned below */
-        animation: slideInFromBottom 2s ease forwards;
-    }
+.left-icons-container {
+    display: flex;
+    flex-direction: row;
+    transform: translateY(1.25vh); /* Change translateY to vh */
+    animation: slideInFromBottom 2s ease forwards;
+}
 
-    .icon1, .icon2, .icon3 {
-        width: 33.33%;
-        margin-right: 0.3125rem;
-    } 
+.icon1, .icon2, .icon3 {
+    width: 33.33%;
+}
 
-    .icon1img, .icon2img, .icon3img {
-        margin:1.25rem;
-        margin-left: 3.75rem; 
-        margin-right: 4.375rem;
-        width: 7.8125rem;
-        height: 7.8125rem;
-    }
-
-    .icon1caption, .icon2caption, .icon3caption{
-        font-size: 1.2rem;
-        text-align: center;
-        color:black;
-        margin-top: 0;
-        margin-bottom: 0;
-
-    }
+.icon1img, .icon2img, .icon3img {
+    margin-top: 6vh;
+    margin-left: 4vw;
+    margin-bottom: 0;
+    width: 6.5vw;
+    height: 6.5vw;
+}
 
 
-    /* Right side */
+.icon1caption, .icon2caption, .icon3caption {
+    text-align: center;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 4.5vw;
+}
 
-    .right-content-first {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 40%;
-        position: relative;
-        
-    }
+.icon1caption h3, .icon2caption h3, .icon3caption h3 {
+    font-size: 1.5vw; /* Change font size to vw */
+    margin-top: 1.5vh;
+    margin-bottom: 3vh;
+}
 
-    .twomachinesright{
-        height: 37.5rem;
-        width: 29.6875rem;
-        margin-top: 6.25rem;
-        margin-bottom: 0.625rem;
-        position: relative;
-        right: -62.5%;
-    }
+.icon1caption h4, .icon2caption h4, .icon3caption h4 {
+    font-size: 1vw; /* Change font size to vw */
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
 
-    /* Add animation styles */
-    .left-para div {
-        opacity: 0;
-        transform: translateX(-1.25rem);
-        animation: fadeInRight 2s ease forwards;
-    }
+.right-content-first {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+}
 
-    .firstline, .secondline, .thirdline {
-        animation: fadeInLeft 2s ease forwards;
-    }
+.twomachinesright {
+    height: 100vh;
+    width: 40vw;
+    margin-bottom: 0.5vh;
+    margin-top: 8vh;
+    margin-left: 2vw;
+    margin-right: 0;
+    position: relative;
+    right: -62.5vw;
+}
 
-    .twomachinesright{
-        animation: slideInFromRight 1s ease forwards;
-    }
+/* Add animation styles */
+.left-para div {
+    opacity: 0;
+    transform: translateX(-1.25vw);
+    animation: fadeInRight 2s ease forwards;
+}
 
-    .left-icons-wrapper{
-        animation: slideInFromRight 2s ease forwards;
-    }
+.firstline, .secondline, .thirdline {
+    animation: fadeInLeft 2s ease forwards;
+}
+
+.twomachinesright{
+    animation: slideInFromRight 1s ease forwards;
+}
+
+.left-icons-wrapper{
+    animation: slideInFromRight 2s ease forwards;
+}
 
 
 /* Keyframes for slideInFromRight slideInFromBottom boomerangAnimation swirlAnimation fadeInRight and fadeInLeft animations */
@@ -210,46 +243,62 @@
     .first-page-content {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        margin-top: 1rem;
-        margin-left: 0;
-        margin-right: auto;
     }
 
     .epilazexleft {
-        width: 12.5rem;
-        margin-right: 5rem;
-        margin-left: 1rem;
+        width: 15rem;
+        margin-left: 15rem;
     }
 
     .left-para {
         flex-direction: column;
         flex-wrap: wrap;
-        margin-left: auto;
+        margin-left: 5rem;
         margin-right: auto;
 
     }
 
+    .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to bottom, white 0%, lightpink 50%, white 100%);
+        overflow: hidden;
+        z-index: -1;
+    }
+
+
+    .video {
+        object-fit: cover;
+        opacity: 0.2;
+        height:40%;
+    }
+
     .firstline {
-        font-size: 2.6rem;
+        font-size: 3rem;
+        font-weight: 900;
     }
 
     .secondline {
         margin-top: 1.25rem;
-        font-size: 2.6rem;
+        font-size: 2.5rem;
     }
 
     .thirdline {
-        margin-top: 0.625rem;
+        margin-top: 1rem;
         font-size: 1.2rem;
         width: 100%;
         text-align:left ;
+        margin-bottom: 6rem;
     }
 
     .left-icons-wrapper {
-        margin-left: 0;
-        margin-right: 0;
-        box-shadow: none;
+        margin-top: 22rem;
+        margin-left: -12rem;
+        display: flex;
+        height: 0;
+        width: 0;
     }
 
     .left-icons-container {
@@ -257,7 +306,7 @@
         height: auto;
         align-items: center;
         justify-content: center;
-        margin-left: 0;
+        margin: 0;
     }
 
     .icon1,
@@ -267,16 +316,15 @@
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 2rem;
     }
 
     .icon1img,
     .icon2img,
     .icon3img {
-        width: 10rem;
-        height: 10rem;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0;
+        width: 5rem;
+        height: 5rem;
+        margin-top: 1rem;
         margin-right: 16rem;
     }
 
@@ -286,7 +334,7 @@
         display: flex;
         flex-direction: column;
         align-items: center; 
-        margin-left: 1.4rem; 
+        margin-left: 0.75rem; 
         margin-top: 0; 
     }
 
@@ -297,113 +345,29 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 9.375rem;
-        margin-top: 0;
+        margin-top: 0.25rem;
+        margin-left: -0.75rem;
         font-size: 1.5rem;
     }
 
     .icon1caption h4,
     .icon2caption h4,
     .icon3caption h4 {
-        margin-top: 0.3125rem;
-        margin-left:0;
+        margin-top: 0.35rem;
+        margin-left:-1rem;
         font-size: 1.125rem;
         align-items: center;
-        width: 15.625rem;
+        width: 14.5rem;
     }
 
     .twomachinesright {
-        margin-top:2rem ;
-        margin-bottom: 0;
-        width: 18rem;
-        height: 18rem;
-        margin-right: 2.5rem;
-        margin-left:0;
+        margin-top: 25rem;
+        width: 22rem;
+        height: 30rem;
+        margin-right: auto;
+        margin-left:2rem;
     }
 
 }
 
 
-
-/* @media screen and (min-width:426px) and (max-width: 640px) { 
-    .first-page-content {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin-top: 1rem;
-        margin-left: 0;
-        margin-right: auto;
-    }
-    
-    .left-para {
-        margin-left: 2rem;
-        margin-right: 0;
-
-    }
-    
-    .left-icons-wrapper {
-        margin-left: 2rem;
-        margin-right: 0rem;
-    }
-
-    .left-icons-container {
-        flex-direction: column; 
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .icon1,
-    .icon2,
-    .icon3 {
-        display: flex;
-        margin-left: 0;
-        margin-right: auto;
-    }
-
-    .icon1img,
-    .icon2img,
-    .icon3img {
-        width: 10rem;
-        height: 10rem;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .icon1caption,
-    .icon2caption,
-    .icon3caption {
-        display: flex;
-        flex-direction: row;
-        align-items: center; 
-        margin-left: 0; 
-        margin-top: 0;
-     
-    } 
-
-    .icon1caption h3,
-    .icon2caption h3,
-    .icon3caption h3 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 9.375rem;
-        margin-top: 2rem;
-        font-size: 1.5rem;
-    }
-
-    .icon1caption h4,
-    .icon2caption h4,
-    .icon3caption h4 {
-        margin-top: 0.3125rem;
-        margin-left:0;
-        font-size: 1.125rem;
-        align-items: center;
-        width: 15.625rem;
-    }
-
-
-} */

@@ -117,8 +117,10 @@ const ContactUs = () => {
                 value={formData.email}
                 onChange={handleChange}
               />
+
               <select
                 name="treatment"
+                className='treatment'
                 value={formData.treatment}
                 onChange={handleChange}
               >

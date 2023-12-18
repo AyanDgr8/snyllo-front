@@ -23,7 +23,7 @@
     }
 
     .big-heading-6 h2 {
-        font-size: 5.5em;
+        font-size: 5rem;
         margin-top: 0;
         margin-bottom: 0;
         color: #D63D3E63;
@@ -35,13 +35,13 @@
     }
 
     .big-heading-6 h3 {
-        font-size: 2.5em;
+        font-size: 2.5rem;
         font-weight: 700;
         position: absolute;
-        top: 0;
+        top: 2rem;
         left: 0;
         margin-right: 2.5rem;
-        margin-top: 2.813rem;
+        margin-top: 2.8rem;
         z-index: 2;
         right: -100%;
         animation: slideInFromRight 1s ease forwards;
@@ -52,7 +52,7 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 4.375rem;
-        margin-top: 0.5rem;
+        margin-top: 1.5rem;
     }
 
     .button-lhr-waxing{
@@ -62,26 +62,28 @@
         justify-content: center;
         align-items: center;
         border: 0;
+        box-shadow: 0 0 1vw rgba(192, 12, 12, 0.5),
+        inset 0 0 2vw rgba(250, 4, 4, 0.5);
         color: white;
         background-color: #CE3B3C;
         cursor: pointer;
-        font-size: 1.125rem;
+        font-size: 1.25rem;
         padding: 0.938rem 1.563rem;
         outline: 0;
         transition: all 0.3s ease 0s;
-        border-radius: 0.938rem;
+        border-radius: 1rem;
         
     }
 
     .seventh-box .button-lhr-waxing{
         display: flex;
-        margin-left: 5rem;
+        margin-left: 4rem;
         width: 15.625rem;
     } 
 
     .middle-five-icons{
-        height: 30rem;
-
+        height: 24rem;
+        margin-top:5rem;
     }
 
     .seventh-box-content-lhr{
@@ -140,8 +142,9 @@
 /* Media query for mobile screens */
 @media screen and ( max-width: 425px){
     .big-heading-6{
-        margin-top: 2.5rem;
-        margin-left: 2.5rem;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     .big-heading-6 h2{
         font-size: 2.5rem;
@@ -150,18 +153,24 @@
     .big-heading-6 h3{
         font-size: 1.5rem;
         margin-left: 1rem;
+        margin-top: 1rem;
     }
     .seventh-box{
-        margin-top: 5rem;
+        margin-top: 4rem;
         display: flex;
         flex-direction: column;
-        width: 25rem;
     }
     .button-lhr-waxing{
-        margin-right: 80%;
+        margin-right: 3rem;
     }
-    .middle-five-icons{
+    .seventh-box-content-lhr span,
+    .seventh-box-content-wax span{
+        font-size: 1rem;
+    }
+
+    .middle-five-icons {
         display: none;
+        /* Replace the image for mobile view */
+        background-image: url('/public/upload/middle-five-icons-mobile.png');
     }
-    
 }

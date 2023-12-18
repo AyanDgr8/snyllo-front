@@ -1,46 +1,44 @@
 /* src/components/routes/Header.css */
 :root {
-  --base-font-size: 16px; /* Define the base font size */
+  --base-font-size: 2.5vw; /* Define the base font size */
 }
-@media screen and (min-width: 768px) {
-  .header-container {
+
+.header-container {
     background-color: white;
     width: 95%;
     box-shadow:
-        0 0 0.5rem 0.0625rem #CE3B3C, 
-        0 0 0 0.125rem #CE3B3C inset;
+        0 0 0.5rem 0.0625vw #CE3B3C, 
+        0 0 0 0.125vw #CE3B3C inset;
     display: flex;
     flex-direction: row;
+    position: relative;
     align-items: center;
-    border-radius: 0.625rem;
-    margin-top: 1.5625rem;
+    border-radius: 1vw;
     margin-right:auto;
     margin-left:auto;
-    color: white;
-  }
+}
 
 .logo img {
-      /* margin-top:0.625rem; */
       margin-top:2vh;
-      margin-left:1.25rem;
-      margin-bottom: 0.625rem;
-      width: 11.25rem;
-      height: 2.5rem;
+      margin-left:1.5vw;
+      margin-bottom: 1vh;
+      width: 15vw;
+      height: 8vh;
     }
     
 .buttons {
       display: flex;
       flex-direction: row; 
       align-items: center; 
-      margin-left:8rem;
-      padding: 1rem;
+      margin-left:13vw;
+      padding: 1.5vw;
     }
     
 .button {
       background-color: white;
-      font-size: 0.875rem;
+      font-size: 1vw;
       font-weight: 700;
-      border-radius: 0.313rem;
+      border-radius: 0.5vw;
       cursor: pointer;
       margin: 0;
       border:0;
@@ -52,25 +50,29 @@
     
 .button:hover {
       color: #CE3B3C;
+      border-bottom:1vw #CE3B3C;
+
     }
 
 .benefits{
-    width:10rem;
+    width:10vw;
   }  
 
 .prices{
-    width:10rem;
+    width:10vw;
   }  
 
 
 .contact {
       position: relative;
       overflow: hidden;
-      margin-left: 1.5rem;
-      width: 8rem;
-      border: 0.625rem;
-      height: 2rem;
-      box-shadow: 0 0 1rem red;
+      margin-left: 3vw;
+      width: 12vw;
+      border: 1vw;
+      border-radius: 0.75rem;
+      height: 2.5vw;
+      box-shadow: 0 0 1vw #CE3B3C,
+      0 0 0 0.1vw #CE3B3C inset;
   }
     
 .contact::before {
@@ -116,51 +118,30 @@
     display: none; 
   }
 
-}
-
-
-
 
 /* Add a media query for mobile screens */
 @media screen and ( max-width: 425px){
   .header-container {
-      background-color: white;
-      align-items: stretch; 
-      width:70%;
+      width:85%;
       box-shadow:
-          0 0 0.5rem 0.0625rem #CE3B3C, 
-          0 0 0 0.125rem #CE3B3C inset;
-          display: flex;
-      flex-direction: row;
-      align-items: center;
-      border-radius: 0.625rem;
-      margin-top: 1.5625rem;
+          0 0 0.5rem 0.095rem #CE3B3C, 
+          0 0 0 0.15rem #CE3B3C inset;
+      border-radius: 0.75rem;
       margin-right:auto;
       margin-left:auto;
-      color: white;
       
   }
   
 
   .logo img {
-    margin-top: 0.5rem; 
-    margin-bottom: 0.5rem;
-    margin-left: 2.5rem; 
-    width: 12rem; 
+    margin-left: 1rem; 
+    padding: 0.1rem;
+    width: 11rem; 
     height: 3rem; 
-    padding: 0.5rem;
   }
 
   .buttons {
     display: none; 
-    flex-direction: column;
-    margin-top: 1rem; 
-    margin-left: 0;
-  }
-
-  .button {
-    width: 90%; 
-    margin-left: 20%; 
   }
 
   .hamburger-menu {
@@ -168,9 +149,14 @@
     cursor: pointer;
     color:black;
     font-weight: 900;
-    margin-left: 5rem;
-    margin-top:1rem;
+    margin-left: 4rem;
+    margin-top:1vh;
     background-color: #fff;
+    padding: 0.5rem 0.75rem; /* Add some padding for better appearance */
+    border-radius: 0.5rem;
+    box-shadow: 
+    0 0 0.5rem 0.095rem #CE3B3C, 
+    0 0 0 0.15rem #CE3B3C inset;
   }
 
   /* Show buttons when the mobile menu is active */
@@ -178,66 +164,73 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 7.5rem; /* Adjust the top position as needed */
-    right: 1rem; /* Adjust the right position as needed */
-    background: linear-gradient(to right, white 0%, pink 50%, white 100%);
+    top: 5rem; 
+    left: 0; 
     color: black;
-    border-radius: 0.625rem;
-    padding: 0.625rem;
-    box-shadow: 0 0.25rem 0.5rem rgba(245, 12, 12, 0.1);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
     z-index: 1; /* Ensure the mobile menu is on top */
+    background-color: #f3caca; 
+    width:18rem;
   }
 
   .mobile-menu .button {
-    margin: 0.3125rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem; /* Add padding for better button appearance */
+    height: 2.75rem;
+    width: 17rem;
     border: none;
+    line-height: 1;
+    text-align: center; /* Center text inside the button */
+    font-size: 0.8rem; /* Adjust font size as needed */
+    background-color: transparent; /* Add a background color to the buttons */
+    color: black; /* Set text color to white for better contrast */
+    border-radius: 0.75rem; /* Add a slight border-radius to the buttons */
+    cursor: pointer;
+    box-shadow: 
+    0 0 0.5rem 0.095rem #CE3B3C, 
+    0 0 0 0.15rem #CE3B3C inset;
   }
+  
+  .contact {
+    color: white;
+    background-color: #CE3B3C;
+  }
+
+  
   .contact {
     position: relative;
     overflow: hidden;
-    margin-left: 3rem;
-    width: 8rem;
-    border: 0.625rem;
-    height: 2rem;
-    box-shadow: 0 0 1rem red;
-}
-  
-.contact::before {
+    margin-left: 2vw;
+    width: 12vw;
+    border: 1vw;
+    height: 2.5vw;
+    box-shadow: 0 0 1vw red;
+  }
+
+  .contact::before {
     content: "Talk to Us";
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: opacity 0.5s ease;
-}
-  
-.contact:hover::before {
-  opacity: 0;
-}
-  
-.contact::after {
-    content: "98009 96009";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
     background-color: #CE3B3C;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: opacity 0.3s ease;
+  }
+
+  .contact:hover::before {
+  opacity: 0;
+  }
+
+  .contact::after {
+    content: "98009 96009";
+    position: absolute;
+    background-color: white;
+    color: black;
     opacity: 0;
-}
-  
-.contact:hover::after {
-  opacity: 1;
-} 
+  }
+
+  .contact:hover::after {
+    opacity: 1;
+  } 
+
+
 
 }

@@ -18,6 +18,12 @@ const Fourth = () => {
                     className="big-left-img" 
                     alt ="big-left-img" >
                     </img>
+                    
+                    <img 
+                    src="/upload/pink-circle.png" 
+                    className="pink-circle" 
+                    alt ="pink-circle" >
+                    </img>
                     <img 
                     src="/upload/big-right-machine.png" 
                     className="big-right-machine" 

@@ -18,7 +18,7 @@
     }
 
     .big-heading-faq h2 {
-        font-size: 5.5em;
+        font-size: 5rem;
         margin-top: 0;
         margin-bottom: 0;
         color: #D63D3E63;
@@ -30,12 +30,12 @@
     }
 
     .big-heading-faq h3 {
-        font-size: 2.5em;
+        font-size: 2.5rem;
         font-weight: 700;
         position: absolute;
-        top: 0;
+        top: 2.5rem;
         left: 0;
-        margin-top: 2.813rem;
+        margin-top: 2.8rem;
         z-index: 2;
         right: -100%;
         animation: slideInFromRight 1s ease forwards;
@@ -46,73 +46,61 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        margin-top: 1.25rem;
+        margin-top: 2rem;
     }
 
     .faq-button {
-        width:37.5rem;
-        background-color: #CE3B3C; /* Green background color */
+        width:38rem;
+        background-color: #CE3B3C; 
+        box-shadow: 
+        inset 0 0 1vw rgba(250, 4, 4, 0.5);
         box-sizing: border-box;
         border: none; /* Remove borders */
         color: white; /* White text color */
-        padding: 0.625rem 0.625rem; 
+        padding: 0.5rem 0.5rem; 
         text-align: center;
         text-decoration: none;
         display: block;
         font-size: 1rem;
-        margin: 0.625rem 0 ;
-        transition-duration: 0.4s;
+        margin: 0.5rem 0 ;
+        transition-duration: 0.3s;
         cursor: pointer;
         border-radius: 0.5rem; 
     }
 
     .faq-button:hover {
-        background-color: lightgray; 
-        color: black; /* Black text color */
+        background-color:  white; 
+        color: black; 
     }
 
     p {
         max-width: 37.5rem;
         width: 100%;
-        font-size: 1.2em;
-        line-height: 1.5;
-        margin-top: 0.625rem;
+        font-size: 1.1em;
+        line-height: 1.2;
+        margin-top: 0.5rem;
+        margin-left: 0.75rem;
+        padding: 0.5rem;
         text-align: left;
         white-space: pre-line;
     }
 
 
 
-
-/* Animation */
-@keyframes slideInFromLeft {
-    to {
-        left: 0;
-    }
-}
-
-@keyframes slideInFromRight {
-    to {
-        right: 0;
-    }
-}
-
-
-
 /* Media query for mobile screens */
 @media screen and ( max-width: 425px){
     .big-heading-faq{
-        margin-top: 2.188rem;
+        margin-bottom: 1rem;
     }
     .big-heading-faq h2{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     .big-heading-faq h3{
-        font-size: 1.563rem;
-        margin-top: 2.5rem;
+        font-size: 2rem;
+        margin-top: 1rem;
     }
     .faq-button {
-        width:25rem;
+        width:23rem;
     }
     p{
         max-width: 80%;

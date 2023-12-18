@@ -20,7 +20,7 @@ const Seventh = () => {
                     observer.unobserve(entry.target);
                 }
             });
-        };
+        };  
 
         const observer = new IntersectionObserver(handleIntersection, options);
 

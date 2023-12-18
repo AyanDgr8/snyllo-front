@@ -15,13 +15,13 @@
 
     .big-heading-8 {
         text-align: center;
-        margin-top: 3.125rem;
+        margin-top: 3rem;
         position: relative;
         margin-bottom: 0;
     }
 
     .big-heading-8 h2 {
-        font-size: 6em;
+        font-size: 5rem;
         margin-top: 0;
         margin-bottom: 0;
         color: #D63D3E63 ;
@@ -36,7 +36,7 @@
         font-size: 2.5em;
         font-weight: 700;
         position: absolute;
-        top: 0;
+        top: 2rem;
         left: 0;
         margin-top: 3.125rem;
         z-index: 2;
@@ -49,6 +49,7 @@
         justify-content: space-between; /* Align items with equal space between them */
         flex-direction: row;
         width: 80%;
+        margin-top: 2rem;
     }
 
     .ninth-column-one,
@@ -71,19 +72,19 @@
 
     .ninth-column-one img{
         width: 21.875;
-        height: 15.625rem;
+        height: 12.625rem;
         display: flex;
         justify-content: center;
     }
 
     .ninth-column-two img{
-        height: 31.25rem;
-        width: 17.188rem;
+        height: 30rem;
+        width: 15rem;
     }
 
     .ninth-column-three img{
         width: 21.875;
-        height: 15.625rem;
+        height: 12.625rem;
         display: flex;
         justify-content: center;
     } 
@@ -93,26 +94,38 @@
 
 /* Media query for mobile screens */
 @media screen and ( max-width: 425px){
-    .big-heading-8{
-        margin-top: 1.875rem;
-    }
     .big-heading-8 h2{
-        font-size: 2.5rem;
+        font-size: 2.25rem;
+        margin-top: 2rem;
     }
     .big-heading-8 h3{
-        font-size: 1.875rem;
-        margin-top: 2.3rem;
+        font-size: 1.5rem;
+        margin-top: 2.5rem;
 
     }
     .ninth-container{
         display: flex;
         flex-direction: column;
-        margin-top: 3.125rem;
-        margin-left: 14.5rem;
+        margin-top: 3.5rem;
+        margin-left: 15rem;
         width: 80%;
+
+    }
+    .ninth-column-one,
+    .ninth-column-three{
+        margin-left: 0;
+        margin-right: auto;
 
     }
     .ninth-column-two{
         margin-right: 1.5rem;
+    }
+    
+
+    .ninth-column-two img{
+        height: 20rem;
+        width: 12rem;
+        margin: 1rem;
+        margin-left: -1rem;
     }
 }
