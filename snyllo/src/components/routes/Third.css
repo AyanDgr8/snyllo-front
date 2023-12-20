@@ -1,14 +1,9 @@
 /* src/components/routes/Third.css */
 
-:root {
-    --base-font-size: 16px; /* Define the base font size */
-  }
-
 .third-page-content {
     flex-direction: column;
     align-items: center;
     position: relative;
-    /* background: linear-gradient(to bottom right, white 0%, pink 100%); */
 }
 
     .big-heading-2 {
@@ -47,14 +42,6 @@
         margin-bottom: 1.5rem;
         margin-top: 1.5rem;
     }
-
-    /* .toggle-switch label {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 1rem;
-        color: white;
-    } */
 
     .gender-button {
         background-color: white; 
@@ -106,22 +93,41 @@
     .slick-prev,
     .slick-next {
         font-size: 5rem;
-        color: #333;
+        color: black;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
         cursor: pointer;
     }
-    .slick-prev:hover{
-        color: black;
+
+    
+    .slick-prev:before,
+    .slick-next:before{
+        font-size:20px;
+        opacity:1;
     }
-    .slick-next:hover{
-        color: black;
+
+    
+    .slick-prev:after,
+    .slick-next:after{
+        font-size:20px;
+        opacity:1;
+        color:black;
     }
+
+:root {
+    --base-font-size: 16px;
+  }
+
+
 
 
 /* Media query for mobile screens */
-@media screen and ( max-width: 425px){
+@media only screen and (max-width: 600px) {
+
+    .third-page-content{
+        width:100%;
+    }
     .big-heading-2 h2{
         font-size: 2.5rem;
         letter-spacing: 0.4rem;
@@ -140,9 +146,131 @@
     .slide img {
         width: 20rem; 
         height: 20rem; 
-        margin:5px;
+        margin-right:5rem;
+        gap: 1rem;
+    }
+  
+    .slick-prev,
+    .slick-next {
+        font-size: 5rem;
+        color: #333;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    .slick-prev:hover{
+        color: black;
+    }
+    .slick-next:hover{
+        color: black;
     }
 
 }
 
-   
+
+
+@media only screen and (min-width: 601px) and (max-width: 1366px) {
+    
+.third-page-content {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+    .big-heading-2 {
+        text-align: center;
+        position: relative;
+    }
+
+    .big-heading-2 h2 {
+        font-size: 5rem;
+        margin-bottom: 0;
+        color:#D63D3E63;
+        position: relative;
+        top: 0;
+        z-index: 1; 
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards
+    }
+
+    .big-heading-2 h3 {
+        font-size: 2.25rem;
+        margin-top: 3rem;
+        margin-bottom: 0;
+        font-weight: 700;
+        position: absolute; 
+        top:2rem;
+        left: 0;
+        z-index: 2; 
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
+      
+    .toggle-switch {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .gender-button {
+        background-color: white; 
+        color: black; 
+        box-shadow: 0 0 2vw rgba(192, 12, 12, 0.5);
+        border: none;
+        position: relative;
+        font-size: 1rem;
+        border-radius: 0.5rem ;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        margin: 0.25rem;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .gender-button:hover {
+        background-color: #CE3B3C;
+        color: white;
+    }
+
+    .gender-button.active {
+        background-color: #CE3B3C;
+        color: white;
+        font-weight: 900;
+    }
+
+    .gender-button.active:hover {
+        background-color: white;
+        color: #CE3B3C;
+        font-weight: 900;
+    }
+    
+    .toggle-switch input {
+        display: none; 
+    }
+
+    .slick-slider {
+        width: 75%; 
+        margin: auto; 
+    }
+
+    .slide img {
+        width: 20rem; 
+        height: 20rem; 
+        margin:0.5rem;
+    }
+  
+    .slick-prev,
+    .slick-next {
+        font-size: 3rem;
+        color: black;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        z-index: 3;
+        background-color: black; 
+    }
+
+}

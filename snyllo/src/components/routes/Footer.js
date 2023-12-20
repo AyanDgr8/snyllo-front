@@ -55,33 +55,26 @@ const Footer = () =>{
                     </div>
                     <div className='footer-column-two'>
                         <h3>ADDRESS</h3>
-                        <span className="footer-icon-row-1">
-                            <div className="footer-icon-caption-1">
-                                <img 
-                                src="/upload/icon-address.png"
+                        <div className="footer-icon-row">
+                            <img 
+                                src="/upload/address.png"
                                 className="icon-six footer-icons"
                                 alt="address"
-                                />
-                                <p>4th Floor, BPTP Centra One, Golf Course Ext Rd,
-                                Sector 61, Gurugram, Haryana -122011</p>
-                            </div>
-                        </span>
+                            />
+                        </div>
                         <div className="footer-icon-row">
-                                <img 
+                            <img 
                                 src="/upload/call.png"
                                 className="icon-seven footer-icons"
                                 alt="phone"
-                                />
+                            />
                         </div>
                         <div className="footer-icon-row">
-                            <div className="footer-icon-caption-3">
-                                <img 
-                                src="/upload/icon-email.png"
+                            <img 
+                                src="/upload/mail.png"
                                 class="icon-eight footer-icons"
                                 alt="email"
-                                />
-                                <p>hello@snylloestetica.com</p>
-                            </div>
+                            />
                         </div>
                     </div>
                     <div className='footer-column-three'>

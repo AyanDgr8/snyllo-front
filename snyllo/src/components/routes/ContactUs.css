@@ -1,9 +1,6 @@
 /* src/components/routes/ContactUs.css */
 
-:root {
-    --base-font-size: 16px; /* Define the base font size */
-  }
-        .big-heading-contactus {
+    .big-heading-contactus {
         text-align: center;
         margin-top: 6.25rem;
         position: relative;
@@ -12,7 +9,7 @@
 
     .big-heading-contactus h2 {
         font-size: 5rem;
-        margin-top: 3.125rem;
+        margin-top: 3.5rem;
         margin-bottom: 0;    
         color: #D63D3E63;
         position: relative;
@@ -28,7 +25,7 @@
         position: absolute;
         top: 2rem;
         left: 0;
-        margin-top: 2.813rem;
+        margin-top: 3.5rem;
         z-index: 2;
         right: -100%;
         animation: slideInFromRight 1s ease forwards;
@@ -41,7 +38,7 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        margin-top: 1.5rem;
+        margin-top: 2rem;
         
     }
 
@@ -49,42 +46,43 @@
     .form-part{
         display: flex;
         flex-direction: column;
-        margin-left: 21rem;
+        margin-left: 22rem;
         align-items: center; 
         justify-content: center; 
-        color:white;
+        /* color:white; */
     }
 
     .head {
         margin-bottom: 1rem; 
         margin-top:0;
-        margin-left: 5rem;
-        padding-left:1.5rem;
+        margin-left: 8rem;
         font-size: 1.5rem;
-        font-style: italic;
-        font-style: bold;
+        font-weight:400;
         color: black;
     }
 
     input{
         width: 70%;
         padding: 0.5rem;
-        margin:0.5rem;
+        margin-top: 1rem;
+        margin-left: 1rem ;
         border:0;
         outline: 0;
         border-radius: 0.5rem;
         background-color: lightgray;
-        border-bottom: 1px solid white;
+        border-bottom:2px solid transparent;
         color:black; 
+        transition:border-bottom 0.3s, background-color 0.3s;
     }
 
     input:hover{
         background-color: #D63D3E63 ;
         color:white;
+        border-bottom: 2px solid black;
     }
 
     select{
-        width: 18%;
+        width: 20%;
         padding: 0.5rem;
         border:0;
         outline: 0;
@@ -97,7 +95,7 @@
     }
 
     .treatment{
-        margin-left: 3rem;
+        margin-left: 4rem;
     }
     
 
@@ -114,20 +112,30 @@
         color: #fff;
         border: none;
         cursor: pointer;
-        margin-left: 5rem;
+        margin-left: 7rem;
         margin-top: 1.5rem;
         border-radius: 0.65rem;
         height: 2.5rem;
     }
 
     button.formbutton:hover {
-        background-color: black;
+        background-color:  white; 
+        color: #CE3B3C; 
     }
 
 
+:root {
+    --base-font-size: 16px; /* Define the base font size */
+  }
+
 
 /* Media query for mobile screens */
-@media screen and ( max-width: 425px){
+@media only screen and (max-width: 600px) {
+
+    .formmm{
+        width: 100%;
+    }
+
     .big-heading-contactus{
         margin-top: 3rem;
     }
@@ -141,7 +149,7 @@
     .head{
         font-size: 1rem;
         margin-right: auto;
-        margin-left: 2rem;
+        margin-left: 4rem;
         margin-top: 1rem;
     }
     .form-part{
@@ -154,10 +162,141 @@
         display: flex;
         flex-direction: column;
         width:50%;
-        margin-left: 3rem;
+        margin-left: 4rem;
+        margin-top: 1rem;
+    }
+
+    .treatment{
+        margin-left: 4rem;
     }
     button.formbutton{
-        margin-left: 3rem;
+        margin-left: 4rem;
         margin-right: auto;
     }
 } 
+
+@media only screen and (min-width: 601px) and (max-width: 1366px) {
+    .big-heading-contactus {
+        text-align: center;
+        margin-top: 6.25rem;
+        position: relative;
+        margin-bottom: 3.125rem;
+    }
+
+    .big-heading-contactus h2 {
+        font-size: 5rem;
+        margin-top: 3.5rem;
+        margin-bottom: 0;    
+        color: #D63D3E63;
+        position: relative;
+        top: 0;
+        z-index: 1;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
+    }
+
+    .big-heading-contactus h3 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        position: absolute;
+        top: 2rem;
+        left: 0;
+        margin-top: 3.5rem;
+        z-index: 2;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
+
+
+    .container{
+        display: flex;
+        width:90%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2rem;
+        
+    }
+
+
+    .form-part{
+        display: flex;
+        flex-direction: column;
+        margin-left: 22rem;
+        align-items: center; 
+        justify-content: center; 
+        /* color:white; */
+    }
+
+    .head {
+        margin-bottom: 1rem; 
+        margin-top:0;
+        margin-left: 8rem;
+        font-size: 1.5rem;
+        font-weight:400;
+        color: black;
+    }
+
+    input{
+        width: 70%;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        margin-left: 1rem ;
+        border:0;
+        outline: 0;
+        border-radius: 0.5rem;
+        background-color: lightgray;
+        border-bottom:2px solid transparent;
+        color:black; 
+        transition:border-bottom 0.3s, background-color 0.3s;
+    }
+
+    input:hover{
+        background-color: #D63D3E63 ;
+        color:white;
+        border-bottom: 2px solid black;
+    }
+
+    select{
+        width: 20%;
+        padding: 0.5rem;
+        border:0;
+        outline: 0;
+        border-radius: 0.5rem;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        background-color: lightgray;
+        border-bottom: 1px solid white;
+        color:black; 
+    }
+
+    .treatment{
+        margin-left: 4rem;
+    }
+    
+
+    select:hover{
+        background-color: #D63D3E63 ;
+        color:white;
+    }
+
+    button.formbutton {
+        width: 50%;
+        background-color: #CE3B3C;
+        box-shadow: 0 0 2vw rgba(192, 12, 12, 0.5),
+        inset 0 0 1vw rgba(250, 4, 4, 0.5);
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        margin-left: 7rem;
+        margin-top: 1.5rem;
+        border-radius: 0.65rem;
+        height: 2.5rem;
+    }
+
+    button.formbutton:hover {
+        background-color:  white; 
+        color: #CE3B3C; 
+    }
+
+}

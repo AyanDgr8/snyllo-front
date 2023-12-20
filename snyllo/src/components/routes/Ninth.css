@@ -1,9 +1,5 @@
 /* src/components/routes/Ninth.css */
 
-:root {
-    --base-font-size: 16px; /* Define the base font size */
-  }
-
     .ninth-page-content {
         display: flex;
         flex-direction: column;
@@ -36,9 +32,9 @@
         font-size: 2.5em;
         font-weight: 700;
         position: absolute;
-        top: 2rem;
+        top: 2.25rem;
         left: 0;
-        margin-top: 3.125rem;
+        margin-top: 3rem;
         z-index: 2;
         right: -100%;
         animation: slideInFromRight 1s ease forwards;
@@ -49,7 +45,7 @@
         justify-content: space-between; /* Align items with equal space between them */
         flex-direction: row;
         width: 80%;
-        margin-top: 2rem;
+        margin-top: 2.5rem;
     }
 
     .ninth-column-one,
@@ -90,10 +86,18 @@
     } 
 
 
+:root {
+    --base-font-size: 16px; /* Define the base font size */
+  }
+
 
 
 /* Media query for mobile screens */
-@media screen and ( max-width: 425px){
+@media only screen and (max-width: 600px) {
+
+    .ninth-page-content{
+        width:100%;
+    }
     .big-heading-8 h2{
         font-size: 2.25rem;
         margin-top: 2rem;
@@ -128,4 +132,92 @@
         margin: 1rem;
         margin-left: -1rem;
     }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1366px) {
+    .ninth-page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        /* background: linear-gradient(to bottom left, white 0%, pink 100%); */
+
+    }
+
+    .big-heading-8 {
+        text-align: center;
+        margin-top: 3rem;
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .big-heading-8 h2 {
+        font-size: 5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #D63D3E63 ;
+        position: relative;
+        top: 0;
+        z-index: 1;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
+    }
+
+    .big-heading-8 h3 {
+        font-size: 2.5em;
+        font-weight: 700;
+        position: absolute;
+        top: 2.25rem;
+        left: 0;
+        margin-top: 3rem;
+        z-index: 2;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
+
+    .ninth-container{
+        display: flex;
+        justify-content: space-between; /* Align items with equal space between them */
+        flex-direction: row;
+        width: 80%;
+        margin-top: 2.5rem;
+    }
+
+    .ninth-column-one,
+    .ninth-column-three {
+        width: 30%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .ninth-column-two {
+        width: 40%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .ninth-column-one img{
+        width: 21.875;
+        height: 12.625rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ninth-column-two img{
+        height: 30rem;
+        width: 15rem;
+    }
+
+    .ninth-column-three img{
+        width: 21.875;
+        height: 12.625rem;
+        display: flex;
+        justify-content: center;
+    } 
 }

@@ -1,17 +1,18 @@
 /* src/components/Main.css */
 
 
-@media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  /* @media screen and (max-width: 425px) {
+  @media only screen and (max-width: 600px) {
     .column {
+      overflow-x: hidden;
       flex: 100%;
       max-width: 100%;
     }
-  } */
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+  }

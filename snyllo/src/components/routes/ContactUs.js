@@ -58,7 +58,8 @@ const ContactUs = () => {
         toast.error('Error submitting form. Please try again.');
       } else {
         console.log('Submission successful:', data);
-        toast.success('Your details are received!');
+        toast.success('Thank you!! Our team will contact you soon.');
+        setSubmissionStatus('success');
       }
     } catch (error) {
       console.error('Error submitting form:', error);

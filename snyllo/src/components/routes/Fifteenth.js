@@ -13,42 +13,42 @@ const Fifteenth = () => {
                 </span>
                 <div className="fifteenth-image-container">
                     <img 
-                    src="/upload/15th-1.png" 
+                    src="/upload/15th-01.jpg" 
                     className="fifteenth-image" 
                     alt ="15th-1"
                     />
                     <img 
-                    src="/upload/15th-2.png" 
+                    src="/upload/15th-02.jpg" 
                     className="fifteenth-image" 
                     alt ="15th-2"
                     />
                     <img 
-                    src="/upload/15th-3.png" 
+                    src="/upload/15th-03.jpg" 
                     className="fifteenth-image" 
                     alt ="15th-3"
                     />
                     <img 
-                    src="/upload/15th-4.png" 
+                    src="/upload/15th-04.jpg" 
                     className="fifteenth-image" 
                     alt ="15th-4"
                     />
                     <img 
-                    src="/upload/15th-5.png" 
+                    src="/upload/15th-05.jpg" 
                     className="fifteenth-image" 
                     alt ="15th-5"
                     />
                     <img 
-                    src="/upload/15th-6.png" 
+                    src="/upload/15th-06.jpg" 
                     className="fifteenth-image" 
                     alt ="15th-6"
                     />
                     <img 
-                    src="/upload/15th-7.png" 
+                    src="/upload/15th-07.jpg" 
                     className="fifteenth-image" 
                     alt ="15th-7"
                     />
                     <img 
-                    src="/upload/15th-8.png" 
+                    src="/upload/15th-08.jpg" 
                     className="fifteenth-image" 
                     alt ="15th-8"
                     />

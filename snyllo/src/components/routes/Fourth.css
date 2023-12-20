@@ -1,9 +1,5 @@
 /* src/components/routes/Fourth.css */
 
-:root {
-    --base-font-size: 16px; /* Define the base font size */
-  }
-
 .big-heading-3 {
     text-align: center;
     margin-top: 3.125rem;
@@ -12,7 +8,7 @@
     }
         
 
-    .big-heading-3 h2 {
+.big-heading-3 h2 {
         font-size: 5rem;
         margin-top: 0;
         margin-bottom: 0.625rem;    
@@ -25,7 +21,7 @@
 
     }
 
-    .big-heading-3 h3 {
+.big-heading-3 h3 {
         font-size: 3.5rem;
         font-weight: 700;
         position: absolute; /* Keep h2 in the normal flow */
@@ -58,7 +54,7 @@
         height: 25rem;
         position: relative; 
         top: 8rem; 
-        left: -5rem; 
+        left: -6rem; 
         z-index: -1; 
     }
     
@@ -68,14 +64,23 @@
         width: 30rem;
         height: 35rem;
         z-index: 1;
-        margin-left: -30rem;
+        margin-left: -30.5rem;
 
     }
 
 
+:root {
+    --base-font-size: 16px; /* Define the base font size */
+  }
+
 
 /* Media query for mobile screens */
-@media screen and ( max-width: 425px){
+@media only screen and (max-width: 600px) {
+
+    .fourth-page-content{
+        width:100%;
+    }
+
     .big-heading-3 h2{
         font-size: 3rem;
     }
@@ -88,60 +93,101 @@
         flex-direction: column-reverse;
     }
     .big-left-img{
-        height: 22rem;
-        width: 110%;
-        padding-left: 0rem;
-        margin-top: -20rem;
-        margin-left: auto;
+        height: 70vh;
+        width: 120vw;
+        padding: 0;
+        margin-top: -14rem;
+        margin-left: -1rem;
         margin-right: auto;
+        margin-bottom: 2rem;
     }
     
     .pink-circle {
-        width: 20rem;
-        height: 20rem;
+        width: 50vw;
+        height: 35vh;
         position: relative; 
-        top: -25rem; 
-        left: 0rem; 
+        top: -36vh; 
+        left: 9rem; 
         z-index: -1; 
     }
     .big-right-machine{
-        height: 35rem;
-        width: 100%;        
+        height: 55vh;
+        width: 70vw;        
         margin-left: auto;
-        margin-right:auto ;
+        margin-right:0;
         z-index: 1;
     }
     
-    
 }
 
-/* @media screen and (min-width:426px) and (max-width: 640px) {
-    .big-heading-3 h2{
-        font-size: 5rem;
-    }
-    .big-heading-3 h3{
-        font-size: 2rem;
-        margin-top: 2.4rem;
-    }
-    .two-images{
-        display: flex;
-        flex-direction: row;
-    }
-    .big-left-img{
-        height: 22rem;
-        width: 40rem;
-        margin-top: 5rem;
-        margin-left: 0;
-        margin-left: 0;
 
-    }
-    .big-right-machine{
-        height: 26rem;
-        width: 40%;        
-        margin-left:0;
-        margin-right: 4rem;
-
-    }
-
-} */
-     
+@media only screen and (min-width: 601px) and (max-width: 1366px) {
+    .big-heading-3 {
+        text-align: center;
+        margin-top: 3.125rem;
+        position: relative;
+        margin-bottom: 0; 
+        }
+            
+    
+    .big-heading-3 h2 {
+            font-size: 5rem;
+            margin-top: 0;
+            margin-bottom: 0.625rem;    
+            color:#D63D3E63 ;
+            position: relative;
+            top: 0;
+            z-index: 1; /* Ensure h1 is in the background */
+            left: -100%;
+            animation: slideInFromLeft 1s ease forwards;
+    
+        }
+    
+    .big-heading-3 h3 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            position: absolute; /* Keep h2 in the normal flow */
+            margin-top: 1.9rem;
+            top: 3rem;
+            left:0;
+            z-index: 2; /* Ensure h2 is on top */
+            right: -100%;
+            animation: slideInFromRight 1s ease forwards;
+        }
+    
+        .two-images{
+            display: flex;
+            flex-direction: row;
+            margin-top: 0;
+            padding-top: 0;
+            border: 0;
+        }
+    
+        .big-left-img{
+            width: 55rem;
+            height: 30rem;
+            margin-top: 5rem;
+            margin-left: 0;
+            margin-right: 5rem;
+        }
+    
+        .pink-circle {
+            width: 25rem;
+            height: 25rem;
+            position: relative; 
+            top: 8rem; 
+            left: -6rem; 
+            z-index: -1; 
+        }
+        
+    
+    
+        .big-right-machine{
+            width: 30rem;
+            height: 35rem;
+            z-index: 1;
+            margin-left: -30.5rem;
+    
+        }
+    
+}
