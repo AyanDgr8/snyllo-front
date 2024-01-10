@@ -1,0 +1,218 @@
+/* src/components/routes/LandingPage/Fourth/Fourth.css */
+
+.big-heading-3 {
+    text-align: center;
+    margin-top: 3.125rem;
+    position: relative;
+    margin-bottom: 0; 
+    }
+        
+
+.big-heading-3 h2 {
+        font-size: 5rem;
+        margin-top: 0;
+        margin-bottom: 0.625rem;    
+        color:#D63D3E63 ;
+        position: relative;
+        top: 0;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
+
+    }
+
+    .big-heading-3 h3 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        position: absolute; /* Keep h2 in the normal flow */
+        margin-top: 1.9rem;
+        top: 3rem;
+        left:0;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
+
+    .sub-heading-fourth{
+        font-size: larger;
+        font-weight: 600;
+        margin: auto;
+        margin-top: 7.5vh;
+        text-align: center;
+    }
+
+    .two-images{
+        display: flex;
+        flex-direction: row;
+        margin-top: 2vh;
+        padding-top: 0;
+        border: 0;
+    }
+
+    .big-left-img{
+        width: 50rem;
+        height: 30rem;
+        margin-top: 5rem;
+        margin-left: 6rem;
+        margin-right: 5rem;
+    }
+
+    .pink-circle {
+        width: 26rem;
+        height: 26rem;
+        position: relative; 
+        top: 8rem; 
+        left: 18rem; 
+        z-index: -1; 
+    }
+    
+
+
+    .big-right-machine{
+        width: 30rem;
+        height: 36rem;
+        z-index: 1;
+        margin-left: -7rem;
+    }
+
+
+:root {
+    --base-font-size: 16px; /* Define the base font size */
+  }
+
+  
+  
+
+@media only screen and (min-width: 360px) and (max-width: 430px) {}
+
+@media only screen and (min-width: 431px) and (max-width: 760px) {}
+
+@media only screen and (min-width: 761px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {}
+  
+@media only screen and (min-width: 1441px){}
+  
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+
+
+    .fourth-page-content{
+        width:100%;
+    }
+
+    .big-heading-3 h2{
+        font-size: 3rem;
+    }
+    .big-heading-3 h3{
+        font-size: 1.75rem;
+        margin-top: 1rem;
+    }
+    
+
+    .sub-heading-fourth{
+        font-size: 0.78rem;
+        font-weight: 600;
+        margin: auto;
+        margin-top: 10vh;
+    }
+
+    .two-images{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .big-left-img{
+        height: 70vh;
+        width: 120vw;
+        padding: 0;
+        margin-top: -15rem;
+        margin-left: -7vw;
+        margin-right: auto;
+    }
+    
+    .pink-circle {
+        width: 60vw;
+        height: 30vh;
+        position: relative; 
+        top: -33vh; 
+        left: 9rem; 
+        z-index: -1; 
+    }
+    .big-right-machine{
+        height: 45vh;
+        width: 60vw;        
+        margin-left: auto;
+        margin-right:0;
+        z-index: 1;
+    }
+    
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1440px) {
+
+
+
+    .big-heading-3 {
+        text-align: center;
+        margin-top: 3.125rem;
+        position: relative;
+        margin-bottom: 0; 
+        }
+            
+    
+    .big-heading-3 h2 {
+            font-size: 5rem;
+            margin-top: 0;
+            margin-bottom: 0.625rem;    
+            color:#D63D3E63 ;
+            position: relative;
+            top: 0;
+            left: -100%;
+            animation: slideInFromLeft 1s ease forwards;
+    
+        }
+    
+        .big-heading-3 h3 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            position: absolute; /* Keep h2 in the normal flow */
+            margin-top: 1.9rem;
+            top: 3rem;
+            left:0;
+            right: -100%;
+            animation: slideInFromRight 1s ease forwards;
+        }
+    
+        .two-images{
+            display: flex;
+            flex-direction: row;
+            margin-top: 2vh;
+            padding-top: 0;
+        }
+    
+        .big-left-img{
+            width: 50rem;
+            height: 30rem;
+            margin-top: 5rem;
+            margin-left: 6rem;
+            margin-right: 5rem;
+        }
+    
+        .pink-circle {
+            width: 25rem;
+            height: 25rem;
+            position: relative; 
+            top: 8rem; 
+            left: 8rem; 
+            z-index: -1; 
+        }
+        
+        .big-right-machine{
+            width: 30rem;
+            height: 36rem;
+            position: relative;
+            left: -10rem; 
+            z-index: 1;
+        }
+    
+} 

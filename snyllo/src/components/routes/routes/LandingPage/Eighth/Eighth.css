@@ -1,0 +1,217 @@
+/* src/components/routes/LandingPage/Eighth/Eighth.css */
+
+
+
+.eighth-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.big-heading-7 {
+    text-align: center;
+    margin-top: 3.5rem;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.big-heading-7 h2 {
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    color: #D63D3E63;
+    position: relative;
+    top: 0;
+    left: -100%;
+    animation: slideInFromLeft 1s ease forwards;
+}
+
+.big-heading-7 h3 {
+    font-size: 2.5em;
+    font-weight: 700;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    margin-top: 3rem;
+    right: -100%;
+    animation: slideInFromRight 1s ease forwards;
+}
+
+.eighth-containers{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.eigth-left-container{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.eighth-left-container img{
+    width: 18rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18rem;
+    margin-top: 5rem;
+}
+
+.eigth-right-container{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.forever{
+    width: 44rem;
+    margin-left: 25rem;
+
+}
+
+:root {
+    --base-font-size: 16px; /* Define the base font size */
+  }
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+
+
+
+
+    .eighth-page-content{
+        width:100%;
+    }
+    
+    .big-heading-7 h2{
+        font-size: 3rem;
+        margin-top: 5rem;
+    }
+    .big-heading-7 h3{
+        font-size: 1.5rem;
+        margin-top: 3rem;
+    }
+    .eighth-containers{
+        display: flex;
+        flex-direction: column;
+    }
+    .eighth-left-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .eighth-left-container img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .forever{
+        width: 22rem;
+        margin:0;
+        margin-left: 4rem;
+    }
+    
+} 
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 430px) {}
+
+@media only screen and (min-width: 431px) and (max-width: 760px) {}
+
+@media only screen and (min-width: 761px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {}
+  
+@media only screen and (min-width: 1441px){}
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 1440px) {
+
+
+    .eighth-page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    
+    }
+    
+    .big-heading-7 {
+        text-align: center;
+        margin-top: 3.5rem;
+        position: relative;
+        margin-bottom: 0;
+    }
+    
+    .big-heading-7 h2 {
+        font-size: 5rem;
+        margin-top: 3rem;
+        margin-bottom: 0;
+        color: #D63D3E63;
+        position: relative;
+        top: 0;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
+    }
+    
+    .big-heading-7 h3 {
+        font-size: 2.5em;
+        font-weight: 700;
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        margin-top: 3rem;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
+    
+    .eighth-containers{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .eigth-left-container{
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .eighth-left-container img{
+        width: 18rem;
+        height: 13rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10rem;
+        margin-top: 5rem;
+    }
+    
+    .eigth-right-container{
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .forever{
+        width: 40rem;
+        margin-left: 10rem;
+    
+    }  
+} 

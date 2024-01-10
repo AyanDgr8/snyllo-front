@@ -1,0 +1,498 @@
+/* src/components/routes/Technology/Technology.css */
+
+
+
+.technology-page {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: auto;
+  max-width: 100%;
+  }
+  
+  .first-container-technology{
+    max-width: 100%;
+    margin: auto;
+  
+  }
+  
+  .epilazextechnology{
+    width: 20vw;
+    height: 10vh;
+    margin-top: 25vh;
+    margin-left: -60vw;
+  
+  }
+    
+  
+.big-heading-technology h1 {
+  margin: auto;
+  margin-top: 3vh;
+  margin-left: -21vw;
+  font-size: 5.5rem;
+  font-weight: 800;
+  color: #CE3B3C;
+}
+  
+.firstline-technology p{
+  margin: auto;
+  margin-top: 3vh;
+  margin-left: -12vw;
+  text-align: start;
+  font-size: 1.5rem;
+  font-weight: 700;
+  max-width:100%;
+  
+}
+
+
+
+/******************/
+
+.technology-container-1-heading-1-1{
+  font-size: 5rem;
+  font-weight: 700;
+  color: #D63D3E63;
+  margin: auto;
+  margin-top: 20vh;
+  position: relative;
+  left: -100%;
+  animation: slideInFromLeft 1s ease forwards;
+}
+
+.technology-container-1-heading-1-2{
+  font-size: 3rem;
+  font-weight: 700;
+  margin: auto;
+  margin-top: -5vh;
+  position: relative;
+  right: -100%;
+  animation: slideInFromRight 1s ease forwards;
+}
+
+.technology-container-1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+.technology-container-100{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.technology-container-1-left-1{
+  max-width:40%;
+  margin:auto;
+  margin-top: 3vh;
+}
+
+.technology-container-1-para{
+  font-size: larger;
+  font-weight: 400;
+  margin: auto;
+  margin-top: 12.5vh;
+  box-sizing: border-box;
+  border: 1px soild;
+  border-radius: 0.75rem;
+  background-color: #CE3B3C;
+  box-shadow: inset 0 0 1vw rgba(250, 4, 4, 0.5);
+  color: white;
+  padding: 1.25rem;
+
+}
+
+
+.technology-container-1-right-1{
+  max-width:50%;
+  margin: auto;
+  margin-top: 7.5vh;
+}
+
+
+.technology-container-1-handpieces{
+  height: 20rem;
+  width: 30rem;
+}
+
+
+
+
+/******************/
+
+.technology-container-2-heading-1-1{
+  font-size: 5rem;
+  font-weight: 700;
+  color: #D63D3E63;
+  margin: auto;
+  margin-top: 10vh;
+  position: relative;
+  left: -100%;
+  animation: slideInFromLeft 1s ease forwards;
+}
+
+.technology-container-2-heading-1-2{
+  font-size: 3rem;
+  font-weight: 700;
+  margin: auto;
+  margin-top: -5vh;
+  position: relative;
+  right: -100%;
+  animation: slideInFromRight 1s ease forwards;
+}
+
+.technology-container-2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+.technology-container-200{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.technology-container-2-left-1{
+  max-width:50%;
+  margin:auto;
+  margin-top: 3vh;
+}
+
+
+
+.technology-container-2-cooling{
+  height: 22.5rem;
+  width: 30rem;
+}
+
+
+
+.technology-container-2-right-1{
+  max-width:40%;
+  margin: auto;
+  margin-top: 7.5vh;
+}
+
+
+.technology-container-2-para{
+  font-size: larger;
+  font-weight: 400;
+  margin: auto;
+  margin-top: 7.5vh;
+  box-sizing: border-box;
+  border: 1px soild;
+  border-radius: 0.75rem;
+  background-color: #CE3B3C;
+  box-shadow: inset 0 0 1vw rgba(250, 4, 4, 0.5);
+  color: white;
+  padding: 1.25rem;
+
+}
+
+
+
+
+/* ************** */
+
+
+
+.technology-container-3-heading{
+  width: 100%;
+  margin: auto;
+  margin-top: 15vh;
+  text-align: center;
+  font-size: 3rem;
+  color:#CE3B3C;
+
+}
+
+.technology-container-3-heading-1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  padding: auto;
+  text-align: center;
+  margin: auto;
+  margin:25vh ;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+.bold-text{
+  font-weight: 800;
+}
+
+.technology-container-3{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+
+}
+
+.technology-container-3-left{
+  max-width:50%;
+  margin:auto;
+  margin-top: 12vh;
+}
+
+.technology-container-3-left img{
+  height: 40rem;
+  margin:auto;
+  margin-top: 7.5vh;
+}
+
+.technology-container-3-right{
+  max-width:50%;
+  margin: auto;
+}
+
+
+.technology-container-3-right-1{
+  color:#D63D3E63;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.technology-container-3-right-1-2{
+  font-size: 1.25rem;
+  background-color: white;
+  box-shadow: inset 0 0 1vw rgba(250, 4, 4, 0.5);
+  border-radius: 1rem;
+  padding: 1rem;
+  color: black;
+}
+
+
+
+
+
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+
+  
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(80%); 
+    overflow: hidden;
+    z-index: -1;
+    background: linear-gradient(to right, white 0%, lightpink 50%, white 80%, lightpink 100%);
+  }
+
+  .video {
+    object-fit: cover;
+    opacity: 0.3;
+    width: 100%;
+    height: calc(100%);
+  }
+  
+
+  .first-container-technology{
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .epilazextechnology{
+    width: 36vw;
+    height: 10vh;
+    margin-top: 25vh;
+    margin-left: -40vw ;
+
+  }
+  
+    
+
+  .big-heading-technology h1 {
+    margin: auto;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    font-size: 2.5rem;
+  }
+
+  .firstline-technology p{
+    margin: auto;
+    margin-top: 3vh;
+    margin-left: 8vw;
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 500;
+    max-width: 85%;
+  
+  }
+
+    /* ************* */
+
+
+  .technology-container-1-heading-1-1{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 20vh;
+  }
+  
+  .technology-container-1-heading-1-2{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: auto;
+  }
+
+  .technology-container-100{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: auto;
+  }
+
+  
+  .technology-container-1-right-1{
+    max-width:100%;
+    margin: auto;
+    margin-top: 5vh;
+  }
+
+
+  .technology-container-1-handpieces{
+    height: auto;
+    width: 22.5rem;
+  }
+
+    
+  .technology-container-1-left-1{
+    max-width:100%;
+    margin:auto;
+    margin-top: 3vh;
+  }
+
+  .technology-container-1-para{
+    font-size: 1rem;
+    margin: auto;
+    margin-top: 10vh;
+
+  }
+  
+  /**********/
+
+  
+  .technology-container-2-heading-1-1{
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 20vh;
+  }
+  
+  .technology-container-2-heading-1-2{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: auto;
+  }
+
+  .technology-container-200{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+
+  
+    
+  .technology-container-2-left-1{
+    max-width:100%;
+    margin:auto;
+    margin-top: 3vh;
+  }
+  
+
+  .technology-container-2-cooling{
+    width: 20rem;
+    height: auto;
+    margin-left: auto;
+    margin-right:auto ;
+  }
+
+  
+  .technology-container-2-right-1{
+    max-width:100%;
+    margin: auto;
+    margin-top: 5vh;
+  }
+
+   
+
+  .technology-container-2-para{
+    font-size: 1rem;
+    margin: auto;
+    margin-top: 5vh;
+
+  }
+
+  /* ************* */
+  
+
+  .technology-container-3-heading{
+    width: 100%;
+    margin: auto;
+    margin-top: 15vh;
+    font-size: 1.5rem;
+
+  }
+
+  .technology-container-3-heading-1{
+    font-size: 0.9rem;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+
+  .technology-container-3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+
+  }
+
+  .technology-container-3-left{
+    max-width:100%;
+    margin:auto;
+    margin-top: 5vh;
+  }
+
+.technology-container-3-left img{
+  height: 25rem;
+  width: auto;
+  margin:auto;
+}
+
+.technology-container-3-right{
+  max-width:100%;
+  margin: auto;
+}
+
+
+.technology-container-3-right-1{
+  font-size: 1rem;
+  max-width: 90%;
+  margin: auto;
+  margin-bottom: 5vh;
+}
+
+.technology-container-3-right-1-2{
+  font-size: 0.9rem;
+  background: linear-gradient(to bottom,white 10%, lightpink 80%, #CE3B3C 100%);
+  
+}
+
+
+
+}

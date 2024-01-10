@@ -1,0 +1,259 @@
+/* src/components/routes/LandingPage/Twelth/Twelth.css */
+
+
+
+.twelth-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.big-heading-11 {
+        text-align: center;
+        margin-top: 3.5rem;
+        position: relative;
+        margin-bottom: 0;
+}
+
+.big-heading-11 h2 {
+        font-size: 6rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #D63D3E63;
+        position: relative;
+        top: 0;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
+}
+
+.big-heading-11 h3 {
+        font-size: 3rem;
+        font-weight: 700;
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        margin-top: 3rem;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+}
+
+.twelth-container{
+        display: flex;
+        justify-content: space-between; 
+        flex-direction: row;
+        width: 80%;
+        margin-top: 2rem;
+        
+}
+
+.twelth-img{
+    width:100%;
+}
+
+.twelth-column-two,
+.twelth-column-three {
+    width: 25%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    flex-direction: column;
+}
+
+.iconn-grid {
+        display: flex;
+        justify-content: center;
+        margin-top: 0.5rem;
+        margin-left: 3rem;
+        margin-right: 0;
+}
+
+.iconn-column {
+        flex: 1;
+}
+
+.iconn-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-items: center;
+        margin-right: 0.625rem;
+        margin-left: 0.938rem;
+}
+
+.iconn-caption {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        margin: 1rem; 
+        font-family: "Roboto", Sans-serif;
+}
+
+.iconn-caption img {
+        width: 5rem; 
+        height: 5rem; 
+        margin-bottom: 1.25rem; 
+}
+
+
+:root {
+    --base-font-size: 16px; /* Define the base font size */
+  }
+
+
+@media only screen and (min-width: 360px) and (max-width: 430px) {}
+
+@media only screen and (min-width: 431px) and (max-width: 760px) {}
+
+@media only screen and (min-width: 761px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {}
+  
+@media only screen and (min-width: 1441px){} 
+
+
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+
+        
+ 
+
+    .twelth-page-content{
+        width:100%;
+    }
+    .big-heading-11 h2{
+        font-size: 3rem;
+
+    }
+    .big-heading-11 h3{
+        font-size: 2rem;
+        margin-top: 0rem;
+
+    }
+    .twelth-container{
+        display: flex;
+        flex-direction: column;
+        margin-top:5rem ;
+    }
+    .twelth-img{
+        margin-left: 1rem;
+        width: 90%;
+    }
+    .iconn-column{
+        margin-left: 12rem;
+        margin-right: auto;
+
+    }
+    .iconn-row p{
+        font-size: 1rem;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .twelth-column-three{
+        margin-left: 1.5rem;
+        margin-top: -1rem;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1440px) {
+     
+.twelth-page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    
+    .big-heading-11 {
+            text-align: center;
+            margin-top: 3.5rem;
+            position: relative;
+            margin-bottom: 0;
+    }
+    
+    .big-heading-11 h2 {
+            font-size: 6rem;
+            margin-top: 0;
+            margin-bottom: 0;
+            color: #D63D3E63;
+            position: relative;
+            top: 0;
+            left: -100%;
+            animation: slideInFromLeft 1s ease forwards;
+    }
+    
+    .big-heading-11 h3 {
+            font-size: 3rem;
+            font-weight: 700;
+            position: absolute;
+            top: 3rem;
+            left: 0;
+            margin-top: 3rem;
+            right: -100%;
+            animation: slideInFromRight 1s ease forwards;
+    }
+    
+    .twelth-container{
+            display: flex;
+            justify-content: space-between; 
+            flex-direction: row;
+            width: 80%;
+            margin-top: 2rem;
+            
+    }
+    
+    .twelth-img{
+        width:100%;
+    }
+    
+    .twelth-column-two,
+    .twelth-column-three {
+        width: 25%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        flex-direction: column;
+    }
+    
+    .iconn-grid {
+            display: flex;
+            justify-content: center;
+            margin-top: 0.5rem;
+            margin-left: 3rem;
+            margin-right: 0;
+    }
+    
+    .iconn-column {
+            flex: 1;
+    }
+    
+    .iconn-row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-items: center;
+            margin-right: 0.625rem;
+            margin-left: 0.938rem;
+    }
+    
+    .iconn-caption {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            align-items: center;
+            margin: 1rem; 
+            font-family: "Roboto", Sans-serif;
+    }
+    
+    .iconn-caption img {
+            width: 5rem; 
+            height: 5rem; 
+            margin-bottom: 1.25rem; 
+    }
+    
+} 

@@ -1,17 +1,16 @@
-// App.js
+// src/App.js
 
 
+import React from 'react';
 import './App.css';
-import Main from './components/Main';
+import Main from './components/routes/Main'; // Adjusted import path
 
 function App() {
   return (
-  <div id="App-Container">
-    <Main/>
-  </div>
-  
-    )
+    <div className="App">
+      <Main />
+    </div>
+  );
 }
 
 export default App;
-

@@ -1,0 +1,981 @@
+/* src/components/routes/LandingPage/Header/Header.css */
+
+
+
+:root {
+  --base-font-size: 2.5vw; /* Define the base font size */
+}
+
+.default-header {
+  position: absolute;
+  width: fit-content;
+  top: 0.25;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  z-index: 1000;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.default-header.hide {
+  display: none;
+}
+
+.upper-line-header {
+  background-color: #CE3B3C;
+  color: white; 
+  height: 2px; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  overflow: hidden;
+}
+
+
+
+.offer-link {
+  text-decoration: none;
+}
+
+.offer-line{
+  font-size: large;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  padding: auto;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 10s linear infinite;
+}
+
+.book-now-link{
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+  margin-left: 1vw;
+  animation: colorChange 0.5s infinite alternate; 
+}
+
+
+
+@keyframes colorChange {
+  from {
+    color: black;
+  }
+  to {
+    color: white;
+  }
+}
+
+.close-button {
+  cursor: pointer;
+}
+
+.hide{
+  display: none;
+}
+
+.snyllo-logo-hamburger {
+    padding: auto;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+
+  .default-hamburger-menu{
+    display: inline;
+    cursor: pointer;
+    color:black;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent; 
+    padding: 0.5rem 0.75rem; 
+    border-radius: 10rem;
+    box-shadow: 
+    0 0 0.25vw 0.125vw #CE3B3C;
+    /* 0 0 0 0.125vw #CE3B3C inset; */
+    vertical-align: 0.75rem;
+
+  }
+
+.header-container {
+    position: fixed;
+    background-color: rgb(253, 252, 252);
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right:auto;
+    margin-left:3rem;
+    z-index: 1000;
+}
+
+.header.hide {
+  display: none;
+}
+
+.logo img {
+      margin-top:2vh;
+      margin-left:1.5vw;
+      margin-bottom: 1vh;
+      width: 15vw;
+      height: 8vh;
+    }
+    
+.buttons {
+      display: flex;
+      flex-direction: row; 
+      align-items: center; 
+      margin-left:10vw;
+      padding: 1.5vw;
+    }
+    
+.button {
+      background-color: transparent;
+      font-size: 1vw;
+      font-weight: 700;
+      border-radius: 0.5vw;
+      cursor: pointer;
+      margin: 0;
+      border:0;
+      outline: 0;
+      width:6rem;
+      transition: all 0.3s ease 0s;
+      color: black;
+      text-decoration: none;
+    }
+    
+.button:hover {
+      color: #CE3B3C;
+      border-bottom:1vw #CE3B3C;
+    }
+
+.benefits{
+    width:10vw;
+  }  
+
+.prices{
+    width:10vw;
+  }  
+
+
+.contact {
+      position: relative;
+      overflow: hidden;
+      margin-left: 4vw;
+      width: 12vw;
+      border: 1vw;
+      border-radius: 0.75rem;
+      height: 2.5vw;
+      box-shadow: 0 0 1vw #CE3B3C,
+      0 0 0 0.1vw #CE3B3C inset;
+      display: flex;
+      align-items: center; 
+      padding-left: 1.5vw;
+      cursor: pointer;
+  }
+
+    
+.contact::before {
+      /* content: "Talk to Us"; */
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.5s ease;
+  }
+    
+.contact:hover::before {
+    opacity: 0;
+  }
+    
+.contact::after {
+      content: "98009 96009";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #CE3B3C;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.3s ease;
+      opacity: 0;
+  }
+    
+.contact:hover::after {
+    opacity: 1;
+  } 
+
+
+  .hamburger-menu {
+    display: inline; 
+    cursor: pointer;
+    color:black;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent; 
+    padding: 0.5rem 0.75rem; 
+    border-radius: 0.5rem;
+    box-shadow:  0 0.125vw #ce3b3c;
+    /* inset  0 0.125vw #ce3b3c; */
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  /* Show buttons when the mobile menu is active */
+  .mobile-menu.active {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 5rem; 
+    left: 60rem; 
+    color: black;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    z-index: 1; 
+    width:auto;
+    /* background-color: rgba(201, 175, 175, 0.2); */
+    background-color: #f3caca;
+    /* background-color: white; */
+    backdrop-filter: blur(10px) brightness(1.5);
+    box-shadow: 0 0 1vw rgba(255, 255, 255, 0.5),
+                inset 0 0 2vw rgba(255, 255, 255, 0.5);
+  }
+
+  .mobile-menu .button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem; 
+    height: 2.5rem;
+    width: 20rem;
+    border: none;
+    line-height: 1;
+    text-align: center; 
+    font-size: 0.8rem; 
+    /* background-color: #f3caca;   */
+    background-color: white;
+    color: black; 
+    border-radius: 0.75rem; 
+    cursor: pointer;
+    box-shadow: 
+    0 0 0.5rem 0.15rem #CE3B3C;
+    /* 0 0 0 0.15rem #CE3B3C inset; */
+  }
+  .mobile-menu .button:hover{
+    background-color: #D63D3E63;
+  }
+  
+  /* .mobile-menu .button .contact{
+    width:25rem;
+  } */
+
+
+
+/* animation */
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+/* Add a media query for mobile screens */
+
+@media only screen and (min-width: 360px) and (max-width: 430px) {
+
+
+
+  .default-header {
+    display: flex;
+  }
+
+  .default-header.hide {
+    display: none;
+  }
+
+  
+
+.upper-line-header {
+  background-color: #CE3B3C;
+  color: white; 
+  height: 1.5vh; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.offer-link {
+  text-decoration: none;
+}
+
+.offer-line{
+  font-size: 0.6rem;
+  font-weight: 500;
+  animation: marquee 10s linear infinite;
+}
+
+.book-now-link{
+  font-size: 0.6rem;
+}
+
+.hide{
+  display: none;
+}
+
+
+  .snyllo-logo-hamburger {
+    padding-left: 1vw;
+    padding-top: 7vh;
+    width:35vw;
+    height: 6vh;
+
+  }
+
+  .default-hamburger-menu{
+    display: inline;
+    margin-left: 37.5vw;
+    box-shadow:  0 0 1vw 0.125vw #ce3b3c, 
+    inset  0 0 0.5vw 0.125vw #ce3b3c;
+    font-size: larger;
+    vertical-align: 2vh;
+  }
+  
+  .mobile-menu.active{
+    display: inline;
+  }
+
+  .header-container {
+      width:90%;
+      margin-top: 2vh;
+      margin-left: 4vw;
+      border-color: transparent;
+      border-radius: 1.5rem;
+      box-shadow: 
+      0 0 1.5vw 0.5vw #CE3B3C;
+  }
+
+  .header.hide {
+    display: none;
+  }
+
+  .logo img {
+    padding-left: 5vw;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 40vw; 
+    height: 6vh; 
+  }
+
+  .buttons {
+    display: none; 
+  }
+
+  .hamburger-menu {
+    display: flex;
+    margin-left: 22.5vw;
+    margin-top:0.5vh;
+    box-shadow:  
+    0 0 0.25vw 0.5vw #CE3B3C inset;
+    
+  }
+
+  .mobile-menu .active{
+    display: flex;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 15vw);
+  }
+
+
+  .mobile-menu .button {
+    margin-top: 1rem;
+    height: 2rem;
+    width: auto;
+  }
+
+  .mobile-menu button:hover{
+    color:white;
+  }
+  
+  .contact {
+    color: white;
+    background-color: #CE3B3C;
+    position: relative;
+    overflow: hidden;
+    margin-left: 2vw;
+    width: 12vw;
+    border: 1vw;
+    height: 2.5vw;
+    box-shadow: 0 0 1vw red;
+  }
+
+  .contact::before {
+    /* content: "Talk to Us"; */
+    position: absolute;
+    background-color: #CE3B3C;
+    color: white;
+  }
+
+  .contact:hover::before {
+  opacity: 0;
+  }
+
+  .contact::after {
+    /* content: "98009 96009"; */
+    position: absolute;
+    background-color: white;
+    color: black;
+    opacity: 0;
+  }
+
+  .contact:hover::after {
+    opacity: 1;
+  } 
+}
+
+@media only screen and (min-width: 431px) and (max-width: 760px) {
+
+
+
+  .snyllo-logo-hamburger {
+    padding-left: 0;
+    padding-top: 3vh;
+    width:25vw;
+    height: 8vh;
+
+  }
+
+  .default-hamburger-menu{
+    margin-left: 50vw;
+    box-shadow:  0 0 0 0.125vw #ce3b3c, 
+    inset  0 0 0 0.125vw #ce3b3c;
+    font-size: large;
+  }
+  
+  .header-container {
+    width:100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:  0 0.25vw #ce3b3c, 
+    inset  0 0.25vw #ce3b3c;
+  }
+
+  .logo img {
+    padding-left: 6vw;
+    width: 30vw; 
+    height: 9vh; 
+  }
+
+  .buttons {
+    display: none; 
+  }
+
+  .hamburger-menu {
+    display: inline;
+    margin-left: 45vw;
+    margin-top:0.5vh;
+    box-shadow: 
+    0 0 0.5vw 0.125vw #CE3B3C, 
+    0 0 0.125vw 0.5vw #CE3B3C inset;
+    
+  }
+  
+  .mobile-menu.active{
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 10vw);
+  }
+
+  .mobile-menu .button {
+    margin-top: 1rem;
+    height: 2rem;
+    width: auto;
+  }
+  
+  .contact {
+    color: white;
+    background-color: #CE3B3C;
+    position: relative;
+    overflow: hidden;
+    margin-left: 2vw;
+    width: 12vw;
+    border: 1vw;
+    height: 2.5vw;
+    box-shadow: 0 0 1vw red;
+  }
+
+  .contact::before {
+    content: "Talk to Us";
+    position: absolute;
+    background-color: #CE3B3C;
+    color: white;
+  }
+
+  .contact:hover::before {
+  opacity: 0;
+  }
+
+  .contact::after {
+    content: "98009 96009";
+    position: absolute;
+    background-color: white;
+    color: black;
+    opacity: 0;
+  }
+
+  .contact:hover::after {
+    opacity: 1;
+  } 
+}
+
+
+@media only screen and (min-width: 761px) and (max-width: 1023px) {
+
+
+  .snyllo-logo-hamburger {
+    padding-left: 0;
+    padding-top: 3vh;
+    width:25vw;
+    height: 8vh;
+
+  }
+
+  .default-hamburger-menu{
+    margin-left: 50vw;
+    box-shadow:  0 0 0.25vw 0.125vw #ce3b3c, 
+    inset 0 0 0.125vw 0.25vw #ce3b3c;
+    font-size: large;
+  }
+  
+  .header-container {
+    width:100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:  0 0.25vw #ce3b3c, 
+    inset  0 0.25vw #ce3b3c;
+  }
+
+  .logo img {
+    padding-left: 6vw;
+    width: 25vw; 
+    height: 9vh; 
+  }
+
+  .buttons {
+    display: none; 
+  }
+
+  .hamburger-menu {
+    display: inline;
+    margin-left: 50vw;
+    margin-top:0.5vh;
+    box-shadow: 
+    0 0 0.5vw 0.025vw #CE3B3C, 
+    0 0 0 0.325vw #CE3B3C inset;
+    
+  }
+  
+  .mobile-menu.active{
+    margin-top: 1vh;
+    margin-left: calc(100% - 60vw);
+    margin-right: auto;
+    width: calc(100% - 40vw);
+  }
+
+  .mobile-menu .button {
+    margin-top: 1rem;
+    height: 2rem;
+    left: 65rem; 
+    width: auto;
+  }
+  
+  .contact {
+    color: white;
+    background-color: #CE3B3C;
+    position: relative;
+    overflow: hidden;
+    margin-left: 2vw;
+    width: 12vw;
+    border: 1vw;
+    height: 2.5vw;
+    box-shadow: 0 0 1vw red;
+  }
+
+  .contact::before {
+    content: "Talk to Us";
+    position: absolute;
+    background-color: #CE3B3C;
+    color: white;
+  }
+
+  .contact:hover::before {
+  opacity: 0;
+  }
+
+  .contact::after {
+    content: "98009 96009";
+    position: absolute;
+    background-color: white;
+    color: black;
+    opacity: 0;
+  }
+
+  .contact:hover::after {
+    opacity: 1;
+  } 
+ }
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+
+
+
+  .upper-line-header {
+    text-decoration: none;
+  }
+
+  .offer-line{
+    text-decoration: none;
+
+  }
+
+  .book-now-link{
+    text-decoration: none;
+  }
+
+
+  /* .hide{
+    display: none;
+  } */
+
+  .snyllo-logo-hamburger {
+    padding-top: 5vh;
+    width:14vw;
+    height: 8vh;
+
+  }
+
+  .default-hamburger-menu{
+    margin-left: 75vw;
+    box-shadow: 
+    0 0 1.5vw 0.25vw #CE3B3C; 
+    /* 0 0 0 0.125vw #CE3B3C inset; */
+    font-size: 1.25rem;
+  }
+
+
+  .mobile-menu.active{
+    margin: auto;
+    margin-top: 1.5vh;
+    margin-left: 4vw;
+    box-shadow: 
+    0 0 1.5vw 0.25vw #CE3B3C ;
+
+  }
+
+
+  .mobile-menu .button {
+    margin-top: 1vh;
+    height: 2.5vh;
+    width: 12vw;
+    box-shadow: 
+    0 0 1.5vw 0.25vw #CE3B3C inset;
+  }
+
+  
+
+  .mobile-menu .button:hover{
+    color:white;
+  }
+
+  .mobile-menu .contact{
+    height: 6.5vh;
+    width: 14.5vw;
+    margin-left: 0.5vw;
+  }
+
+  .mobile-menu .contact .icon-talk{
+    height:5vh ;
+    width: 10vw;
+    margin-left: 1vw;
+  }
+
+  .header-container {
+    width: 90%;
+    margin:auto;
+    margin-top: 1.25vw;
+    margin-left:5vw;
+    border-radius: 1rem;
+    border: none;
+    border-color: transparent;
+    box-shadow: 
+    0 0 1.5vw 0.25vw #CE3B3C;
+  }
+
+    
+  .logo img {
+    margin-top:2vh;
+    margin-left:2vw;
+    margin-bottom: 2vh;
+    width: 15vw;
+    height: 8vh;
+  }
+
+
+  .button {
+    width:6rem;
+  }
+
+  .button:hover {
+    color: #CE3B3C;
+    border-bottom:1vw #CE3B3C;
+  }
+
+  .benefits{
+    width:10vw;
+  }  
+
+  .prices{
+    width:10vw;
+  }  
+
+
+  .contact {
+    position: relative;
+    overflow: hidden;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    width: 12vw;
+    border: 1vw;
+    border-radius: 0.75rem;
+    height: 2.75vw;
+    box-shadow: 0 0 0.5vw 0.25vw #CE3B3C inset; 
+     /* 0 0 0.125vw 0.15vw #CE3B3C inset; */
+  }
+
+  .contact .icon-talk{
+    height:5vh ;
+    width: 10vw;
+    margin-left: -0.5vw;
+
+  }
+
+
+  .contact::before {
+    /* content: "Talk to Us"; */
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .contact:hover::before {
+  opacity: 0;
+  transform: translateX(100%);
+  }
+
+  .contact::after {
+    content: "98009 96009";
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #CE3B3C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+  }
+
+  .contact:hover::after {
+    opacity: 1;
+    transform: translateX(100%);
+  } 
+
+
+}
+
+
+@media only screen and (min-width: 1441px)  {
+
+
+  .snyllo-logo-hamburger {
+    margin-top: 1vh;
+    padding-top: 1vh;
+    width:13vw;
+    height: 7vh;
+
+  }
+
+  .default-hamburger-menu{
+    margin-left: 75vw;
+    font-size: 3.75vh;
+    padding: 1.5vh;
+    padding-bottom: 1.5vh;
+
+  }
+
+  /* .hamburger-menu{
+    display: flex;
+  } */
+
+  .header-container {
+    width: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+    
+  .logo img {
+    margin-top:2vh;
+    margin-left:2vw;
+    margin-bottom: 2vh;
+    width: 15vw;
+    height: 8vh;
+  }  
+  /* .buttons {
+        display: flex;
+        flex-direction: row; 
+        align-items: center; 
+        margin-left:11vw;
+        padding: 1.5vw;
+      }   */
+
+      .buttons {
+            display: flex;
+            flex-direction: row; 
+            align-items: center; 
+            margin-left:10vw;
+            padding: 1.5vw;
+          }
+
+
+  .button {
+    width:8rem;
+  }
+
+  .button:hover {
+    color: #CE3B3C;
+    border-bottom:1vw #CE3B3C;
+
+  }
+
+  .benefits{
+    width:10vw;
+  }  
+
+  .prices{
+    width:10vw;
+  }  
+
+
+  .contact {
+    position: relative;
+    overflow: hidden;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    width: 12vw;
+    border: 1vw;
+    border-radius: 0.75rem;
+    height: 2.75vw;
+    box-shadow: 0 0 1vw #CE3B3C,
+    0 0 0 0.15vw #CE3B3C inset;
+  }
+
+  .contact::before {
+    content: "Talk to Us";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease;
+  }
+
+  .contact:hover::before {
+  opacity: 0;
+  }
+
+  .contact::after {
+    content: "98009 96009";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #CE3B3C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+  }
+
+  .contact:hover::after {
+    opacity: 1;
+  } 
+
+
+}
+
+
+

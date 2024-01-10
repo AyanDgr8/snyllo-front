@@ -1,0 +1,352 @@
+/* src/components/routes/Treatments/Treatments.css */
+
+
+
+.treatments-page {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: auto;
+  max-width: 100%;
+  }
+  
+  .first-container-treatments{
+    max-width: 100%;
+    margin: auto;
+  
+  }
+  
+  .epilazextreatments{
+    width: 20vw;
+    height: 10vh;
+    margin-top: 25vh;
+    margin-left: -60vw;
+  
+  }
+    
+  
+.big-heading-treatments h1 {
+      margin: auto;
+      margin-top: 3vh;
+      margin-left: -21vw;
+      font-size: 5.5rem;
+      font-weight: 800;
+      color: #CE3B3C;
+}
+  
+.firstline-treatments p{
+    margin: auto;
+    margin-top: 3vh;
+    margin-left: -7.5vw;
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: 700;
+    max-width:100%;
+  
+}
+  
+  /* *********************** */
+
+
+.container-1{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 15vh;
+}
+
+.container-1-treatments{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.container-1-treatments-heading-1-1{
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #D63D3E63;
+  margin: auto;
+  margin-top: 10vh;
+  position: relative;
+  left: -100%;
+  animation: slideInFromLeft 1s ease forwards;
+
+}
+
+.container-1-treatments-heading-1-2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: auto;
+  margin-top: -2vh;
+  position: relative;
+  right: -100%;
+  animation: slideInFromRight 1s ease forwards;
+
+}
+
+.container-1-treaments-left-1{
+  max-width: 50%;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.container-1-treaments-left-1 img{
+  height:20rem;
+  width:40rem;
+  margin: auto;
+  margin-left: 2.5rem;
+}
+
+.container-1-treaments-right-1{
+  max-width: 50%;
+  margin: auto;
+}
+
+.container-1-treaments-right-1 p{
+  font-size: 1.25rem;
+  background-color: white;
+  box-shadow: inset 0 0 1vw rgba(250, 4, 4, 0.5);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin:auto;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  height: auto;
+  width:80%;
+  color: black;
+
+}
+
+/* **************** */
+
+.container-2{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.container-2-treatments{
+  display: flex;
+  flex-direction: row;
+
+}
+.container-2-treaments-left-2{
+  max-width: 50%;
+  margin: auto;
+}
+
+.container-2-treaments-right-2{
+  max-width: 50%;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.container-2-treaments-right-2 img{
+  height:20rem;
+}
+
+.container-2-treaments-left-2 p{
+  font-size: 1.25rem;
+  background-color: white;
+  box-shadow: inset 0 0 1vw rgba(250, 4, 4, 0.5);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin:auto;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  height: auto;
+  width:80%;
+  color: black;
+
+}
+
+
+
+
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(80%); 
+    overflow: hidden;
+    z-index: -1;
+    background: linear-gradient(to right, white 0%, lightpink 50%, white 80%, lightpink 100%);
+  }
+
+  .video {
+    object-fit: cover;
+    opacity: 0.3;
+    width: 100%;
+    height: calc(100%);
+  }
+
+  .first-container-treatments{
+    max-width: 100%;
+    margin: auto;
+  }
+  
+
+  .epilazextreatments{
+    width: 36vw;
+    height: 10vh;
+    margin-top: 25vh;
+    margin-left: -40vw ;
+  
+  }
+    
+
+  .big-heading-treatments h1 {
+    margin: auto;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    font-size: 2.5rem;
+  }
+
+  .firstline-treatments p{
+    margin: auto;
+    margin-top: 3vh;
+    margin-left: 8vw;
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 500;
+    max-width: 80%;
+  
+  }
+/* ************** */
+
+  .container-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+
+  .container-1-treatments-heading-1-1{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #D63D3E63;
+    margin: auto;
+    margin-top: 15vh;
+
+  }
+
+  .container-1-treatments-heading-1-2{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 0;
+    
+  }
+
+  .container-1-treatments{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+  }
+
+  .container-1-treaments-left-1{
+    width: 100%;
+    margin-top: 5vh;
+  }
+
+  .container-1-treaments-left-1 img{
+    height: auto;
+    width: 24rem;
+    margin-left: -130vw;
+  }
+
+  .container-1-treaments-right-1{
+    width: 100%;
+    margin-top: 5vh;
+    margin-left: -6.5vw;
+
+  }
+
+  .container-1-treaments-right-1 p{
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: auto;
+    color: white;
+    width: 60rem;
+    background-color: #CE3B3C;
+  }
+
+  /* ****************** */
+
+  .container-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+
+  
+
+  .container-2-treatments-heading-1-1{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #D63D3E63;
+    margin: auto;
+    margin-top: 10vh;
+
+  }
+
+  .container-2-treatments-heading-1-2{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 0;
+    
+  }
+
+  .container-2-treatments{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  
+
+  .container-2-treaments-right-2{
+    width: 100%;
+    margin-top: 5vh;
+    margin-left: -6.5vw;
+
+  }
+  
+  .container-2-treaments-right-2 img{
+    height: auto;
+    width: 25rem;
+    margin-left: 10vw;
+    margin-right: auto;
+  }
+
+
+  .container-2-treaments-left-2{
+    height: 20rem;
+    margin-top: 5vh;
+    margin-right:auto ;
+    margin-left: auto;
+    max-width: 100%;
+    margin-bottom: 10vh;
+
+  }
+  .container-2-treaments-left-2 p{
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: auto;
+    color: white;
+    width: 80rem;
+    background-color: #CE3B3C;
+  }
+
+}

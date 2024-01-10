@@ -1,0 +1,240 @@
+/* src/components/routes/LandingPage/Ninth/Ninth.css */
+
+    .ninth-page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .big-heading-8 {
+        text-align: center;
+        margin-top: 3rem;
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .big-heading-8 h2 {
+        font-size: 5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #D63D3E63 ;
+        position: relative;
+        top: 0;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
+    }
+
+    .big-heading-8 h3 {
+        font-size: 2.5em;
+        font-weight: 700;
+        position: absolute;
+        top: 2.25rem;
+        left: 0;
+        margin-top: 3rem;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
+
+    .ninth-container{
+        display: flex;
+        justify-content: space-between; 
+        flex-direction: row;
+        width: 80%;
+        margin-top: 3rem;
+    }
+
+    .ninth-column-one,
+    .ninth-column-three {
+        width: 30%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .ninth-column-two {
+        width: 40%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .ninth-column-one img{
+        width: 22rem;
+        height: 16rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ninth-column-two img{
+        height: 30rem;
+        width: 16rem;
+    }
+
+    .ninth-column-three img{
+        width: 22rem;
+        height: 16rem;
+        display: flex;
+        justify-content: center;
+    } 
+
+
+:root {
+    --base-font-size: 16px; /* Define the base font size */
+  }
+
+  
+  
+
+@media only screen and (min-width: 360px) and (max-width: 430px) {}
+
+@media only screen and (min-width: 431px) and (max-width: 760px) {}
+
+@media only screen and (min-width: 761px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {}
+  
+@media only screen and (min-width: 1441px){}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+
+
+
+
+    .ninth-page-content{
+        width:100%;
+    }
+    .big-heading-8 h2{
+        font-size: 2.25rem;
+        margin-top: 2rem;
+    }
+    .big-heading-8 h3{
+        font-size: 1.5rem;
+        margin-top: 2.5rem;
+
+    }
+    .ninth-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.5rem;
+        margin-left: 15rem;
+        width: 80%;
+
+    }
+    .ninth-column-one,
+    .ninth-column-three{
+        margin-left: 0;
+        margin-right: auto;
+
+    } 
+    
+    .ninth-column-one img,
+    .ninth-column-three img{
+        width:15rem;
+        height: 10rem;
+
+    }
+
+    .ninth-column-two{
+        margin-right: 1.5rem;
+    }
+    
+
+    .ninth-column-two img{
+        height: 20rem;
+        width: 12rem;
+        margin: 1rem;
+        margin-left: -1rem;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1440px) {
+
+
+    .ninth-page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .big-heading-8 {
+        text-align: center;
+        margin-top: 3rem;
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .big-heading-8 h2 {
+        font-size: 5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #D63D3E63 ;
+        position: relative;
+        top: 0;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
+    }
+
+    .big-heading-8 h3 {
+        font-size: 2.5em;
+        font-weight: 700;
+        position: absolute;
+        top: 2.25rem;
+        left: 0;
+        margin-top: 3rem;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
+
+    .ninth-container{
+        display: flex;
+        justify-content: space-between; 
+        flex-direction: row;
+        width: 80%;
+        margin-top: 3rem;
+    }
+
+    .ninth-column-one,
+    .ninth-column-three {
+        width: 30%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .ninth-column-two {
+        width: 40%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .ninth-column-one img{
+        width: 22rem;
+        height: 16rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ninth-column-two img{
+        height: 30rem;
+        width: 16rem;
+    }
+
+    .ninth-column-three img{
+        width: 22rem;
+        height: 16rem;
+        display: flex;
+        justify-content: center;
+    } 
+
+}

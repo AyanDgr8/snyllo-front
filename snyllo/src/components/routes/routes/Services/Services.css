@@ -1,0 +1,144 @@
+/* src/components/routes/Services/Services.css */
+
+
+
+.services-page {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: auto;
+  max-width: 100%;
+  }
+  
+  .first-container-services{
+    max-width: 100%;
+    margin: auto;
+  
+  }
+  
+  .epilazexservices{
+    width: 20vw;
+    height: 10vh;
+    margin-top: 25vh;
+    margin-left: -60vw;
+  
+  }
+    
+  
+.big-heading-servicess h1 {
+  margin: auto;
+  margin-top: 3vh;
+  margin-left: -35vw;
+  font-size: 5.5rem;
+  font-weight: 800;
+  color: #CE3B3C;
+}
+  
+.firstline-services p{
+  margin: auto;
+  margin-top: 3vh;
+  margin-left: 9vw;
+  text-align: start;
+  font-size: 1.5rem;
+  font-weight: 700;
+  max-width:75%;
+  
+}
+  
+  /* *********************** */
+
+
+.big-heading-services {
+    text-align: center;
+    position: relative;
+}
+  .big-heading-services h2 {
+          font-size: 5rem;
+          margin-bottom: 0;
+          color:#D63D3E63;
+          position: relative;
+          top: 0;
+          left: -100%;
+          animation: slideInFromLeft 1s ease forwards
+      }
+  
+  .big-heading-services h3 {
+          font-size: 2.25rem;
+          margin-top: 3rem;
+          margin-bottom: 0;
+          font-weight: 700;
+          position: absolute; 
+          top: 2.25rem;
+          left: 0;
+          right: -100%;
+          animation: slideInFromRight 1s ease forwards;
+      }
+
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+ 
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(80%); 
+    overflow: hidden;
+    z-index: -1;
+    background: linear-gradient(to right, white 0%, lightpink 50%, white 80%, lightpink 100%);
+  }
+
+  .video {
+    object-fit: cover;
+    opacity: 0.3;
+    width: 100%;
+    height: calc(100%);
+  }
+
+  .services-page{
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .epilazexservices{
+    width: 36vw;
+    height: 10vh;
+    margin-top: 25vh;
+    margin-left: -40vw ;
+
+
+  }
+  
+  .first-container-services{
+    margin: auto;
+    max-width: 100%;
+  }
+    
+  
+  .heading-servicess {
+    margin: auto;
+  }
+  
+
+  .big-heading-servicess h1 {
+    margin: auto;
+    margin-top: 10vh;
+    margin-left: -7.5vw;
+    font-size: 2.5rem;
+  }
+  
+  .firstline-services p{
+    margin: auto;
+    margin-top: 5vh;
+    margin-left: 15vw;
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 700;
+    max-width: 80%;
+    
+  }
+
+
+  
+}

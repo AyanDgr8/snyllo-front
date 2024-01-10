@@ -1,0 +1,235 @@
+/* src/components/routes/LandingPage/Third/Third.css */
+
+
+
+
+.third-page-content {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.big-heading-2 {
+        text-align: center;
+        position: relative;
+    }
+
+.big-heading-2 h2 {
+        font-size: 5rem;
+        margin-bottom: 0;
+        color:#D63D3E63;
+        position: relative;
+        top: 0;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards
+    }
+
+.big-heading-2 h3 {
+        font-size: 2.25rem;
+        margin-top: 3rem;
+        margin-bottom: 0;
+        font-weight: 700;
+        position: absolute; 
+        top: 2.25rem;
+        left: 0;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
+      
+.toggle-switch {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        width: 18rem;
+        height: 3.75rem;
+        margin: auto;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        border-radius: 2rem; 
+        padding: auto;
+        box-shadow: 0 0 0.5vw 0.5vw rgba(192, 12, 12, 0.5);
+    }
+
+.gender-button {
+        border: none;
+        border-radius: 2rem ;
+        cursor: pointer;
+        margin: 0.75rem;
+
+        /* background-color: white;  */
+        /* color: black;  */
+        /* box-shadow: 0 0 0.75vw 0.25vw rgba(192, 12, 12, 0.5)inset;  */
+        /* position: relative; */
+        /* font-size: 1.25rem; */
+        /* padding: 0.25rem 1rem; */
+        /* height: auto; */
+        /* transition: background-color 0.3s, color 0.3s; */
+    } 
+
+.gender-icon{
+    height: 4vh;
+    width: 8vw;
+}
+
+
+/* .gender-button:hover {
+        background-color: #CE3B3C;
+        color: white;
+    } */
+
+.gender-button.active {
+        background-color: #CE3B3C;
+        padding: 0.5vw;
+
+        /* color: white; */
+        /* font-weight: 900; */
+    }
+
+/* .gender-button.active:hover {
+        background-color: white;
+        color: #CE3B3C;
+        font-weight: 900;
+    } */
+
+    
+.toggle-switch input {
+        display: none; 
+    }
+
+.slick-slider {
+        width: 75%; 
+        margin: auto; 
+    }
+
+.slide img {
+        width: 10rem; 
+        height: 10rem; 
+        margin:0.5rem;
+    }
+
+.slick-prev,
+.slick-next {
+        font-size: 3rem;
+        background-color: #CE3B3C; 
+        border-radius: 2rem;
+        position: absolute;
+        top: 50%;
+        cursor: pointer;
+    }
+  
+    .slick-prev:hover,
+    .slick-next:hover {
+        background-color: black; 
+    }
+
+
+:root {
+    --base-font-size: 16px;
+  }
+
+ 
+
+@media only screen and (min-width: 360px) and (max-width: 430px) {}
+
+@media only screen and (min-width: 431px) and (max-width: 760px) {}
+
+@media only screen and (min-width: 761px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {}
+  
+@media only screen and (min-width: 1441px){}
+
+
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+
+    
+    .third-page-content{
+        width:100%;
+    }
+    .big-heading-2 h2{
+        font-size: 3.5rem;
+        letter-spacing: 0.5rem;
+    }
+    .big-heading-2 h3{
+        font-size: 2rem;
+        margin-top: 1.25rem;
+    }
+
+       
+    .toggle-switch {
+        width: 16rem;
+        height: 3rem;
+        margin-top: 3rem;
+    }
+
+    .gender-icon{
+        height: 2.5vh;
+        width: 25vw;
+    }
+
+    .slick-slider {
+        width: 50%; 
+        margin: auto; 
+    }
+
+    .slide img {
+        width: 14rem; 
+        height: 16rem; 
+        margin: 0.25vw;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 1440px) {
+
+
+    .third-page-content {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    
+    .big-heading-2 {
+            text-align: center;
+            position: relative;
+    }
+    
+    .big-heading-2 h2 {
+            font-size: 5rem;
+            margin-bottom: 0;
+            color:#D63D3E63;
+            position: relative;
+            top: 0;
+            left: -100%;
+            animation: slideInFromLeft 1s ease forwards
+    }
+    
+    .big-heading-2 h3 {
+            font-size: 2.25rem;
+            margin-top: 3rem;
+            margin-bottom: 0;
+            font-weight: 700;
+            position: absolute; 
+            top: 2.25rem;
+            left: 0;
+            right: -100%;
+            animation: slideInFromRight 1s ease forwards;
+    }
+
+        .slick-slider {
+            width: 75%; 
+            margin: auto; 
+        }
+    
+        .slide img {
+            width: 20rem; 
+            height: 20rem; 
+            margin:0.5rem;
+        }
+    
+
+} 

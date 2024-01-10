@@ -1,0 +1,349 @@
+/* src/components/routes/LandingPage/ContactUs/ContactUs.css */
+
+
+    .big-heading-contactus {
+        text-align: center;
+        margin-top: 6rem;
+        position: relative;
+        margin-bottom: 3.125rem;
+    }
+
+    .big-heading-contactus h2 {
+        font-size: 6rem;
+        margin-top: 3.5rem;
+        margin-bottom: 0;    
+        color: #D63D3E63;
+        position: relative;
+        top: 0;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
+    }
+
+    .big-heading-contactus h3 {
+        font-size: 3rem;
+        font-weight: 700;
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        margin-top: 3rem;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
+
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2rem;
+        
+    }
+
+
+    .form-part{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25rem;
+        align-items: center; 
+        justify-content: center; 
+    }
+
+    .head {
+        margin-bottom: 1rem; 
+        margin-top:0;
+        margin-left: 10rem;
+        font-size: 1.5rem;
+        font-weight:400;
+        color: black;
+    }
+
+    input{
+        width: 75%;
+        padding: 1rem;
+        margin-top: 1rem;
+        margin-left: 1rem ;
+        font-size: larger;
+        border:0;
+        outline: 0;
+        border-radius: 0.5rem;
+        background-color: lightgray;
+        border-bottom:2px solid transparent;
+        color:black; 
+        transition:border-bottom 0.3s, background-color 0.3s;
+    }
+
+    input:hover{
+        background-color: #D63D3E63 ;
+        color:white;
+        border-bottom: 2px solid black;
+    }
+
+    select{
+        width: 22.5%;
+        padding: 1rem;
+        border:0;
+        outline: 0;
+        font-size: larger;
+        border-radius: 0.5rem;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        background-color: lightgray;
+        border-bottom: 1px solid white;
+        color:black; 
+    }
+
+    .treatment{
+        margin-left: 2.5rem;
+    }
+    
+
+    select:hover{
+        background-color: #D63D3E63 ;
+        color:white;
+    }
+
+    button.formbutton {
+        width: 50%;
+        background-color: #CE3B3C;
+        box-shadow: 0 0 2vw rgba(192, 12, 12, 0.5),
+        inset 0 0 1vw rgba(250, 4, 4, 0.5);
+        color: #fff;
+        border: none;
+        font-size: larger;
+        cursor: pointer;
+        margin-left: 10rem;
+        margin-top: 1.5rem;
+        border-radius: 0.65rem;
+        height: 3rem;
+    }
+
+    button.formbutton:hover {
+        background-color:  white; 
+        color: #CE3B3C; 
+    }
+
+
+:root {
+    --base-font-size: 16px; /* Define the base font size */
+  }
+
+
+  @media only screen and (min-width: 360px) and (max-width: 430px) {}
+
+  @media only screen and (min-width: 431px) and (max-width: 760px) {}
+  
+  @media only screen and (min-width: 761px) and (max-width: 1024px) {}
+  
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {}
+    
+  @media only screen and (min-width: 1441px){}
+  
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+
+
+    .formmm{
+        width: 100%;
+    }
+
+    .big-heading-contactus{
+        margin-top: 3rem;
+    }
+    .big-heading-contactus h2{
+        font-size: 3rem;
+    }
+    .big-heading-contactus h3{
+        font-size: 2rem;
+        margin-top: 0.5rem;
+    }
+    .head{
+        font-size: 1rem;
+        margin-right: auto;
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+    .form-part{
+        margin-top: 2rem;
+        margin-left: 4rem;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    input{
+        font-size: medium;
+        margin: 1vw;
+        margin-left: -3vw;
+        padding: 2.5vw;
+    }
+    select{
+        display: flex;
+        flex-direction: column;
+        width:50%;
+        margin:1vw;
+        margin-left: 3rem;
+        padding: 2.5vw;
+        font-size: medium;
+
+    }
+
+    .treatment{
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+    button.formbutton{
+        margin-left: 1rem;
+        margin-right: auto;
+        width:15rem;
+        height: 6vh;
+    }
+} 
+
+@media only screen and (max-width: 320px) {}
+  
+@media only screen and (min-width: 321px) and (max-width: 425px) {}
+
+@media only screen and (min-width: 426px) and (max-width: 640px) {}
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {}
+
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1440px) {
+
+
+
+
+
+    .big-heading-contactus {
+        text-align: center;
+        margin-top: 6rem;
+        position: relative;
+        margin-bottom: 3.125rem;
+    }
+
+    .big-heading-contactus h2 {
+        font-size: 6rem;
+        margin-top: 3.5rem;
+        margin-bottom: 0;    
+        color: #D63D3E63;
+        position: relative;
+        top: 0;
+        left: -100%;
+        animation: slideInFromLeft 1s ease forwards;
+    }
+
+    .big-heading-contactus h3 {
+        font-size: 3rem;
+        font-weight: 700;
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        margin-top: 3rem;
+        right: -100%;
+        animation: slideInFromRight 1s ease forwards;
+    }
+
+
+    .container{
+        display: flex;
+        width:100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2rem;
+        
+    }
+
+
+    .form-part{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20rem;
+        align-items: center; 
+        justify-content: center; 
+    }
+
+    .head {
+        margin-bottom: 1rem; 
+        margin-top:0;
+        margin-left: 0rem;
+        font-size: 1.5rem;
+        font-weight:400;
+        color: black;
+    }
+
+    input{
+        width: 80%;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        margin-left: -4rem ;
+        font-size: large;
+        border:0;
+        outline: 0;
+        border-radius: 0.5rem;
+        background-color: lightgray;
+        border-bottom:2px solid transparent;
+        color:black; 
+        transition:border-bottom 0.3s, background-color 0.3s;
+    }
+
+    input:hover{
+        background-color: #D63D3E63 ;
+        color:white;
+        border-bottom: 2px solid black;
+    }
+
+    select{
+        width: 20%;
+        padding: 0.5rem;
+        border:0;
+        outline: 0;
+        font-size: small;
+        border-radius: 0.5rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        background-color: lightgray;
+        border-bottom: 1px solid white;
+        color:black; 
+    }
+
+    .treatment{
+        margin-left: 3.125rem;
+        margin-top: 1rem;
+
+    }
+    
+
+    select:hover{
+        background-color: #D63D3E63 ;
+        color:white;
+    }
+
+    button.formbutton {
+        width: 48%;
+        background-color: #CE3B3C;
+        box-shadow: 0 0 2vw rgba(192, 12, 12, 0.5),
+        inset 0 0 1vw rgba(250, 4, 4, 0.5);
+        color: #fff;
+        border: none;
+        font-size: large;
+        cursor: pointer;
+        margin-left: 8rem;
+        margin-top: 1.5rem;
+        border-radius: 0.65rem;
+        height: 3rem;
+    }
+
+    button.formbutton:hover {
+        background-color:  white; 
+        color: #CE3B3C; 
+    }
+
+} 

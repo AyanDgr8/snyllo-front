@@ -1,0 +1,610 @@
+/* src/components/routes/LandingPage/First/First.css */
+
+.first-page-content {
+    display: flex;
+    margin-top: o;
+}
+
+.first-page-wrapper {
+    position: relative;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(82%); 
+    overflow: hidden;
+    z-index: -1;
+    background: linear-gradient(to right, lightpink 25%, lightpink 100%);
+}
+
+.video {
+    object-fit: cover;
+    opacity: 0.3;
+    width: 100%;
+}
+
+
+.left-images-first {
+    margin-right:  18vw; 
+}
+
+.epilazexleft {
+    width: 20vw;
+    height: 10vh;
+    margin-top: 21vh;
+}
+
+
+/* Left-side */
+.left-content-first {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    position: relative;
+    margin: 0;
+}
+
+.left-para {
+    margin-left: 6vw;
+    margin-top: 4vh;
+    margin-right: 0; 
+}
+    
+.firstline {
+    color: transparent;
+    font-family: "Roboto", Sans-serif;
+    font-size: 5vw; /* Change font size to vw */
+    font-weight: 900;
+    line-height: 1em;
+    letter-spacing: 0;
+    -webkit-text-stroke-width: 0.125vw; /* Change stroke width to vw */
+    stroke-width: 0.125vw;
+    -webkit-text-stroke-color: black;
+    stroke: black;
+}
+    
+.secondline {
+    color: #CE3B3C;
+    font-family: "Roboto", Sans-serif;
+    font-size: 3.6vw; /* Change font size to vw */
+    font-weight: 900;
+    line-height: 1em;
+    letter-spacing: 0;
+}
+
+.thirdline {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    font-size: 2vw; /* Change font size to vw */
+    margin-left: 0.1vw;
+    color: black;
+}
+
+
+.left-icons-wrapper {
+    font-family: "Roboto", Sans-serif;
+    margin-left: 5vw;
+    margin-top: 12vh; 
+    border-radius: 3vw; 
+    background: rgba(217, 217, 217, 0.01);
+    box-shadow: 
+    /* 0 0 0 0.5vw rgba(255, 255, 255, 0.5) , */
+    0 0 1.5vw 0.75vw rgba(255, 255, 255, 0.5) inset;
+    /* box-shadow:  */
+    /* 0 0 1vw rgba(255, 255, 255, 0.5), */
+                /* inset 0 0 3vw rgb(255, 255, 255); */
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    width: 45vw;
+}
+
+    
+.left-icons-container {
+    display: flex;
+    flex-direction: row;
+    transform: translateY(1.25vh); /* Change translateY to vh */
+    animation: slideInFromBottom 2s ease forwards;
+}
+
+.icon1, .icon2, .icon3 {
+    width: 33.33%;
+}
+
+.icon1img, .icon2img, .icon3img {
+    margin-top: 6vh;
+    margin-left: 4vw;
+    margin-bottom: 0;
+    width: 6.5vw;
+    height: 6.5vw;
+}
+
+
+.icon1caption, .icon2caption, .icon3caption {
+    text-align: center;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 4.5vw;
+}
+
+.icon1caption h3, .icon2caption h3, .icon3caption h3 {
+    font-size: 1.5vw; /* Change font size to vw */
+    margin-top: 1.5vh;
+    margin-bottom: 3vh;
+}
+
+.icon1caption h4, .icon2caption h4, .icon3caption h4 {
+    font-size: 1vw; /* Change font size to vw */
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+
+.right-content-first {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+}
+
+.twomachinesright {
+    height: 120vh;
+    width: 40vw;
+    margin-bottom: 0.5vh;
+    margin-top: 8vh;
+    margin-left: -1vw;
+    margin-right: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.twomachinesright:hover{
+    height: 120.5vh;
+    width: 40.5vw;
+    margin-left: -1vw;
+
+}
+
+
+/* Add animation styles */
+.left-para div {
+    opacity: 0;
+    transform: translateX(-1.25vw);
+    animation: fadeInRight 2s ease forwards;
+}
+
+.firstline, .secondline, .thirdline {
+    animation: fadeInLeft 2s ease forwards;
+}
+
+.twomachinesright{
+    animation: slideInFromRight 1s ease forwards;
+}
+
+.left-icons-wrapper{
+    animation: slideInFromRight 2s ease forwards;
+}
+
+
+:root {
+    --base-font-size: 2.5vw; /* Change base font size to vw */
+}
+
+
+
+/* Keyframes for slideInFromRight slideInFromBottom boomerangAnimation swirlAnimation fadeInRight and fadeInLeft animations */
+
+@keyframes slideInFromRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes swirlAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes boomerangAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(1.5rem); /* Adjust the distance as needed */
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+@media only screen and (max-width: 320px) {}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+
+
+    .first-page-content{
+        width:100%;
+    }
+    
+    .first-page-wrapper {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+
+    .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        z-index: -1;
+    }
+
+
+    .video {
+        object-fit: cover;
+        opacity: 0.4;
+        height:50%;
+    }
+    
+
+    .epilazexleft {
+        width: 13rem;
+        height:auto;
+        padding-left: 0;
+        vertical-align: -2vh;
+    }
+
+    .left-para {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 4rem;
+        margin-right: auto;
+
+    }
+
+    .firstline {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .secondline {
+        margin-top: 1.25rem;
+        font-size: 2.5rem;
+    }
+
+    .thirdline {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        width: 100%;
+        text-align:left ;
+        margin-bottom: 4rem;
+    }
+
+    .right-content-first{
+        width: 100%;
+    }
+
+    .left-content-first{
+        width:100%;
+        margin-top: 8vh;
+    }
+
+    .left-icons-wrapper {
+        width:100%;
+        margin-top: 20rem;
+        margin-left:auto;
+        margin-right: auto;
+        display: flex;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+
+    .left-icons-container {
+        margin-top: -3vh;
+    }
+
+    .icon1,
+    .icon2,
+    .icon3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -22rem;
+        margin-right:auto;
+        margin-left: auto;
+        width:8.5rem;
+        height:1rem;
+
+    }
+
+    .icon1img,
+    .icon2img,
+    .icon3img {
+        width: 3rem;
+        height: 3rem;
+        margin-right:auto ;
+        margin-left: auto;
+    }
+
+    .icon1caption,
+    .icon2caption,
+    .icon3caption {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;  */
+        margin-top: 0rem; 
+        margin-right:auto ;
+        margin-left: auto;
+        line-height: 1;
+    }
+
+    .icon1caption h3,
+    .icon2caption h3,
+    .icon3caption h3 {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        /* align-items: center; */
+        font-size: 0.75rem;
+        margin-right:auto;
+        margin-left: auto;
+        line-height: none;
+    }
+
+    .icon1caption h4,
+    .icon2caption h4,
+    .icon3caption h4 {
+        font-size: 0.5rem;
+        width: 6rem;
+        line-height: none;
+        margin-top: -0.5rem;
+        margin-right:auto ;
+        margin-left: auto;
+    }
+    
+    .right-content-first {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 40%;
+        position: relative;
+        margin-top: 20vh;
+        margin-left: -100vw;
+    }
+
+    .twomachinesright {
+        margin-top: 33vh;
+        width: 24rem;
+        height: 26rem;
+        margin-right: auto;
+        margin-left:auto;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 430px) {}
+
+@media only screen and (min-width: 431px) and (max-width: 760px) {}
+
+@media only screen and (min-width: 761px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {}
+  
+@media only screen and (min-width: 1441px){}
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 1440px) {
+
+
+
+.first-page-content {
+    display: flex;
+    margin-top: o;
+}
+
+.first-page-wrapper {
+    position: relative;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+    
+}
+
+.video {
+    object-fit: cover;
+    opacity: 0.3;
+    width: 100%;
+}
+
+
+.left-images-first {
+    margin-right:  18vw; 
+}
+
+.epilazexleft {
+    width: 22.5vw;
+    height: 13vh;
+    margin-top: 21vh;
+}
+
+
+/* Left-side */
+.left-content-first {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    position: relative;
+    margin: 0;
+}
+
+.left-para {
+    margin-left: 6vw;
+    margin-top: 4vh;
+    margin-right: 0; 
+}
+    
+.firstline {
+    color: transparent;
+    font-family: "Roboto", Sans-serif;
+    font-size: 5.25vw; /* Change font size to vw */
+    font-weight: 900;
+    line-height: 1em;
+    letter-spacing: 0;
+    -webkit-text-stroke-width: 0.125vw; /* Change stroke width to vw */
+    stroke-width: 0.125vw;
+    -webkit-text-stroke-color: black;
+    stroke: black;
+}
+    
+.secondline {
+    color: #CE3B3C;
+    font-family: "Roboto", Sans-serif;
+    font-size: 3.6vw; /* Change font size to vw */
+    font-weight: 900;
+    line-height: 1.45em;
+    letter-spacing: 0;
+}
+
+.thirdline {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    font-size: 1.5vw; /* Change font size to vw */
+    margin-left: 0.1vw;
+    margin-top: -2vh;
+    color: black;
+}
+/* 
+
+.left-icons-wrapper {
+    font-family: "Roboto", Sans-serif;
+    margin-left: 5vw;
+    margin-top: 10vh; 
+    border-radius: 3vw;
+    background-color: rgba(192, 170, 170, 0.178);
+    backdrop-filter: blur(0.5) brightness(1);
+    box-shadow: 10 15 15 25vw rgba(255, 255, 255, 0.979),
+                inset 5 5 5 5vw rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    width: 45vw;
+} */
+
+    
+.left-icons-container {
+    display: flex;
+    flex-direction: row;
+    transform: translateY(1.25vh); /* Change translateY to vh */
+    animation: slideInFromBottom 2s ease forwards;
+}
+
+.icon1, .icon2, .icon3 {
+    width: 33.33%;
+}
+
+.icon1img, .icon2img, .icon3img {
+    margin-top: 6vh;
+    margin-left: 4vw;
+    margin-bottom: 0;
+    width: 6.5vw;
+    height: 6.5vw;
+}
+
+
+.icon1caption, .icon2caption, .icon3caption {
+    text-align: center;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 4.5vw;
+}
+
+.icon1caption h3, .icon2caption h3, .icon3caption h3 {
+    font-size: 1.5vw; /* Change font size to vw */
+    margin-top: 1.5vh;
+    margin-bottom: 3vh;
+}
+
+.icon1caption h4, .icon2caption h4, .icon3caption h4 {
+    font-size: 1vw; /* Change font size to vw */
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+
+.right-content-first {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+}
+
+ 
+
+/* Add animation styles */
+.left-para div {
+    opacity: 0;
+    transform: translateX(-1.25vw);
+    animation: fadeInRight 2s ease forwards;
+}
+
+.firstline, .secondline, .thirdline {
+    animation: fadeInLeft 2s ease forwards;
+}
+
+.twomachinesright{
+    animation: slideInFromRight 1s ease forwards;
+}
+
+.left-icons-wrapper{
+    animation: slideInFromRight 2s ease forwards;
+}
+
+}

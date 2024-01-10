@@ -1,0 +1,29 @@
+/* src/components/Main.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+#root { 
+  overflow-x: hidden;
+}
+
+.element-style{
+  overflow-x: hidden;
+}
+  
+.column{
+  overflow-x: hidden;
+}
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+   @media only screen and (max-width: 600px) {
+
+    body, html {
+      overflow-x: hidden;
+    }
+  } 
+
