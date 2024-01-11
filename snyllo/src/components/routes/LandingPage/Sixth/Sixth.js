@@ -1,4 +1,4 @@
-// src/components/routes/Home/Sixth.js
+// src/components/routes/LandingPage/Sixth/Sixth.js
 
 import React from 'react';
 import './Sixth.css';

@@ -1,14 +1,14 @@
-// src/components/Main.js
+// src/components/Main/Main.js
 
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './routes/LandingPage/Home';
-import Benefits from './routes/Benefits/Benefits';
-import Products from './routes/Products/Products';
-import Treatments from './routes/Treatments/Treatments';
-import Technology from './routes/Technology/Technology';
-import Services from './routes/Services/Services';
-import BookForm from './routes/BookForm/BookForm';
+import Home from '../routes/LandingPage/Home';
+import Benefits from '../routes/Benefits/Benefits';
+import Products from '../routes/Products/Products';
+import Treatments from '../routes/Treatments/Treatments';
+import Technology from '../routes/Technology/Technology';
+import Services from '../routes/Services/Services';
+import BookForm from '../routes/BookForm/BookForm';
 
 
 

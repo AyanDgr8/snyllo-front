@@ -157,6 +157,7 @@
     .big-heading-contactus h3{
         font-size: 2rem;
         margin-top: 0.5rem;
+        margin-left: -50vw;
     }
     .head{
         font-size: 1rem;
@@ -166,7 +167,7 @@
     }
     .form-part{
         margin-top: 2rem;
-        margin-left: 4rem;
+        margin-left: auto;
         margin-right: auto;
         width: 90%;
     }
@@ -182,18 +183,19 @@
         flex-direction: column;
         width:50%;
         margin:1vw;
-        margin-left: 3rem;
+        margin-left: auto;
+        margin-right: auto;
         padding: 2.5vw;
         font-size: medium;
 
     }
 
     .treatment{
-        margin-left: 3rem;
+        margin-left: auto;
         margin-top: 1rem;
     }
     button.formbutton{
-        margin-left: 1rem;
+        margin-left: auto;
         margin-right: auto;
         width:15rem;
         height: 6vh;

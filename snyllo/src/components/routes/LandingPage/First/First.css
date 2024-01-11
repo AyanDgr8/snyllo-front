@@ -163,13 +163,6 @@
     cursor: pointer;
 }
 
-.twomachinesright:hover{
-    height: 120.5vh;
-    width: 40.5vw;
-    margin-left: -1vw;
-
-}
-
 
 /* Add animation styles */
 .left-para div {
@@ -286,39 +279,38 @@
     .epilazexleft {
         width: 13rem;
         height:auto;
-        padding-left: 0;
         vertical-align: -2vh;
+        margin-left: -10vw;
+
     }
 
     .left-para {
         flex-direction: column;
         flex-wrap: wrap;
-        margin-left: 4rem;
+        margin-left: 10vw;
         margin-right: auto;
+        text-align: start;
 
     }
 
     .firstline {
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 900;
     }
 
     .secondline {
         margin-top: 1.25rem;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .thirdline {
         margin-top: 1rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
         width: 100%;
         text-align:left ;
         margin-bottom: 4rem;
     }
 
-    .right-content-first{
-        width: 100%;
-    }
 
     .left-content-first{
         width:100%;
@@ -402,14 +394,14 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 40%;
+        width: 50%;
         position: relative;
         margin-top: 20vh;
         margin-left: -100vw;
     }
 
     .twomachinesright {
-        margin-top: 33vh;
+        margin-top: 27.5vh;
         width: 24rem;
         height: 26rem;
         margin-right: auto;

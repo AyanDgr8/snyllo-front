@@ -95,11 +95,11 @@ const Header = () => {
           </div>
           {showMenu && (
             <div className="mobile-menu active">
-            <Link to="/benefits" className="button" target="_blank" >Benefits of LHR</Link> 
-            <Link to="/products" className="button" target="_blank" >Products</Link> 
-            <Link to="/treatments" className="button" target="_blank" >Treatments</Link> 
-            <Link to="/technology" className="button" target="_blank" >Technology</Link>  
-            <Link to="/services" className="button prices" target="_blank" >Prices & Services</Link>  
+            <Link to="/benefits" className="button"  >Benefits of LHR</Link> 
+            <Link to="/products" className="button"  >Products</Link> 
+            <Link to="/treatments" className="button"  >Treatments</Link> 
+            <Link to="/technology" className="button"  >Technology</Link>  
+            <Link to="/services" className="button prices"  >Prices & Services</Link>  
             <button onClick={() => window.open('https://alienotion.live/?page_id=32', '_blank')} className='button contact'>
               <img 
                 src="/upload/talk-to-us.png" 
@@ -127,9 +127,9 @@ const Header = () => {
             </Link>
           </div>
           <div className="buttons">
-            <Link to="/benefits" className="button benefits" target="_blank" >Benefits of LHR</Link> 
-            <Link to="/products" className="button" target="_blank" >Products</Link> 
-            <Link to="/treatments" className="button" target="_blank" >Treatments</Link>
+            <Link to="/benefits" className="button benefits"  >Benefits of LHR</Link> 
+            <Link to="/products" className="button"  >Products</Link> 
+            <Link to="/treatments" className="button"  >Treatments</Link>
             <Link to="/technology" className="button">Technology</Link> 
             <Link to="/services" className="button prices">Prices & Services</Link>    
             <button onClick={() => window.open('https://alienotion.live/?page_id=32', '_blank')} className='button contact'>
@@ -148,9 +148,9 @@ const Header = () => {
           {/* Mobile menu */}
           {showMenu && (
             <div className="mobile-menu active">
-            <Link to="/benefits" className="button benefits" target="_blank" >Benefits of LHR</Link> 
-            <Link to="/products" className="button" target="_blank" >Products</Link> 
-            <Link to="/treatments" className="button" target="_blank" >Treatments</Link> 
+            <Link to="/benefits" className="button benefits"  >Benefits of LHR</Link> 
+            <Link to="/products" className="button"  >Products</Link> 
+            <Link to="/treatments" className="button" >Treatments</Link> 
             <Link to="/technology" className="button">Technology</Link> 
             <Link to="/services" className="button prices">Prices & Services</Link>   
             <button onClick={() => window.open('https://alienotion.live/?page_id=32', '_blank')} className='buttonn contact'>

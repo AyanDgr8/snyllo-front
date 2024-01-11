@@ -3,7 +3,7 @@
 
 import React from 'react';
 import './App.css';
-import Main from './components/routes/Main'; // Adjusted import path
+import Main from './components/Main/Main'; // Adjusted import path
 
 function App() {
   return (
