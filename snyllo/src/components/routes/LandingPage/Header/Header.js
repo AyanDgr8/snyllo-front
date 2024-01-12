@@ -19,22 +19,6 @@ const Header = () => {
     setShowMenu((prevShowMenu) => !prevShowMenu);
   };
 
-  // const closeUpperLine = () => {
-  //   setShowUpperLine(false);
-  // };
-
-  // const UpperLineHeader = ({ closeCallback }) => {
-  //   return (
-  //     <div className="upper-line-header">
-  //       Get Full Body Lifetime Hairless Guarantee @ just  ₹7999
-  //       <div className="close-button" onClick={closeCallback}>
-  //         X
-  //       </div>
-  //     </div>
-  //   );
-  // };
-
-
   useEffect(() => {
     console.log('showMenu state:', showMenu);
 
@@ -71,7 +55,7 @@ const Header = () => {
     <div>
       {showUpperLine && 
         <div className={`upper-line-header ${scrolled ? 'hide' : ''}`} >
-          <Link to="/form-LHR"  target="_blank" className="offer-link">
+          <Link to="/form-LHR"  className="offer-link">
             <h3 className='offer-line' >
               Get Full Body LIFETIME HAIRLESS Guarantee @ just ₹7999/- 
               <strong className='book-now-link'>BOOK NOW </strong>
@@ -95,18 +79,17 @@ const Header = () => {
           </div>
           {showMenu && (
             <div className="mobile-menu active">
-            <Link to="/benefits" className="button"  >Benefits of LHR</Link> 
-            <Link to="/products" className="button"  >Products</Link> 
-            <Link to="/treatments" className="button"  >Treatments</Link> 
-            <Link to="/technology" className="button"  >Technology</Link>  
-            <Link to="/services" className="button prices"  >Prices & Services</Link>  
-            <button onClick={() => window.open('https://alienotion.live/?page_id=32', '_blank')} className='button contact'>
-              <img 
-                src="/upload/talk-to-us.png" 
-                className="icon-talk" 
-              />
-            </button>
-              {/* <button onClick={() => window.open('https://alienotion.live/?page_id=32', '_blank')} className='button contact'>Talk to Us</button> */}
+              <Link to="/benefits" className="button"  >Benefits of LHR</Link> 
+              <Link to="/products" className="button"  >Products</Link> 
+              <Link to="/treatments" className="button"  >Treatments</Link> 
+              <Link to="/technology" className="button"  >Technology</Link>  
+              <Link to="/services" className="button prices"  >Prices & Services</Link>  
+              <button onClick={() => window.open('https://alienotion.live/?page_id=32', '_blank')} className='button contact'>
+                <img 
+                  src="/upload/talk-to-us.png" 
+                  className="icon-talk" 
+                />
+              </button>
             </div>
           )}
         </div>
@@ -132,7 +115,7 @@ const Header = () => {
             <Link to="/treatments" className="button"  >Treatments</Link>
             <Link to="/technology" className="button">Technology</Link> 
             <Link to="/services" className="button prices">Prices & Services</Link>    
-            <button onClick={() => window.open('https://alienotion.live/?page_id=32', '_blank')} className='button contact'>
+            <button onClick={() => window.open('https://alienotion.live/?page_id=32')} className='button contact'>
               <img 
                 src="/upload/talk-to-us.png" 
                 className="icon-talk" 
@@ -153,7 +136,7 @@ const Header = () => {
             <Link to="/treatments" className="button" >Treatments</Link> 
             <Link to="/technology" className="button">Technology</Link> 
             <Link to="/services" className="button prices">Prices & Services</Link>   
-            <button onClick={() => window.open('https://alienotion.live/?page_id=32', '_blank')} className='buttonn contact'>
+            <button onClick={() => window.open('https://alienotion.live/?page_id=32')} className='buttonn contact'>
               <img 
                 src="/upload/talk-to-us.png" 
                 className="icon-talk" 

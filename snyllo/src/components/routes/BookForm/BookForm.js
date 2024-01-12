@@ -99,7 +99,7 @@ const BookForm = ({ onClose }) => {
         </img>
         <span className="big-heading-bookForm">
           <h1 className='heading-bookForm'>BOOK YOUR APPOINMENT</h1>
-          <p className='heading-bookForm-p'>Talk to Our Experts</p>
+          <p className='heading-bookForm-p'>Get In Touch With Our Experts</p>
         </span>
       </div>
 

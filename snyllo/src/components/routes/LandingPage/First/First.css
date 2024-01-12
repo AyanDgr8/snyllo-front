@@ -502,14 +502,15 @@
     font-weight: 900;
     line-height: 1.45em;
     letter-spacing: 0;
+    margin-left: -2vw;
 }
 
 .thirdline {
     font-family: "Roboto", Sans-serif;
     font-weight: 500;
     font-size: 1.5vw; /* Change font size to vw */
-    margin-left: 0.1vw;
-    margin-top: -2vh;
+    margin-left: -19.5vw;
+    margin-top: -1.5vh;
     color: black;
 }
 /* 
@@ -560,13 +561,13 @@
 
 .icon1caption h3, .icon2caption h3, .icon3caption h3 {
     font-size: 1.5vw; /* Change font size to vw */
-    margin-top: 1.5vh;
+    margin-top: 3vh;
     margin-bottom: 3vh;
 }
 
 .icon1caption h4, .icon2caption h4, .icon3caption h4 {
     font-size: 1vw; /* Change font size to vw */
-    margin-top: 1vh;
+    margin-top: 3vh;
     margin-bottom: 3vh;
 }
 

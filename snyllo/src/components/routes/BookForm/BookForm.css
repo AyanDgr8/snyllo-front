@@ -13,16 +13,16 @@
 .epilazexbookForm{
   width: 20vw;
   height: 10vh;
-  margin-top: 30vh;
-  margin-left: 10vw;
+  margin-top: 25vh;
+  margin-left: -65vw;
 
 }
 
 .big-heading-bookForm h1 {
   margin: auto;
-  margin-top: 8vh;
-  margin-left:10vw;
-  font-size: 5rem;
+  margin-top: 3vh;
+  margin-left: 0vw;
+  font-size: 5.5rem;
   font-weight: 800;
   color: #CE3B3C;
 }
@@ -30,7 +30,7 @@
 .big-heading-bookForm p{
   margin: auto;
   margin-top: 2vh;
-  margin-left:10vw;
+  margin-left:6vw;
   font-size: 2rem;
   font-weight: 700;
 
@@ -139,29 +139,54 @@
   
 @media only screen and (max-width: 600px) {
 
+  
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(80%); 
+    overflow: hidden;
+    z-index: -1;
+    background: linear-gradient(to right, white 0%, lightpink 50%, white 80%, lightpink 100%);
+  }
+
+  .video {
+    object-fit: cover;
+    opacity: 0.3;
+    width: 100%;
+    height: calc(100%);
+  }
 
   .epilazexbookForm{
-  width: 40vw;
-  height: 10vh;
+    width: 13rem;
+    height: auto;
+    margin-top: 25vh;
+    margin-left: -40vw ;
   }
 
   .big-heading-bookForm h1 {
-    font-size: 2.5rem;
-    margin-top: 5vh;
+    margin: auto;
+    margin-top: 15vh;
+    font-size: 1.75rem;
   }
   .big-heading-bookForm p{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    margin: auto;
+    margin-left: 7vw;
   }
 
     
   .line1-bookForm{
     font-size: 2.25rem;
-    margin-top: 5vh;
+    margin-top: 14vh;
 
   }
 
   .line2-bookForm{
     font-size: 1.5rem;
+    margin-top: 1vh;
 
   }
 

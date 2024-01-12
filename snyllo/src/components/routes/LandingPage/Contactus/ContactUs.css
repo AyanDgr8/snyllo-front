@@ -44,7 +44,7 @@
     .form-part{
         display: flex;
         flex-direction: column;
-        margin-left: 25rem;
+        margin-left: auto;
         align-items: center; 
         justify-content: center; 
     }
@@ -248,6 +248,7 @@
         top: 3rem;
         left: 0;
         margin-top: 3rem;
+        margin-left: -45vw;
         right: -100%;
         animation: slideInFromRight 1s ease forwards;
     }
@@ -267,9 +268,10 @@
     .form-part{
         display: flex;
         flex-direction: column;
-        margin-left: 20rem;
+        margin-left: 5rem;
         align-items: center; 
         justify-content: center; 
+        max-width: 60%;
     }
 
     .head {
@@ -285,7 +287,7 @@
         width: 80%;
         padding: 0.5rem;
         margin-top: 1rem;
-        margin-left: -4rem ;
+        margin-left: -5rem ;
         font-size: large;
         border:0;
         outline: 0;
@@ -305,21 +307,22 @@
     select{
         width: 20%;
         padding: 0.5rem;
-        border:0;
-        outline: 0;
         font-size: small;
         border-radius: 0.5rem;
         margin-left: 1rem;
         margin-top: 1rem;
         background-color: lightgray;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid black;
         color:black; 
     }
-
     .treatment{
-        margin-left: 3.125rem;
+        margin-left: 5rem; 
         margin-top: 1rem;
 
+    }
+
+    .location{
+        margin-right: 10rem;
     }
     
 
@@ -329,7 +332,7 @@
     }
 
     button.formbutton {
-        width: 48%;
+        width: 40%;
         background-color: #CE3B3C;
         box-shadow: 0 0 2vw rgba(192, 12, 12, 0.5),
         inset 0 0 1vw rgba(250, 4, 4, 0.5);
@@ -337,10 +340,10 @@
         border: none;
         font-size: large;
         cursor: pointer;
-        margin-left: 8rem;
+        margin-left: -5rem;
         margin-top: 1.5rem;
         border-radius: 0.65rem;
-        height: 3rem;
+        height: 2.5rem;
     }
 
     button.formbutton:hover {

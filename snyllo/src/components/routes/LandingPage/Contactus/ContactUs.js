@@ -123,7 +123,7 @@ const ContactUs = () => {
 
               <select
                 name="treatment"
-                className='treatment '
+                className='treatment'
                 value={formData.treatment}
                 onChange={handleChange}
               >
@@ -146,6 +146,7 @@ const ContactUs = () => {
 
               <select
                 name="location"
+                className='location'
                 value={formData.location}
                 onChange={handleChange}
               >

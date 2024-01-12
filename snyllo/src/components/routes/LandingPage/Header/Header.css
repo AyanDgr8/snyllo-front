@@ -25,9 +25,9 @@
   margin-right: auto;
 }
 
-.default-header.hide {
+/* .default-header.hide {
   display: none;
-}
+} */
 
 .upper-line-header {
   background-color: #CE3B3C;
@@ -44,7 +44,6 @@
   padding: 10px;
   overflow: hidden;
 }
-
 
 
 .offer-link {
@@ -82,13 +81,10 @@
   }
 }
 
-.close-button {
-  cursor: pointer;
-}
 
-.hide{
+/* .hide{
   display: none;
-}
+} */
 
 .snyllo-logo-hamburger {
     padding: auto;
@@ -126,10 +122,10 @@
     margin-left:3rem;
     z-index: 1000;
 }
-
+/* 
 .header.hide {
   display: none;
-}
+} */
 
 .logo img {
       margin-top:2vh;
@@ -322,9 +318,9 @@
     display: flex;
   }
 
-  .default-header.hide {
+  /* .default-header.hide {
     display: none;
-  }
+  } */
 
   
 
@@ -384,6 +380,21 @@
     display: inline;
   }
 
+
+  .mobile-menu .button {
+    margin-top: 1vh;
+    height: 2.5vh;
+    width: 12vw;
+    box-shadow: 
+    0 0 1.5vw 0.25vw #CE3B3C inset;
+  }
+
+
+  .mobile-menu .button:hover{
+    color:white;
+  }
+
+
   .header-container {
       width:90%;
       margin-top: 2vh;
@@ -393,10 +404,10 @@
       box-shadow: 
       0 0 1.5vw 0.5vw #CE3B3C;
   }
-
+/* 
   .header.hide {
     display: none;
-  }
+  } */
 
   .logo img {
     padding-left: 5vw;
@@ -473,6 +484,8 @@
     opacity: 1;
   } 
 }
+
+
 
 @media only screen and (min-width: 431px) and (max-width: 760px) {
 
@@ -688,9 +701,9 @@
   }
 
 
-  /* .hide{
+  .hide{
     display: none;
-  } */
+  }
 
   .snyllo-logo-hamburger {
     padding-top: 5vh;
