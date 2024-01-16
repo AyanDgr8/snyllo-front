@@ -84,12 +84,12 @@ const Header = () => {
               <Link to="/treatments" className="button"  >Treatments</Link> 
               <Link to="/technology" className="button"  >Technology</Link>  
               <Link to="/services" className="button prices"  >Prices & Services</Link>  
-              <button onClick={() => window.open('https://alienotion.live/?page_id=32', '_blank')} className='button contact'>
+              <Link to="/form-LHR" className='button contact'>
                 <img 
                   src="/upload/talk-to-us.png" 
                   className="icon-talk" 
                 />
-              </button>
+              </Link>
             </div>
           )}
         </div>
@@ -114,13 +114,13 @@ const Header = () => {
             <Link to="/products" className="button"  >Products</Link> 
             <Link to="/treatments" className="button"  >Treatments</Link>
             <Link to="/technology" className="button">Technology</Link> 
-            <Link to="/services" className="button prices">Prices & Services</Link>    
-            <button onClick={() => window.open('https://alienotion.live/?page_id=32')} className='button contact'>
-              <img 
-                src="/upload/talk-to-us.png" 
-                className="icon-talk" 
-              />
-            </button>
+            <Link to="/services" className="button prices">Prices & Services</Link>   
+              <Link to="/form-LHR" className='button contact'>
+                <img 
+                  src="/upload/talk-to-us.png" 
+                  className="icon-talk" 
+                />
+              </Link>
           </div>
 
           {/* Hamburger menu */}
@@ -135,13 +135,13 @@ const Header = () => {
             <Link to="/products" className="button"  >Products</Link> 
             <Link to="/treatments" className="button" >Treatments</Link> 
             <Link to="/technology" className="button">Technology</Link> 
-            <Link to="/services" className="button prices">Prices & Services</Link>   
-            <button onClick={() => window.open('https://alienotion.live/?page_id=32')} className='buttonn contact'>
-              <img 
-                src="/upload/talk-to-us.png" 
-                className="icon-talk" 
-              />
-            </button>
+            <Link to="/services" className="button prices">Prices & Services</Link>     
+              <Link to="/form-LHR" className='buttonn contact'>
+                <img 
+                  src="/upload/talk-to-us.png" 
+                  className="icon-talk" 
+                />
+              </Link>
             
             </div>
           )}

@@ -37,7 +37,7 @@ const ContactUs = () => {
     
     // Perform form submission
     // const apiUrl = 'http://localhost:3000/user-details';
-    const apiUrl = 'https://snylloestetica-backend.onrender.com/user-details';
+    const apiUrl = 'https://snyllo-estetica-backend.onrender.com/user-details-contactus';
     // console.log('apiUrl:', apiUrl); 
     console.log('formData:', formData); 
 
@@ -79,7 +79,7 @@ const ContactUs = () => {
           phone: '',
           email: '',
           treatment: '',
-          bodypart:'',
+          bodyZone:'',
           location: '',
         });
       }, 3000);
@@ -128,20 +128,24 @@ const ContactUs = () => {
                 onChange={handleChange}
               >
                 <option value="" disabled selected>Select Treatment</option>
-                <option value="treatment1">Treatment 1</option>
-                <option value="treatment2">Treatment 2</option>
-                <option value="treatment3">Treatment 3</option>
+                <option value="treatment1">Laser Hair Removal</option>
               </select>
 
               <select
-                name="bodypart"
-                value={formData.bodypart}
+                name="bodyZone"
+                value={formData.bodyZone}
                 onChange={handleChange}
               >
                 <option value="" disabled selected>Select Body Part</option>
-                <option value="bodypart1">Body Part 1</option>
-                <option value="bodypart2">Body Part 2</option>
-                <option value="bodypart3">Body Part 3</option>
+                <option value="bodyZone1">Full Body</option>
+                <option value="bodyZone2">Hands</option>
+                <option value="bodyZone3">Legs</option>
+                <option value="bodyZone4">Face</option>
+                <option value="bodyZone5">Underarms</option>
+                <option value="bodyZone6">Back</option>
+                <option value="bodyZone7">Chest</option>
+                <option value="bodyZone8">Stomach</option>
+                <option value="bodyZone9">Bikini</option>
               </select>
 
               <select
@@ -151,9 +155,9 @@ const ContactUs = () => {
                 onChange={handleChange}
               >
                 <option value="" disabled selected>Select Location</option>
-                <option value="location1">Location 1</option>
-                <option value="location2">Location 2</option>
-                <option value="location3">Location 3</option>
+                <option value="location1">Delhi</option>
+                <option value="location2">Gurugram</option>
+                <option value="location3">Noida</option>
               </select>
 
               <button className='formbutton'

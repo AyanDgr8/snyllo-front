@@ -31,7 +31,7 @@ const Popup = ({ onClose }) => {
     }
 
     // Mock API endpoint for demonstration purposes
-    const apiUrl = 'https://snylloestetica-backend.onrender.com/submit-popup';
+    const apiUrl = 'https://snyllo-estetica-backend.onrender.com/user-details-popup';
     console.log('popupData:', popupData); 
 
     try {
@@ -86,22 +86,28 @@ const Popup = ({ onClose }) => {
         <h3 className='line3-popup'>Choose any body zone for trial</h3>
         <form id="popup-section" onSubmit={handleSubmit}>
           <select
-            name="treatmentType"
-            className='treatment-popup'
-            value={popupData.treatmentType}
+            className='bodyZone-popup'
+            name="bodyZone"
+            value={popupData.bodyZone}
             onChange={handleChange}
           >
-            <option value="" disabled selected>Choose Your Treatment</option>
-            <option value="treatmentType1">Treatment 1</option>
-            <option value="treatmentType2">Treatment 2</option>
-            <option value="treatmentType3">Treatment 3</option>
+            <option value="" disabled selected>Select Body Part</option>
+            <option value="bodyZone1">Full Body</option>
+            <option value="bodyZone2">Hands</option>
+            <option value="bodyZone3">Legs</option>
+            <option value="bodyZone4">Face</option>
+            <option value="bodyZone5">Underarms</option>
+            <option value="bodyZone6">Back</option>
+            <option value="bodyZone7">Chest</option>
+            <option value="bodyZone8">Stomach</option>
+            <option value="bodyZone9">Bikini</option>
           </select>
           <input
             type="tel"
             placeholder="Phone Number"
-            name="phoneNumber"
+            name="phone"
             className='telephone-popup'
-            value={popupData.phoneNumber}
+            value={popupData.phone}
             onChange={handleChange}
           />
           <button className='popupbutton'

@@ -9,36 +9,41 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.75); /* Semi-transparent black background */
+  background: rgba(0, 0, 0, 0.75); 
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1; /* Set z-index to 1 to bring the popup to the front */
+  z-index: 1;
 }
 
 .popup-content {
   position: relative;
   background: white;
-  background-color: white; 
   padding: 25px;
-  border-radius: 8px;
-  margin-top: 5vh ;
+  border-radius: 1rem;
+  margin-top: 10vh ;
   max-width: 450px;
   width: 100%;
   text-align: center;
-  box-shadow: 0 0 0.025vw 0.125vw #ce3b3c, 
-  inset 0 0 0.5vw 0.05vw #ce3b3c;
+  background: linear-gradient(to bottom, #CE3B3C 50%, lightpink 100%);
+  box-shadow: 
+  0 0 1.5vw 0.125vw rgba(255, 255, 255, 0.5) ;
 }
 
 .line1-popup{
-  color: #CE3B3C;
-  font-size: 30px;
+  color:white;
+  font-size: 2.25rem;
 }
 
 .line2-popup,
 .line3-popup{
-  font-size: 20px;
+  font-size: 1.25rem;
   padding: 0;
+  color: white;
+}
+
+.line3-popup{
+  margin-top: -3vh;
 }
 
 .close {
@@ -48,14 +53,14 @@
   padding: 2px;
   font-size: 25px;
   cursor: pointer;
-  color: #333; 
+  color: white; 
 }
 
 .close:hover{
-  color: #CE3B3C;
+  color: black;
 }
 
-.treatment-popup{
+.bodyZone-popup{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -68,7 +73,7 @@
   color:black; 
 }
 
-.treatment-popup:hover{
+.bodyZone-popup:hover{
   background-color: #D63D3E63 ;
   color:white;
 }

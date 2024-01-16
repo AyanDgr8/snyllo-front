@@ -68,6 +68,7 @@
   font-weight: 700;
   margin-left: 1vw;
   animation: colorChange 0.5s infinite alternate; 
+  cursor: pointer;
 }
 
 
@@ -689,6 +690,7 @@
 
   .upper-line-header {
     text-decoration: none;
+    cursor: pointer;
   }
 
   .offer-line{
@@ -746,9 +748,9 @@
   }
 
   .mobile-menu .contact{
-    height: 6.5vh;
-    width: 14.5vw;
-    margin-left: 0.5vw;
+    height: 3vh;
+    width: 12vw;
+    margin-left: 0.65vw;
   }
 
   .mobile-menu .contact .icon-talk{

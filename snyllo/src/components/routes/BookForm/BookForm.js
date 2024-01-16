@@ -35,7 +35,7 @@ const BookForm = ({ onClose }) => {
     }
 
     // Mock API endpoint for demonstration purposes
-    const apiUrl = 'https://snylloestetica-backend.onrender.com/submit-bookForm';
+    const apiUrl = 'https://snyllo-estetica-backend.onrender.com/user-details-bookform';
     console.log('bookFormData:', bookFormData); 
 
     try {

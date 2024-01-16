@@ -219,10 +219,6 @@
 
 @media only screen and (min-width: 601px) and (max-width: 1440px) {
 
-
-
-
-
     .big-heading-contactus {
         text-align: center;
         margin-top: 6rem;
@@ -248,7 +244,7 @@
         top: 3rem;
         left: 0;
         margin-top: 3rem;
-        margin-left: -45vw;
+        margin-left: -50vw;
         right: -100%;
         animation: slideInFromRight 1s ease forwards;
     }

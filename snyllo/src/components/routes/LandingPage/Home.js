@@ -21,6 +21,7 @@ import Sixteenth from './Sixteenth/Sixteenth';
 import Faq from './Faq/Faq';
 import ContactUs from './Contactus/ContactUs';
 // import Popup from './Popup';
+import Popup1 from './Popup1/Popup1';
 import Footer from './Footer/Footer';
 
 
@@ -40,6 +41,7 @@ export default function Home(){
         <Eighth />
         <Ninth />
         <Tenth />
+        <Popup1 />
         <Eleventh />
         <Twelth />
         <Thirteenth />
