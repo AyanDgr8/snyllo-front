@@ -83,6 +83,7 @@ const First = () => {
           </div>
         
           <div className="left-para">
+            <div className='red-line-before-para'>l</div>
             <div className="firstline">HAIR REMOVAL</div>
             <div className="secondline">REDEFINED AT HOME</div>
             <div className="thirdline">No More Monthly Hair Removal Fuss</div>

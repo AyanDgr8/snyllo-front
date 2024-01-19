@@ -6,7 +6,7 @@ import Header from '../LandingPage/Header/Header';
 import Footer from '../LandingPage/Footer/Footer';
 import Second from '../LandingPage/Second/Second';
 
-const Benefits = () => {
+const Products = () => {
   return (
     <div>
     <div className="video-background">
@@ -141,4 +141,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits;
+export default Products;

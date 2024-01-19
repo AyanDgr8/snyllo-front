@@ -25,9 +25,6 @@
   margin-right: auto;
 }
 
-/* .default-header.hide {
-  display: none;
-} */
 
 .upper-line-header {
   background-color: #CE3B3C;
@@ -72,21 +69,6 @@
 }
 
 
-
-@keyframes colorChange {
-  from {
-    color: black;
-  }
-  to {
-    color: white;
-  }
-}
-
-
-/* .hide{
-  display: none;
-} */
-
 .snyllo-logo-hamburger {
     padding: auto;
     width: auto;
@@ -106,7 +88,6 @@
     border-radius: 10rem;
     box-shadow: 
     0 0 0.25vw 0.125vw #CE3B3C;
-    /* 0 0 0 0.125vw #CE3B3C inset; */
     vertical-align: 0.75rem;
 
   }
@@ -240,12 +221,12 @@
     padding: 0.5rem 0.75rem; 
     border-radius: 0.5rem;
     box-shadow:  0 0.125vw #ce3b3c;
-    /* inset  0 0.125vw #ce3b3c; */
   }
 
-  .hamburger-menu {
+  /* .hamburger-menu {
     display: none;
-  }
+  } */
+
 
   /* Show buttons when the mobile menu is active */
   .mobile-menu.active {
@@ -259,9 +240,7 @@
     padding: 1.5rem;
     z-index: 1; 
     width:auto;
-    /* background-color: rgba(201, 175, 175, 0.2); */
     background-color: #f3caca;
-    /* background-color: white; */
     backdrop-filter: blur(10px) brightness(1.5);
     box-shadow: 0 0 1vw rgba(255, 255, 255, 0.5),
                 inset 0 0 2vw rgba(255, 255, 255, 0.5);
@@ -276,23 +255,21 @@
     line-height: 1;
     text-align: center; 
     font-size: 0.8rem; 
-    /* background-color: #f3caca;   */
     background-color: white;
     color: black; 
     border-radius: 0.75rem; 
     cursor: pointer;
     box-shadow: 
     0 0 0.5rem 0.15rem #CE3B3C;
-    /* 0 0 0 0.15rem #CE3B3C inset; */
   }
   .mobile-menu .button:hover{
     background-color: #D63D3E63;
   }
-  
-  /* .mobile-menu .button .contact{
-    width:25rem;
-  } */
 
+
+ .mobile-menu.active .hamburger-menu {
+      display: inline;
+  }
 
 
 /* animation */
@@ -306,7 +283,14 @@
   }
 }
 
-
+@keyframes colorChange {
+  from {
+    color: black;
+  }
+  to {
+    color: white;
+  }
+}
 
 
 /* Add a media query for mobile screens */
@@ -314,52 +298,27 @@
 @media only screen and (min-width: 360px) and (max-width: 430px) {
 
 
-
-  .default-header {
-    display: flex;
+  .upper-line-header {
+    height: 1.5vh; 
   }
 
-  /* .default-header.hide {
+/* .offer-link {
+  text-decoration: none;
+} */
+
+  .offer-line{
+    font-size: 0.6rem;
+  }
+
+  .book-now-link{
+    font-size: 0.6rem;
+  }
+
+  .hide{
     display: none;
-  } */
+  }
 
   
-
-.upper-line-header {
-  background-color: #CE3B3C;
-  color: white; 
-  height: 1.5vh; 
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  overflow: hidden;
-}
-
-.offer-link {
-  text-decoration: none;
-}
-
-.offer-line{
-  font-size: 0.6rem;
-  font-weight: 500;
-  animation: marquee 10s linear infinite;
-}
-
-.book-now-link{
-  font-size: 0.6rem;
-}
-
-.hide{
-  display: none;
-}
-
-
   .snyllo-logo-hamburger {
     padding-left: 1vw;
     padding-top: 7vh;
@@ -367,20 +326,38 @@
     height: 6vh;
 
   }
-
   .default-hamburger-menu{
-    display: inline;
-    margin-left: 37.5vw;
-    box-shadow:  0 0 1vw 0.125vw #ce3b3c, 
-    inset  0 0 0.5vw 0.125vw #ce3b3c;
-    font-size: larger;
-    vertical-align: 2vh;
+      display: inline;
+      margin-left: 37.5vw;
+      box-shadow:  0 0 1vw 0.125vw #CE3B3C, 
+      inset  0 0 0.5vw 0.125vw #CE3B3C;
+      font-size: larger;
+      vertical-align: 2vh;
+    }
+
+
+    
+  .mobile-menu.active{
+    margin: auto;
+    margin-top: 1.5vh;
+    margin-left: 4vw;
+    box-shadow: 
+    0 0 1.5vw 0.25vw #CE3B3C ;
+
+  }
+  .mobile-menu{
+    background-color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 1001;
   }
   
-  .mobile-menu.active{
-    display: inline;
-  }
-
 
   .mobile-menu .button {
     margin-top: 1vh;
@@ -391,24 +368,39 @@
   }
 
 
-  .mobile-menu .button:hover{
+  .mobile-menu .active  .button:hover{
     color:white;
+    transform: translateX(0);
+  }
+
+  .mobile-menu .contact{
+    height: 3vh;
+    width: 12vw;
+    margin-left: 0.65vw;
+  }
+
+  .mobile-menu .contact .icon-talk{
+    height:5vh ;
+    width: 10vw;
+    margin-left: 1vw;
+  }
+
+  
+  
+  .mobile-menu{
+    display: none;
   }
 
 
   .header-container {
-      width:90%;
-      margin-top: 2vh;
-      margin-left: 4vw;
-      border-color: transparent;
-      border-radius: 1.5rem;
-      box-shadow: 
-      0 0 1.5vw 0.5vw #CE3B3C;
+    width:90%;
+    margin-top: 2vh;
+    margin-left: 4vw;
+    border-color: transparent;
+    border-radius: 1.5rem;
+    box-shadow: 
+    0 0 1.5vw 0.5vw #CE3B3C;
   }
-/* 
-  .header.hide {
-    display: none;
-  } */
 
   .logo img {
     padding-left: 5vw;
@@ -418,20 +410,21 @@
     height: 6vh; 
   }
 
-  .buttons {
+  .header-container > .buttons {
     display: none; 
   }
+  
 
   .hamburger-menu {
-    display: flex;
+    display: inline-block;
     margin-left: 22.5vw;
     margin-top:0.5vh;
     box-shadow:  
     0 0 0.25vw 0.5vw #CE3B3C inset;
     
   }
-
-  .mobile-menu .active{
+ 
+  .hamburger-menu > .mobile-menu .active{
     display: flex;
     margin-top: 1vh;
     margin-left: auto;
@@ -440,15 +433,15 @@
   }
 
 
-  .mobile-menu .button {
+  .hamburger-menu > .mobile-menu .button {
     margin-top: 1rem;
     height: 2rem;
     width: auto;
   }
 
-  .mobile-menu button:hover{
+  .hamburger-menu > .mobile-menu button:hover{
     color:white;
-  }
+  } 
   
   .contact {
     color: white;
@@ -463,7 +456,6 @@
   }
 
   .contact::before {
-    /* content: "Talk to Us"; */
     position: absolute;
     background-color: #CE3B3C;
     color: white;
@@ -474,7 +466,6 @@
   }
 
   .contact::after {
-    /* content: "98009 96009"; */
     position: absolute;
     background-color: white;
     color: black;
@@ -499,6 +490,10 @@
     height: 8vh;
 
   }
+  
+.hide{
+  display: none;
+}
 
   .default-hamburger-menu{
     margin-left: 50vw;
@@ -548,6 +543,11 @@
     height: 2rem;
     width: auto;
   }
+
+  
+  .mobile-menu{
+    display: none;
+  }
   
   .contact {
     color: white;
@@ -596,6 +596,11 @@
     height: 8vh;
 
   }
+
+  
+.hide{
+  display: none;
+}
 
   .default-hamburger-menu{
     margin-left: 50vw;
@@ -647,6 +652,10 @@
     width: auto;
   }
   
+  .mobile-menu{
+    display: none;
+  }
+  
   .contact {
     color: white;
     background-color: #CE3B3C;
@@ -689,17 +698,7 @@
 
 
   .upper-line-header {
-    text-decoration: none;
     cursor: pointer;
-  }
-
-  .offer-line{
-    text-decoration: none;
-
-  }
-
-  .book-now-link{
-    text-decoration: none;
   }
 
 
@@ -718,7 +717,6 @@
     margin-left: 75vw;
     box-shadow: 
     0 0 1.5vw 0.25vw #CE3B3C; 
-    /* 0 0 0 0.125vw #CE3B3C inset; */
     font-size: 1.25rem;
   }
 
@@ -759,6 +757,15 @@
     margin-left: 1vw;
   }
 
+  
+  .mobile-menu{
+    display: none;
+  }
+  
+  .hamburger-menu {
+    display: none;
+  }
+
   .header-container {
     width: 90%;
     margin:auto;
@@ -787,7 +794,10 @@
 
   .button:hover {
     color: #CE3B3C;
-    border-bottom:1vw #CE3B3C;
+    text-decoration:underline;
+    border-bottom: 1px #CE3B3C;
+    padding-bottom: 2px;
+  
   }
 
   .benefits{
@@ -809,7 +819,6 @@
     border-radius: 0.75rem;
     height: 2.75vw;
     box-shadow: 0 0 0.5vw 0.25vw #CE3B3C inset; 
-     /* 0 0 0.125vw 0.15vw #CE3B3C inset; */
   }
 
   .contact .icon-talk{
@@ -821,7 +830,6 @@
 
 
   .contact::before {
-    /* content: "Talk to Us"; */
     position: absolute;
     left: -100%;
     top: 0;

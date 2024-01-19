@@ -118,9 +118,6 @@
 /* Media query for mobile screens */
 @media only screen and (max-width: 600px) {
 
-        
- 
-
     .twelth-page-content{
         width:100%;
     }
@@ -168,14 +165,14 @@
         position: relative;
     }
     
-    .big-heading-11 {
+.big-heading-11 {
             text-align: center;
             margin-top: 3.5rem;
             position: relative;
             margin-bottom: 0;
     }
     
-    .big-heading-11 h2 {
+.big-heading-11 h2 {
             font-size: 6rem;
             margin-top: 0;
             margin-bottom: 0;
@@ -186,7 +183,7 @@
             animation: slideInFromLeft 1s ease forwards;
     }
     
-    .big-heading-11 h3 {
+.big-heading-11 h3 {
             font-size: 3rem;
             font-weight: 700;
             position: absolute;
@@ -197,7 +194,7 @@
             animation: slideInFromRight 1s ease forwards;
     }
     
-    .twelth-container{
+.twelth-container{
             display: flex;
             justify-content: space-between; 
             flex-direction: row;
@@ -206,12 +203,12 @@
             
     }
     
-    .twelth-img{
+.twelth-img{
         width:100%;
     }
     
-    .twelth-column-two,
-    .twelth-column-three {
+.twelth-column-two,
+.twelth-column-three {
         width: 25%; 
         display: flex;
         justify-content: center;
@@ -220,7 +217,7 @@
         flex-direction: column;
     }
     
-    .iconn-grid {
+.iconn-grid {
             display: flex;
             justify-content: center;
             margin-top: 0.5rem;
@@ -228,11 +225,11 @@
             margin-right: 0;
     }
     
-    .iconn-column {
+.iconn-column {
             flex: 1;
     }
     
-    .iconn-row {
+.iconn-row {
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -241,7 +238,7 @@
             margin-left: 0.938rem;
     }
     
-    .iconn-caption {
+.iconn-caption {
             display: flex;
             flex-direction: row;
             text-align: center;
@@ -250,7 +247,7 @@
             font-family: "Roboto", Sans-serif;
     }
     
-    .iconn-caption img {
+.iconn-caption img {
             width: 5rem; 
             height: 5rem; 
             margin-bottom: 1.25rem; 

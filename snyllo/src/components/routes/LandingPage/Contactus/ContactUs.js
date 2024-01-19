@@ -13,7 +13,7 @@ const ContactUs = () => {
     phone: '',
     email: '',
     treatment: '',
-    bodypart:'',
+    bodyZone:'',
     location: '',
   });
 
@@ -90,7 +90,7 @@ const ContactUs = () => {
   return (
     <div>
     <Header />
-      <div className='formmm' id="contact-us">
+      <div className='contact-form-container' id="contact-us">
         <span className="big-heading-contactus">
           <h2>GET IN TOUCH</h2>
           <h3>CONTACT US</h3>
@@ -127,7 +127,7 @@ const ContactUs = () => {
                 value={formData.treatment}
                 onChange={handleChange}
               >
-                <option value="" disabled selected>Select Treatment</option>
+                <option value="" defaultValue>Select Treatment</option>
                 <option value="treatment1">Laser Hair Removal</option>
               </select>
 
@@ -136,7 +136,7 @@ const ContactUs = () => {
                 value={formData.bodyZone}
                 onChange={handleChange}
               >
-                <option value="" disabled selected>Select Body Part</option>
+                <option value=""  defaultValue >Select Body Part</option>
                 <option value="bodyZone1">Full Body</option>
                 <option value="bodyZone2">Hands</option>
                 <option value="bodyZone3">Legs</option>
@@ -154,7 +154,7 @@ const ContactUs = () => {
                 value={formData.location}
                 onChange={handleChange}
               >
-                <option value="" disabled selected>Select Location</option>
+                <option value="" defaultValue>Select Location</option>
                 <option value="location1">Delhi</option>
                 <option value="location2">Gurugram</option>
                 <option value="location3">Noida</option>

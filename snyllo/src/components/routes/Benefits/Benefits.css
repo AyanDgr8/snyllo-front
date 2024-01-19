@@ -98,7 +98,8 @@
   font-weight: 400;
   margin-top: 1vh;
   margin-left:-3rem;
-  background-color: white;
+  background-color: #D63D3E63;
+  color: white;
   border-radius: 1rem;
   box-shadow: inset 0 0 1vw rgba(250, 4, 4, 0.5);
   padding: 1rem;
@@ -179,7 +180,8 @@ li{
   font-size: large;
   font-weight: 400;
   margin-top: 1vh;
-  background-color: white;
+  background-color: #D63D3E63;
+  color: white;
   border-radius: 1rem;
   box-shadow: inset 0 0 1vw rgba(250, 4, 4, 0.5);
   padding: 1rem;
@@ -241,7 +243,7 @@ li{
     
     .big-heading-benefits h1 {
       margin: auto;
-      margin-top: 5vh;
+      margin-top:10vh;
       font-size: 2.5rem;
     }
 
@@ -372,7 +374,7 @@ li{
   .benefits-container-3-right-girl{
     height: 25rem;
     margin-top: 5vh;
-    margin-left: auto;
+    margin-left: -5vw;
     margin-right: auto;
   }
 

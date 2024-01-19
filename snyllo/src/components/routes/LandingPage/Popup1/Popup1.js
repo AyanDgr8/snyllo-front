@@ -28,7 +28,7 @@ const Popup1 = () => {
                         <button className='popup1-close-button' onClick={closePopup}>
                         &times;
                         </button>
-                        <h2 className='popup1-container-line1'>Need flawless skin ?</h2>
+                        <h2 className='popup1-container-line1'>Ready to glow?</h2>
                         <p className='popup1-container-line2'>
                             Looking for immediate appointments and best deals on our packages?
                             Contact our customer care for prompt assistance!

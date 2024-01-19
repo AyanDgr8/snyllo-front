@@ -17,35 +17,35 @@ const Footer = () =>{
                         alt="snyllo-red"
                         />
                         <span className='footer-column-1-icons'>
-                            <a href="https://www.instagram.com/snylloestetica/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank">
+                            <a href="https://www.instagram.com/snylloestetica/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" >
                                 <img 
                                 src="/upload/icon-instagram.png"
                                 className="icon-one footer-icons"
                                 alt="instagram"
                                 />
                             </a>
-                            <a href="https://www.facebook.com/people/Snyllo-%C3%89stetica-Premium-Laser-Hair-Reduction-at-HOME/61553207344302/?mibextid=LQQJ4d"  target="_blank" >
+                            <a href="https://www.facebook.com/people/Snyllo-%C3%89stetica-Premium-Laser-Hair-Reduction-at-HOME/61553207344302/?mibextid=LQQJ4d" >
                                 <img 
                                 src="/upload/icon-facebook.png"
                                 className="icon-two footer-icons"
                                 alt="facebook"
                                 />
                             </a>
-                            <a href="https://www.youtube.com/"  target="_blank" >
+                            <a href="https://www.youtube.com/" >
                                 <img 
                                 src="/upload/icon-youtube.png"
                                 className="icon-three footer-icons"
                                 alt="youtube"
                                 />
                             </a>
-                            <a href="https://www.xing.com/en"  target="_blank" >
+                            <a href="https://www.xing.com/en" >
                                 <img 
                                 src="/upload/icon-xing.png"
                                 className="icon-four footer-icons"
                                 alt="xing"
                                 />
                             </a>
-                            <a href="https://www.linkedin.com/company/snyllo-%C3%A9stetica/mycompany/"  target="_blank" >
+                            <a href="https://www.linkedin.com/company/snyllo-%C3%A9stetica/mycompany/" >
                                 <img 
                                 src="/upload/icon-linkedin.png"
                                 className="icon-five footer-icons"
@@ -72,27 +72,27 @@ const Footer = () =>{
                         <h3>PAGES</h3>
 
                         <a href=" "  className='linkis'>
-                            <Link to="/" className="button" target="_blank" >Home</Link>
+                            <Link to="/" className="button"  >Home</Link>
                         </a>
 
                         <a href=" " className='linkis'>
-                            <Link to="/products" className="button" target="_blank" >Products</Link> 
+                            <Link to="/products" className="button" >Products</Link> 
                         </a>
 
                         <a href=" "  className='linkis'>
-                            <Link to="/benefits" className="button benefits" target="_blank" >Benefits Of LHR</Link>
+                            <Link to="/benefits" className="button benefits"  >Benefits Of LHR</Link>
                         </a>
 
                         <a href=" "  className='linkis'>
-                            <Link to="/technology" className="button" target="_blank">Technology</Link> 
+                            <Link to="/technology" className="button" >Technology</Link> 
                         </a>
 
                         <a href=" "  className='linkis'>
-                            <Link to="/treatments" className="button" target="_blank" >Treatments</Link>
+                            <Link to="/treatments" className="button" >Treatments</Link>
                         </a>
 
                         <a href=" " className='linkis'>  
-                            <Link to="/services" className="button prices" target="_blank" >Prices & Services</Link>
+                            <Link to="/services" className="button prices" >Prices & Services</Link>
                         </a>
 
                     </div>
@@ -101,13 +101,13 @@ const Footer = () =>{
                     <div className='footer-column-four'>
                         <h3>OTHER LINKS</h3>
                         <a href=" " target='_blank' className='linkis'> 
-                            <Link to="/services" className="button prices" target="_blank" >Refund Policy</Link>
+                            <Link to="/services" className="button prices"  >Refund Policy</Link>
                         </a>
                         <a href=" " target='_blank' className='linkis'>  
-                            <Link to="/services" className="button prices" target="_blank" >Terms & Conditions</Link>
+                            <Link to="/services" className="button prices"  >Terms & Conditions</Link>
                         </a>
                         <a href=" " target='_blank' className='linkis'>  
-                            <Link to="/services" className="button prices" target="_blank" >Privacy Policy</Link>
+                            <Link to="/services" className="button prices" >Privacy Policy</Link>
                         </a>
                     </div>
 

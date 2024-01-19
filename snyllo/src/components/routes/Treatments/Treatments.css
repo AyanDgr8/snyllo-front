@@ -104,7 +104,8 @@
 
 .container-1-treaments-right-1 p{
   font-size: 1.25rem;
-  background-color: white;
+  background-color: #D63D3E63;
+  color: white;
   box-shadow: inset 0 0 1vw rgba(250, 4, 4, 0.5);
   border-radius: 1rem;
   padding: 1rem;
@@ -113,7 +114,6 @@
   margin-top: 5vh;
   height: auto;
   width:80%;
-  color: black;
 
 }
 
@@ -173,7 +173,8 @@
 
 .container-2-treaments-left-2 p{
   font-size: 1.25rem;
-  background-color: white;
+  background-color: #D63D3E63;
+  color: white;
   box-shadow: inset 0 0 1vw rgba(250, 4, 4, 0.5);
   border-radius: 1rem;
   padding: 1rem;
@@ -182,7 +183,6 @@
   margin-top: 5vh;
   height: auto;
   width:80%;
-  color: black;
 
 }
 
@@ -229,7 +229,7 @@
 
   .big-heading-treatments h1 {
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 15vh;
     margin-left: 2vw;
     font-size: 2.5rem;
   }
@@ -284,14 +284,14 @@
 
   .container-1-treaments-left-1 img{
     height: auto;
-    width: 24rem;
-    margin-left: -130vw;
+    width: 22rem;
+    margin-left: -140vw;
   }
 
   .container-1-treaments-right-1{
     width: 100%;
     margin-top: 5vh;
-    margin-left: -6.5vw;
+    margin-left: -7.5vw;
 
   }
 
@@ -301,7 +301,7 @@
     padding: 1rem;
     margin: auto;
     color: white;
-    width: 60rem;
+    width: 55rem;
     background-color: #CE3B3C;
   }
 

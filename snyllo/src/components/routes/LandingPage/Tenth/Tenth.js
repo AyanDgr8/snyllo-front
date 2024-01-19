@@ -13,7 +13,12 @@ const Tenth = () => {
         <Header />
             <div className='tenth-page-content'>
                 <span className='swipe-form'>
-                    <Link to="/form-LHR" target="_blank" className='swipe-form-content'> 
+                    <img 
+                        src="/upload/gun-icon.png" 
+                        className="gun-icon" 
+                        alt ="gun-icon" 
+                        />
+                    <Link to="/form-LHR" className='swipe-form-content'> 
                         Hurry Grab Your First LHR Trial Session @ just ₹499/-
                     </Link>
                 </span>

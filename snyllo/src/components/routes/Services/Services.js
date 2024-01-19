@@ -119,10 +119,11 @@ const Services = () =>{
                     </div>
                 </div>
                 <div className="services-main-content">
+
                     <div className="big-heading-services">
-                        <h2>OUR</h2>
-                        <h3>SERVICES</h3>
-                    </div>
+                        {/* <h2>OUR</h2>
+                        <h3>SERVICES</h3> */}
+                    </div> 
 
                     {/* Men/Women Toggle Switch */}
                     <div className="toggle-switch">

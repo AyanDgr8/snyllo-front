@@ -10,13 +10,13 @@
   max-width: 100%;
   }
   
-  .first-container-services{
+.first-container-services{
     max-width: 100%;
     margin: auto;
   
   }
   
-  .epilazexservices{
+.epilazexservices{
     width: 20vw;
     height: 10vh;
     margin-top: 25vh;
@@ -51,8 +51,10 @@
 .big-heading-services {
     text-align: center;
     position: relative;
+    margin-top: 30vh;
 }
-  .big-heading-services h2 {
+  
+.big-heading-services h2 {
           font-size: 5rem;
           margin-bottom: 0;
           color:#D63D3E63;
@@ -62,7 +64,8 @@
           animation: slideInFromLeft 1s ease forwards
       }
   
-  .big-heading-services h3 {
+  
+.big-heading-services h3 {
           font-size: 2.25rem;
           margin-top: 3rem;
           margin-bottom: 0;
@@ -105,7 +108,7 @@
     width: 13rem;
     height: auto;
     margin-top: 25vh;
-    margin-left: -32.5vw ;
+    margin-left: -25vw ;
 
 
   }
@@ -116,8 +119,9 @@
   }
     
   
-  .heading-servicess {
+  .big-heading-services {
     margin: auto;
+    margin-top: 20vh;
   }
   
 

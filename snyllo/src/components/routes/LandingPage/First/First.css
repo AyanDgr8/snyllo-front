@@ -53,7 +53,18 @@
     margin-top: 4vh;
     margin-right: 0; 
 }
-    
+
+
+.red-line-before-para{
+    position: absolute;
+    left:7rem;
+    top:12rem;
+    font-size:9.5rem;
+    font-weight: 100;
+    color: #CE3B3C;
+
+}
+
 .firstline {
     color: transparent;
     font-family: "Roboto", Sans-serif;
@@ -87,7 +98,7 @@
 
 .left-icons-wrapper {
     font-family: "Roboto", Sans-serif;
-    margin-left: 5vw;
+    margin-left: 3vw;
     margin-top: 12vh; 
     border-radius: 3vw; 
     background: rgba(217, 217, 217, 0.01);
@@ -284,6 +295,15 @@
 
     }
 
+    .red-line-before-para{
+        position: absolute;
+        left:1.5rem;
+        top:15rem;
+        font-size:7rem;
+        font-weight: 100;
+        display: none;
+    
+    }
     .left-para {
         flex-direction: column;
         flex-wrap: wrap;

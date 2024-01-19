@@ -90,11 +90,11 @@
 
 .products-container-1-right p{
     font-size: 1.5rem;
-    background-color: white;
+    background-color: #D63D3E63;
+    color:white;
     border-radius: 1rem;
     padding: 1rem;
-    color: black;
-    box-shadow: inset 0 0 1vw rgba(250, 4, 4, 0.5);
+    box-shadow: 0 0 1vw rgba(250, 4, 4, 0.5);
     padding: 1rem;
     margin: auto;
 
@@ -182,10 +182,10 @@
 
 .products-container-4-left p{
     font-size: 1.5rem;
-    background-color: white;
+    background-color: #D63D3E63;
+    color: white;
     border-radius: 1rem;
-    color: black;
-    box-shadow: inset 0 0 1vw rgba(250, 4, 4, 0.5);
+    box-shadow:  0 0 1vw rgba(250, 4, 4, 0.5);
     padding: 1rem;
     margin: auto;
     margin-left: 5rem;
@@ -297,7 +297,7 @@
         width: 13rem;
         height: auto;
         margin-top: 25vh;
-        margin-left: -30vw ;
+        margin-left: -25vw ;
       
       }
 
@@ -330,7 +330,7 @@
         font-size: 2.5rem;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 20vh;
+        margin-top: 22vh;
     }
 
 
@@ -394,7 +394,7 @@
         font-size: 2rem;
         font-weight: 700;
         margin: auto;
-        margin-top: -3vh;
+        margin-top: -2vh;
     }
 
     .products-container-2-headings{
@@ -413,7 +413,11 @@
 
     .epilazex-image{
         width:auto;
-        height:20rem;
+        height:19rem;
+    }
+
+    .products-container-2-epilazex-side{
+        margin-bottom: 1rem;
     }
 /* ******************** */
 
@@ -476,7 +480,7 @@
         font-size: 2rem;
         font-weight: 700;
         margin: auto;
-        margin-top: -3vh;
+        margin-top: -2vh;
     }
 
     .products-container-5-headings{
@@ -494,7 +498,7 @@
     }
 
     .epilaze-image{
-        width:25rem;
+        width:24rem;
         height:auto;
     }
 
