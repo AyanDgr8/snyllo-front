@@ -36,7 +36,7 @@ const ContactUs = () => {
     // console.log('Backend URL:', process.env.REACT_APP_BACKEND_URL);
     
     // Perform form submission
-    // const apiUrl = 'http://localhost:3000/user-details';
+    // const apiUrl = 'http://localhost:3000/user-details'; https://snyllo-estetica-backend.onrender.com
     const apiUrl = 'https://snyllo-estetica-backend.onrender.com/user-details-contactus';
     // console.log('apiUrl:', apiUrl); 
     console.log('formData:', formData); 
